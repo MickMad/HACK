@@ -38816,7 +38816,6 @@ Source: www.st.com, BAT60J.pdf</description>
 <rectangle x1="5.2" y1="2.64" x2="7.9" y2="3.14" layer="1"/>
 <rectangle x1="7.4" y1="-1.3" x2="7.9" y2="2.64" layer="1"/>
 <rectangle x1="-6.5" y1="2.64" x2="-1.5" y2="3.14" layer="1"/>
-<rectangle x1="-4.2" y1="-2.26" x2="-3.7" y2="2.64" layer="1"/>
 <rectangle x1="-6.5" y1="-2.26" x2="-5.6" y2="2.64" layer="1"/>
 <smd name="GND" x="-6.05" y="-2.01" dx="0.9" dy="0.5" layer="1"/>
 <smd name="ANT" x="-3.95" y="-2.01" dx="0.5" dy="0.5" layer="1"/>
@@ -38830,6 +38829,12 @@ Source: www.st.com, BAT60J.pdf</description>
 <wire x1="8.2" y1="3.34" x2="8.2" y2="-1.66" width="0.1" layer="39"/>
 <wire x1="8.2" y1="-1.66" x2="-7" y2="-1.66" width="0.1" layer="39"/>
 <wire x1="-7" y1="-1.66" x2="-7" y2="3.34" width="0.1" layer="39"/>
+<polygon width="0.1" layer="1">
+<vertex x="-4.15" y="-1.85"/>
+<vertex x="-4.15" y="3.05"/>
+<vertex x="-3.75" y="3.05"/>
+<vertex x="-3.75" y="-1.85"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -39197,7 +39202,6 @@ Source: www.st.com, BAT60J.pdf</description>
 <part name="C17" library="jack" deviceset="C-EU" device="" value="15pF"/>
 <part name="GND12" library="cortexm0" deviceset="GND" device=""/>
 <part name="B1" library="hack" deviceset="BALUN" device=""/>
-<part name="C18" library="jack" deviceset="C-EU" device="" value="22pF"/>
 <part name="C19" library="jack" deviceset="C-EU" device="" value="22pF"/>
 <part name="GND13" library="cortexm0" deviceset="GND" device=""/>
 <part name="GND14" library="cortexm0" deviceset="GND" device=""/>
@@ -39340,14 +39344,13 @@ for applicable conditions.</text>
 <instance part="C17" gate="G$1" x="90.17" y="-72.39"/>
 <instance part="GND12" gate="G$1" x="81.28" y="-78.74"/>
 <instance part="B1" gate="G$1" x="73.66" y="-15.24"/>
-<instance part="C18" gate="G$1" x="86.36" y="-5.08" rot="MR90"/>
-<instance part="C19" gate="G$1" x="86.36" y="-25.4" rot="MR90"/>
+<instance part="C19" gate="G$1" x="63.5" y="-5.08" rot="MR90"/>
 <instance part="GND13" gate="G$1" x="81.28" y="-15.24" rot="R90"/>
 <instance part="GND14" gate="G$1" x="73.66" y="-30.48"/>
-<instance part="GND15" gate="G$1" x="55.88" y="-5.08"/>
+<instance part="GND15" gate="G$1" x="50.8" y="-3.81"/>
 <instance part="JP5" gate="A" x="105.41" y="2.54" rot="MR0"/>
 <instance part="JP6" gate="A" x="105.41" y="-20.32" rot="MR0"/>
-<instance part="ANT1" gate="G$1" x="60.96" y="1.27"/>
+<instance part="ANT1" gate="G$1" x="55.88" y="2.54"/>
 </instances>
 <busses>
 </busses>
@@ -39490,10 +39493,11 @@ for applicable conditions.</text>
 <wire x1="66.04" y1="-29.21" x2="66.04" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="GND/DC"/>
 <wire x1="66.04" y1="-25.4" x2="67.31" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="73.66" y="-29.21"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="G$1" pin="GND"/>
-<wire x1="55.88" y1="-5.08" x2="55.88" y2="-3.81" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="-3.81" x2="50.8" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="ANT1" gate="G$1" pin="GND"/>
 </segment>
 </net>
@@ -39976,20 +39980,6 @@ for applicable conditions.</text>
 <junction x="72.39" y="-68.58"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="B1"/>
-<pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="-5.08" x2="80.01" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="B2"/>
-<pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="-25.4" x2="80.01" y2="-25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="RFP" class="0">
 <segment>
 <pinref part="IC4" gate="ATSAMR21G" pin="RFP"/>
@@ -39997,9 +39987,9 @@ for applicable conditions.</text>
 <label x="-21.59" y="-24.13" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="-25.4" x2="90.17" y2="-25.4" width="0.1524" layer="91"/>
-<label x="90.17" y="-25.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="B1" gate="G$1" pin="B2"/>
+<wire x1="80.01" y1="-25.4" x2="81.28" y2="-25.4" width="0.1524" layer="91"/>
+<label x="81.28" y="-25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RFN" class="0">
@@ -40009,9 +39999,9 @@ for applicable conditions.</text>
 <label x="-21.59" y="-26.67" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="-5.08" x2="90.17" y2="-5.08" width="0.1524" layer="91"/>
-<label x="90.17" y="-5.08" size="1.27" layer="95" xref="yes"/>
+<pinref part="B1" gate="G$1" pin="B1"/>
+<wire x1="81.28" y1="-5.08" x2="80.01" y2="-5.08" width="0.1524" layer="91"/>
+<label x="81.28" y="-5.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PB03" class="0">
@@ -40211,20 +40201,41 @@ for applicable conditions.</text>
 <pinref part="JP6" gate="A" pin="10"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="ANT" class="0">
+<segment>
+<pinref part="ANT1" gate="G$1" pin="ANT"/>
+<wire x1="55.88" y1="-2.54" x2="55.88" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="-5.08" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="UN"/>
-<wire x1="67.31" y1="-5.08" x2="60.96" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="-5.08" x2="60.96" y2="-3.81" width="0.1524" layer="91"/>
-<pinref part="ANT1" gate="G$1" pin="ANT"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="-5.08" x2="67.31" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
+<approved hash="102,1,-62.23,-102.87,GNDANA,AGND,,,,"/>
+<approved hash="102,1,-62.23,-105.41,GNDANA,AGND,,,,"/>
+<approved hash="102,1,-62.23,-107.95,GNDANA,AGND,,,,"/>
+<approved hash="102,1,-62.23,-110.49,GNDANA,AGND,,,,"/>
 <approved hash="104,1,-58.42,-50.8,IC3,VOUT,VDD,,,"/>
 <approved hash="104,1,-58.42,-53.34,IC3,VOUT,VDD,,,"/>
+<approved hash="104,1,-26.67,-102.87,IC4ATSAMR21G-PWR-D,DVDD,VDDF,,,"/>
+<approved hash="104,1,12.7,-83.82,IC4ATSAMR21G-PWR-IN-CORE,VDDIN,VDDF,,,"/>
+<approved hash="104,1,12.7,-91.44,IC4ATSAMR21G-PWR-IN-CORE,VDDCORE,N$2,,,"/>
+<approved hash="104,1,-26.67,-83.82,IC4ATSAMR121G-PWR-IO-1,VDDIO,VDDF,,,"/>
+<approved hash="104,1,12.7,-66.04,IC4ATSAMR21G-PWR-IO-2,VDDIO,VDDF,,,"/>
+<approved hash="117,1,78.74,-93.98,GND@1,,,,,"/>
+<approved hash="117,1,83.82,-93.98,GND@2,,,,,"/>
+<approved hash="113,1,131.843,-14.1012,JP1,,,,,"/>
+<approved hash="113,1,107.713,3.94123,JP5,,,,,"/>
+<approved hash="113,1,107.713,-20.1888,JP6,,,,,"/>
 </errors>
 </schematic>
 </drawing>
