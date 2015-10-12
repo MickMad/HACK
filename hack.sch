@@ -40211,16 +40211,6 @@ for applicable conditions.</text>
 <pinref part="JP6" gate="A" pin="10"/>
 </segment>
 </net>
-<net name="NC" class="0">
-<segment>
-<wire x1="107.95" y1="-7.62" x2="113.03" y2="-7.62" width="0.1524" layer="91"/>
-<label x="113.03" y="-7.62" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="107.95" y1="-5.08" x2="113.03" y2="-5.08" width="0.1524" layer="91"/>
-<label x="113.03" y="-5.08" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="UN"/>
