@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -115,7 +115,6 @@
 <layer number="219" name="219bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="220" name="220bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="221" name="221bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="224" name="224bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
@@ -132,12 +131,12 @@
 <wire x1="29.25" y1="31.92" x2="29.25" y2="26.93" width="0" layer="20"/>
 <wire x1="29.25" y1="26.93" x2="0" y2="26.93" width="0" layer="20"/>
 <wire x1="0" y1="26.93" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="0" y1="0" x2="0" y2="26.924" x3="-2.032" y3="13.462" textsize="0.8128" layer="47"/>
-<dimension x1="0" y1="0" x2="44.45" y2="0" x3="22.225" y3="-2.794" textsize="0.8128" layer="47"/>
+<dimension x1="0" y1="0" x2="0" y2="26.924" x3="-0.635" y3="13.462" textsize="0.8128" layer="47"/>
+<dimension x1="0" y1="0" x2="44.45" y2="0" x3="22.225" y3="-1.397" textsize="0.8128" layer="47"/>
 <wire x1="6.223" y1="7.112" x2="6.223" y2="7.493" width="0.2032" layer="21"/>
 <wire x1="8.255" y1="7.62" x2="6.223" y2="7.62" width="0.2032" layer="21"/>
 <wire x1="6.223" y1="7.62" x2="6.223" y2="7.747" width="0.2032" layer="21"/>
-<text x="0" y="42.291" size="0.8128" layer="51">Copyright © Michele Perla 2015
+<text x="0.381" y="-16.637" size="0.8128" layer="51">Copyright © Michele Perla 2015
 
 This documentation describes Open Hardware and is licensed 
 under the CERN OHL v. 1.2. You may redistribute and modify 
@@ -147,7 +146,7 @@ WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING
 OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS
 FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2
 for applicable conditions.</text>
-<dimension x1="44.45" y1="0" x2="44.46" y2="31.92" x3="46.734875" y3="15.959284375" textsize="0.8128" layer="47"/>
+<dimension x1="44.45" y1="0" x2="44.46" y2="31.92" x3="45.718875" y3="15.959603125" textsize="0.8128" layer="47"/>
 </plain>
 <libraries>
 <library name="diode">
@@ -14766,6 +14765,7 @@ design rules under a new name.</description>
 </element>
 <element name="JP5" library="pinhead" package="1X05" value="" x="42.418" y="19.812" smashed="yes" rot="R90">
 <attribute name="VALUE" x="45.593" y="13.462" size="1.27" layer="27" rot="R90"/>
+<attribute name="EAGLEUP" value="1x5_FEMALE" x="42.418" y="19.812" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP6" library="pinhead" package="1X10" value="" x="13.208" y="24.892" smashed="yes" rot="R180">
 <attribute name="VALUE" x="25.908" y="28.067" size="1.27" layer="27" rot="R180"/>

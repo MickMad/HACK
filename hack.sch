@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -25459,7 +25459,9 @@ Source: www.st.com, BAT60J.pdf</description>
 <part name="GND13" library="cortexm0" deviceset="GND" device=""/>
 <part name="GND14" library="cortexm0" deviceset="GND" device=""/>
 <part name="GND15" library="cortexm0" deviceset="GND" device=""/>
-<part name="JP5" library="pinhead" deviceset="PINHD-1X5" device=""/>
+<part name="JP5" library="pinhead" deviceset="PINHD-1X5" device="">
+<attribute name="EAGLEUP" value="1x5_FEMALE"/>
+</part>
 <part name="JP6" library="pinhead" deviceset="PINHD-1X10" device=""/>
 <part name="ANT1" library="hack" deviceset="PCB-ANTENNA" device=""/>
 <part name="LOGO1" library="hack" deviceset="HACK-LOGO" device=""/>
@@ -25604,7 +25606,9 @@ for applicable conditions.</text>
 <instance part="GND13" gate="G$1" x="85.09" y="-20.32" rot="R90"/>
 <instance part="GND14" gate="G$1" x="77.47" y="-35.56"/>
 <instance part="GND15" gate="G$1" x="54.61" y="-8.89"/>
-<instance part="JP5" gate="A" x="133.35" y="0" rot="MR0"/>
+<instance part="JP5" gate="A" x="133.35" y="0" rot="MR0">
+<attribute name="EAGLEUP" x="133.35" y="0" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="JP6" gate="A" x="133.35" y="-22.86" rot="MR0"/>
 <instance part="ANT1" gate="G$1" x="59.69" y="-2.54"/>
 <instance part="LOGO1" gate="G$1" x="147.32" y="-64.77"/>
