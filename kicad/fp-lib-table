@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name hack-footprints)(type KiCad)(uri "$(KIPRJMOD)\\hack-footprints.pretty")(options "")(descr ""))
+)
