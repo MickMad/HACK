@@ -9,6 +9,11 @@ D Epsom Toyocom 32.768 KHz crystal
 K clock xtal crystal
 $ENDCMP
 #
+$CMP MIC5528
+D High-Performance 500mA LDO in Thin and Extra Thin DFN Packages
+K ldo
+$ENDCMP
+#
 $CMP NCP1117
 D 1.0 A Low-Dropout Positive
 K ldo
