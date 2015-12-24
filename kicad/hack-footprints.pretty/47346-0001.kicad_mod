@@ -1,4 +1,7 @@
 (module 47346-0001 (layer F.Cu) (tedit 565CC0CF)
+  (solder_mask_margin 0.0762)
+  (solder_paste_margin -0.0762)
+  (clearance 0.0762)
   (fp_text reference REF** (at 5.25 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

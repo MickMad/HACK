@@ -1,4 +1,7 @@
 (module ELLVFG (layer F.Cu) (tedit 56588280)
+  (solder_mask_margin 0.0762)
+  (solder_paste_margin -0.0762)
+  (clearance 0.0762)
   (fp_text reference REF** (at 0 -2.75) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

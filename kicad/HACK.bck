@@ -10,7 +10,7 @@ K clock xtal crystal
 $ENDCMP
 #
 $CMP MIC5528
-D 1.0 A Low-Dropout Positive
+D High-Performance 500mA LDO in Thin and Extra Thin DFN Packages
 K ldo
 $ENDCMP
 #
