@@ -4,6 +4,10 @@ $CMP ATSAMD21E
 D Atmel SAM D21 E
 $ENDCMP
 #
+$CMP HACKADAY
+D Hackaday logo
+$ENDCMP
+#
 $CMP MC-306
 D Epsom Toyocom 32.768 KHz crystal
 K clock xtal crystal
@@ -17,6 +21,10 @@ $ENDCMP
 $CMP NCP1117
 D 1.0 A Low-Dropout Positive
 K ldo
+$ENDCMP
+#
+$CMP OSHW
+D OSHW logo
 $ENDCMP
 #
 $CMP SPST-M
