@@ -1,7 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABS07
+D Abracon 32.768 KHz crystal
+K clock xtal crystal
+$ENDCMP
+#
 $CMP ATSAMD21E
 D Atmel SAM D21 E
+$ENDCMP
+#
+$CMP HACK
+D HACK logo
 $ENDCMP
 #
 $CMP HACKADAY
@@ -21,6 +30,10 @@ $ENDCMP
 $CMP NCP1117
 D 1.0 A Low-Dropout Positive
 K ldo
+$ENDCMP
+#
+$CMP OSHW
+D OSHW logo
 $ENDCMP
 #
 $CMP SPST-M

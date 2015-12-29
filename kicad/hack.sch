@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:HACK
 LIBS:HiFiAudioCodecModule-cache
+LIBS:hack logo
 LIBS:hack-cache
 EELAYER 25 0
 EELAYER END
@@ -76,17 +77,6 @@ F 1 "USB_micro" H 950 650 60  0000 C CNN
 F 2 "hack-footprints:47346-0001" H 950 700 60  0001 C CNN
 F 3 "" H 950 700 60  0000 C CNN
 	1    950  700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L MC-306 X1
-U 1 1 56571094
-P 2150 1800
-F 0 "X1" H 2150 1650 60  0000 C CNN
-F 1 "MC-306" H 2150 1850 60  0000 C CNN
-F 2 "hack-footprints:MC-306" H 2150 1800 60  0001 C CNN
-F 3 "" H 2150 1800 60  0000 C CNN
-	1    2150 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -159,7 +149,7 @@ L C_Small C6
 U 1 1 56575F2E
 P 1800 2100
 F 0 "C6" H 1810 2170 50  0000 L CNN
-F 1 "15p" H 1810 2020 50  0000 L CNN
+F 1 "10p" H 1810 2020 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1800 2100 60  0001 C CNN
 F 3 "" H 1800 2100 60  0000 C CNN
 	1    1800 2100
@@ -170,7 +160,7 @@ L C_Small C7
 U 1 1 56576565
 P 2500 2100
 F 0 "C7" H 2510 2170 50  0000 L CNN
-F 1 "15p" H 2510 2020 50  0000 L CNN
+F 1 "10p" H 2510 2020 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2500 2100 60  0001 C CNN
 F 3 "" H 2500 2100 60  0000 C CNN
 	1    2500 2100
@@ -311,12 +301,12 @@ $EndComp
 $Comp
 L R_Small R4
 U 1 1 56589A59
-P 6150 1850
-F 0 "R4" H 6180 1870 50  0000 L CNN
-F 1 "330" H 6180 1810 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6150 1850 60  0001 C CNN
-F 3 "" H 6150 1850 60  0000 C CNN
-	1    6150 1850
+P 6175 1850
+F 0 "R4" H 6205 1870 50  0000 L CNN
+F 1 "330" H 6205 1810 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6175 1850 60  0001 C CNN
+F 3 "" H 6175 1850 60  0000 C CNN
+	1    6175 1850
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -333,23 +323,23 @@ $EndComp
 $Comp
 L SPST-M S1
 U 1 1 5658420D
-P 6150 2150
-F 0 "S1" V 6150 2150 60  0000 C CNN
-F 1 "SPST-M" V 5950 2150 60  0001 C CNN
-F 2 "hack-footprints:SPST" H 6150 2150 60  0001 C CNN
-F 3 "" H 6150 2150 60  0000 C CNN
-	1    6150 2150
+P 6175 2150
+F 0 "S1" V 6175 2275 60  0000 C CNN
+F 1 "SPST-M" V 5975 2150 60  0001 C CNN
+F 2 "hack-footprints:SPST-PTS_810" H 6175 2150 60  0001 C CNN
+F 3 "" H 6175 2150 60  0000 C CNN
+	1    6175 2150
 	0    1    -1   0   
 $EndComp
 $Comp
 L GND #PWR05
 U 1 1 56587427
-P 5900 2350
-F 0 "#PWR05" H 5900 2100 50  0001 C CNN
-F 1 "GND" H 5900 2200 50  0000 C CNN
-F 2 "" H 5900 2350 60  0000 C CNN
-F 3 "" H 5900 2350 60  0000 C CNN
-	1    5900 2350
+P 5900 2400
+F 0 "#PWR05" H 5900 2150 50  0001 C CNN
+F 1 "GND" H 5900 2250 50  0000 C CNN
+F 2 "" H 5900 2400 60  0000 C CNN
+F 3 "" H 5900 2400 60  0000 C CNN
+	1    5900 2400
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -363,52 +353,52 @@ F 3 "" H 5350 2350 60  0000 C CNN
 	1    5350 2350
 	1    0    0    -1  
 $EndComp
-Text GLabel 4850 1550 2    60   BiDi ~ 0
-PA28
-Text GLabel 5400 1750 2    60   BiDi ~ 0
-PA27
-Text GLabel 6200 1650 2    60   BiDi ~ 0
+Text GLabel 5375 1550 2    60   BiDi ~ 0
+PA28/13
+Text GLabel 4850 1750 2    60   BiDi ~ 0
+PA27/12
+Text GLabel 6225 1650 2    60   BiDi ~ 0
 !RESET
 Text GLabel 4850 2050 2    60   BiDi ~ 0
-PA23
+PA23/11
 Text GLabel 4850 2150 2    60   BiDi ~ 0
-PA22
+PA22/10
 Text GLabel 4850 2250 2    60   BiDi ~ 0
-PA19
+PA19/9
 Text GLabel 4850 2350 2    60   BiDi ~ 0
-PA18
+PA18/8
 Text GLabel 4850 2450 2    60   BiDi ~ 0
-PA17
+PA17/7
 Text GLabel 4850 2550 2    60   BiDi ~ 0
-PA16
+PA16/6
 Text GLabel 4850 850  2    60   BiDi ~ 0
 PA31/SWDIO
 Text GLabel 4850 950  2    60   BiDi ~ 0
 PA30/SWCLK
 Text GLabel 3250 2550 0    60   BiDi ~ 0
-PA15
+PA15/5
 Text GLabel 3250 2450 0    60   BiDi ~ 0
-PA14
+PA14/4
 Text GLabel 3250 2350 0    60   BiDi ~ 0
-PA11
+PA11/3
 Text GLabel 3250 2250 0    60   BiDi ~ 0
-PA10
+PA10/2
 Text GLabel 3250 2150 0    60   BiDi ~ 0
-PA09
+PA09/1
 Text GLabel 3200 2050 0    60   BiDi ~ 0
-PA08
+PA08/0
 Text GLabel 3250 1050 0    60   BiDi ~ 0
-PA02/A
+PA02/A0
 Text GLabel 3250 1150 0    60   BiDi ~ 0
-PA03/A
+PA03/A1
 Text GLabel 3250 1250 0    60   BiDi ~ 0
-PA04/A
+PA04/A2
 Text GLabel 3250 1350 0    60   BiDi ~ 0
-PA05/A
+PA05/A3
 Text GLabel 3250 1450 0    60   BiDi ~ 0
-PA06/A
+PA06/A4
 Text GLabel 3250 1550 0    60   BiDi ~ 0
-PA07/A
+PA07/A5
 $Comp
 L GND #PWR07
 U 1 1 56599C96
@@ -619,17 +609,17 @@ Wire Wire Line
 Wire Wire Line
 	5350 2300 5350 2350
 Wire Wire Line
-	6150 2300 5900 2300
+	6175 2350 5900 2350
 Wire Wire Line
-	5900 2250 5900 2350
+	5900 2250 5900 2400
 Wire Wire Line
 	5900 1600 5900 2050
 Connection ~ 5900 1650
-Connection ~ 5900 2300
+Connection ~ 5900 2350
 Wire Wire Line
-	4800 1550 4850 1550
+	4800 1550 5375 1550
 Wire Wire Line
-	4800 1750 5400 1750
+	4800 1750 4850 1750
 Wire Wire Line
 	4800 2050 4850 2050
 Wire Wire Line
@@ -661,12 +651,12 @@ Wire Wire Line
 Wire Wire Line
 	5900 1325 5900 1400
 Wire Wire Line
-	4800 1650 6200 1650
+	4800 1650 6225 1650
 Wire Wire Line
-	6150 1950 6150 2000
+	6175 1950 6175 2000
 Wire Wire Line
-	6150 1650 6150 1750
-Connection ~ 6150 1650
+	6175 1650 6175 1750
+Connection ~ 6175 1650
 Wire Wire Line
 	4800 1450 5100 1450
 Wire Wire Line
@@ -714,29 +704,26 @@ Text GLabel 1275 2900 0    60   BiDi ~ 0
 VLDO
 Text GLabel 1275 3000 0    60   Output ~ 0
 VDDF
+Text GLabel 2125 3600 0    60   BiDi ~ 0
+PA17/7
+Text GLabel 2125 3700 0    60   BiDi ~ 0
+PA18/8
+Text GLabel 2125 3800 0    60   BiDi ~ 0
+PA19/9
+Text GLabel 2125 3900 0    60   BiDi ~ 0
+PA22/10
+Text GLabel 2125 4000 0    60   BiDi ~ 0
+PA23/11
 Text GLabel 1275 3100 0    60   BiDi ~ 0
-PA17
-Text GLabel 1275 3200 0    60   BiDi ~ 0
-PA18
-Text GLabel 1275 3300 0    60   BiDi ~ 0
-PA19
-Text GLabel 1275 3400 0    60   BiDi ~ 0
-PA22
-Text GLabel 1275 3500 0    60   BiDi ~ 0
-PA23
-Text GLabel 1275 3600 0    60   BiDi ~ 0
-PA27
-Text GLabel 1275 3700 0    60   Input ~ 0
+PA27/12
+Text GLabel 1275 3200 0    60   Input ~ 0
 !RESET
-Text GLabel 1275 3800 0    60   BiDi ~ 0
-PA28
-Text GLabel 1275 3900 0    60   BiDi ~ 0
+Text GLabel 1275 3300 0    60   BiDi ~ 0
+PA28/13
+Text GLabel 1275 3400 0    60   BiDi ~ 0
 PA30/SWCLK
-Text GLabel 1275 4000 0    60   BiDi ~ 0
+Text GLabel 1275 3500 0    60   BiDi ~ 0
 PA31/SWDIO
-Wire Wire Line
-	5350 1850 5350 1750
-Connection ~ 5350 1750
 $Comp
 L CONN_01X01 P4
 U 1 1 567C599F
@@ -766,32 +753,32 @@ Text GLabel 2300 1050 2    60   Output ~ 0
 USB-D+
 Text GLabel 2300 950  2    60   Output ~ 0
 USB-D-
+Text GLabel 1275 3600 0    60   BiDi ~ 0
+PA02/A0
+Text GLabel 1275 3700 0    60   BiDi ~ 0
+PA03/A1
+Text GLabel 1275 3800 0    60   BiDi ~ 0
+PA04/A2
+Text GLabel 1275 3900 0    60   BiDi ~ 0
+PA05/A3
+Text GLabel 1275 4000 0    60   BiDi ~ 0
+PA06/A4
 Text GLabel 2125 2800 0    60   BiDi ~ 0
-PA02/A
-Text GLabel 2125 2900 0    60   BiDi ~ 0
-PA03/A
-Text GLabel 2125 3000 0    60   BiDi ~ 0
-PA04/A
-Text GLabel 2125 3100 0    60   BiDi ~ 0
-PA05/A
-Text GLabel 2125 3200 0    60   BiDi ~ 0
-PA06/A
-Text GLabel 2125 3300 0    60   BiDi ~ 0
-PA07/A
-Text GLabel 2125 3900 0    60   BiDi ~ 0
-PA15
-Text GLabel 2125 3800 0    60   BiDi ~ 0
-PA14
-Text GLabel 2125 3700 0    60   BiDi ~ 0
-PA11
-Text GLabel 2125 3600 0    60   BiDi ~ 0
-PA10
-Text GLabel 2125 3500 0    60   BiDi ~ 0
-PA09
+PA07/A5
 Text GLabel 2125 3400 0    60   BiDi ~ 0
-PA08
-Text GLabel 2125 4000 0    60   BiDi ~ 0
-PA16
+PA15/5
+Text GLabel 2125 3300 0    60   BiDi ~ 0
+PA14/4
+Text GLabel 2125 3200 0    60   BiDi ~ 0
+PA11/3
+Text GLabel 2125 3100 0    60   BiDi ~ 0
+PA10/2
+Text GLabel 2125 3000 0    60   BiDi ~ 0
+PA09/1
+Text GLabel 2125 2900 0    60   BiDi ~ 0
+PA08/0
+Text GLabel 2125 3500 0    60   BiDi ~ 0
+PA16/6
 Text GLabel 1275 4225 0    60   Output ~ 0
 VDDANA
 $Comp
@@ -827,29 +814,54 @@ F 3 "" H 3750 3225 60  0000 C CNN
 	1    3750 3225
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2050 2150
-NoConn ~ 2250 2150
 NoConn ~ 1350 1150
 $Comp
 L OSHW LOGO1
 U 1 1 56815E8B
-P 4475 3400
-F 0 "LOGO1" H 4475 3060 60  0001 C CNN
-F 1 "OSHW" H 4475 3740 60  0001 C CNN
-F 2 "hack-footprints:OSHW-LOGO" H 4475 3400 60  0001 C CNN
-F 3 "" H 4475 3400 60  0000 C CNN
-	1    4475 3400
+P 5800 3750
+F 0 "LOGO1" H 5800 3410 60  0001 C CNN
+F 1 "OSHW" H 5800 4090 60  0001 C CNN
+F 2 "hack-footprints:OSHW-LOGO" H 5800 3750 60  0001 C CNN
+F 3 "" H 5800 3750 60  0000 C CNN
+	1    5800 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L HACKADAY LOGO2
 U 1 1 56815EDD
-P 5325 3300
-F 0 "LOGO2" H 5325 3118 60  0001 C CNN
-F 1 "HACKADAY" H 5325 3482 60  0001 C CNN
-F 2 "hack-footprints:HACKADAY-LOGO" H 5325 3300 60  0001 C CNN
-F 3 "" H 5325 3300 60  0000 C CNN
-	1    5325 3300
+P 4450 3725
+F 0 "LOGO2" H 4450 3543 60  0001 C CNN
+F 1 "HACKADAY" H 4450 3907 60  0001 C CNN
+F 2 "hack-footprints:HACKADAY-LOGO" H 4450 3725 60  0001 C CNN
+F 3 "" H 4450 3725 60  0000 C CNN
+	1    4450 3725
 	1    0    0    -1  
 $EndComp
+$Comp
+L ABS07 X1
+U 1 1 56825CA1
+P 2150 1800
+F 0 "X1" H 2150 1650 60  0000 C CNN
+F 1 "ABS07" H 2150 1850 60  0000 C CNN
+F 2 "hack-footprints:xtal_3.2x1.5mm" H 2150 1800 60  0001 C CNN
+F 3 "" H 2150 1800 60  0000 C CNN
+	1    2150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L HACK LOGO3
+U 1 1 56825DB6
+P 5125 3125
+F 0 "LOGO3" H 5125 2905 60  0001 C CNN
+F 1 "HACK" H 5125 3345 60  0001 C CNN
+F 2 "hack-footprints:HACK-LOGO" H 5125 3125 60  0001 C CNN
+F 3 "" H 5125 3125 60  0000 C CNN
+	1    5125 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 2350 6175 2300
+Wire Wire Line
+	5350 1850 5350 1550
+Connection ~ 5350 1550
 $EndSCHEMATC

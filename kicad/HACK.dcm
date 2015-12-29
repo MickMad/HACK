@@ -1,7 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABS07
+D Abracon 32.768 KHz crystal
+K clock xtal crystal
+$ENDCMP
+#
 $CMP ATSAMD21E
 D Atmel SAM D21 E
+$ENDCMP
+#
+$CMP HACK
+D HACK logo
 $ENDCMP
 #
 $CMP HACKADAY
@@ -28,7 +37,7 @@ D OSHW logo
 $ENDCMP
 #
 $CMP SPST-M
-D Single pull single throw - momentary
+D C&K PST 810 Series - Microminiature top actuated
 $ENDCMP
 #
 $CMP STF202
