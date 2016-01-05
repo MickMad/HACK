@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/mperla.CORP/Documents/GitHub/HACK/kicad/hack.sch)
-    (date "29/12/2015 17:00:55")
+    (date "05/01/2016 14:25:53")
     (tool "Eeschema (2015-08-16 BZR 6097, Git b384c94)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -29,7 +29,7 @@
       (tstamp 5656E679))
     (comp (ref P1)
       (value USB_micro)
-      (footprint hack-footprints:47346-0001)
+      (footprint hack-footprints:ST-USB-001G)
       (libsource (lib HACK) (part USB_micro))
       (sheetpath (names /) (tstamps /))
       (tstamp 5657010B))
@@ -101,13 +101,13 @@
       (tstamp 5657C55A))
     (comp (ref P2)
       (value CONN_01X13)
-      (footprint Pin_Headers:Pin_Header_Straight_1x13)
+      (footprint hack-footprints:Pin_Castellated_1x13)
       (libsource (lib conn) (part CONN_01X13))
       (sheetpath (names /) (tstamps /))
       (tstamp 56587624))
     (comp (ref P3)
       (value CONN_01X13)
-      (footprint Pin_Headers:Pin_Header_Straight_1x13)
+      (footprint hack-footprints:Pin_Castellated_1x13)
       (libsource (lib conn) (part CONN_01X13))
       (sheetpath (names /) (tstamps /))
       (tstamp 56587957))
@@ -173,7 +173,7 @@
       (tstamp 567C1358))
     (comp (ref P4)
       (value CONN_01X01)
-      (footprint Pin_Headers:Pin_Header_Straight_1x01)
+      (footprint hack-footprints:Pin_Castellated_1x01)
       (libsource (lib conn) (part CONN_01X01))
       (sheetpath (names /) (tstamps /))
       (tstamp 567C599F))
@@ -220,40 +220,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 56825DB6)))
   (libparts
-    (libpart (lib conn) (part CONN_01X01)
-      (footprints
-        (fp Pin_Header_Straight_1X01)
-        (fp Pin_Header_Angled_1X01)
-        (fp Socket_Strip_Straight_1X01)
-        (fp Socket_Strip_Angled_1X01))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X01))
-      (pins
-        (pin (num 1) (name P1) (type passive))))
-    (libpart (lib conn) (part CONN_01X13)
-      (footprints
-        (fp Pin_Header_Straight_1X13)
-        (fp Pin_Header_Angled_1X13)
-        (fp Socket_Strip_Straight_1X13)
-        (fp Socket_Strip_Angled_1X13))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X13))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))
-        (pin (num 6) (name P6) (type passive))
-        (pin (num 7) (name P7) (type passive))
-        (pin (num 8) (name P8) (type passive))
-        (pin (num 9) (name P9) (type passive))
-        (pin (num 10) (name P10) (type passive))
-        (pin (num 11) (name P11) (type passive))
-        (pin (num 12) (name P12) (type passive))
-        (pin (num 13) (name P13) (type passive))))
     (libpart (lib device) (part CP_Small)
       (description "Polarised capacitor")
       (footprints
@@ -324,11 +290,47 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part CONN_01X01)
+      (footprints
+        (fp Pin_Header_Straight_1X01)
+        (fp Pin_Header_Angled_1X01)
+        (fp Socket_Strip_Straight_1X01)
+        (fp Socket_Strip_Angled_1X01))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X01))
+      (pins
+        (pin (num 1) (name P1) (type passive))))
+    (libpart (lib conn) (part CONN_01X13)
+      (footprints
+        (fp Pin_Header_Straight_1X13)
+        (fp Pin_Header_Angled_1X13)
+        (fp Socket_Strip_Straight_1X13)
+        (fp Socket_Strip_Angled_1X13))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X13))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))
+        (pin (num 9) (name P9) (type passive))
+        (pin (num 10) (name P10) (type passive))
+        (pin (num 11) (name P11) (type passive))
+        (pin (num 12) (name P12) (type passive))
+        (pin (num 13) (name P13) (type passive))))
     (libpart (lib HACK) (part ABS07)
       (description "Abracon 32.768 KHz crystal")
       (fields
         (field (name Reference) X)
-        (field (name Value) ABS07))
+        (field (name Value) ABS07)
+        (field (name Footprint) hack-footprints:xtal_3.2x1.5mm)
+        (field (name "Mfr. Part #") ABS07-32.768KHZ-7-T))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -339,7 +341,9 @@
         (fp QFN-32))
       (fields
         (field (name Reference) U)
-        (field (name Value) ATSAMD21E))
+        (field (name Value) ATSAMD21E)
+        (field (name Footprint) Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm)
+        (field (name "Mfr. Part #") ATSAMD21E18A-MU))
       (pins
         (pin (num 1) (name PA00/XIN32) (type BiDi))
         (pin (num 2) (name PA01/XOUT32) (type BiDi))
@@ -377,7 +381,9 @@
     (libpart (lib HACK) (part FERRITE_BEAD)
       (fields
         (field (name Reference) L)
-        (field (name Value) FERRITE_BEAD))
+        (field (name Value) FERRITE_BEAD)
+        (field (name Footprint) hack-footprints:L_0603_HandSoldering)
+        (field (name "Mfr. Part #") BLM18EG221SN1D))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -401,7 +407,9 @@
         (fp SOT-223))
       (fields
         (field (name Reference) U)
-        (field (name Value) MIC5528))
+        (field (name Value) MIC5528)
+        (field (name Footprint) hack-footprints:DFN-6-1EP_1.2x1.2mm_Pitch0.4mm)
+        (field (name "Mfr. Part #") MIC5528-33YMT-TR))
       (pins
         (pin (num 1) (name VOUT) (type power_out))
         (pin (num 2) (name VOUT) (type power_out))
@@ -419,7 +427,9 @@
       (description "C&K PST 810 Series - Microminiature top actuated")
       (fields
         (field (name Reference) S)
-        (field (name Value) SPST-M))
+        (field (name Value) SPST-M)
+        (field (name Footprint) hack-footprints:SPST-PTS_810)
+        (field (name "Mfr. Part #") "PTS810 SJK 250 SMTR LFS"))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type BiDi))
@@ -431,7 +441,9 @@
         (fp TSOP-6))
       (fields
         (field (name Reference) U)
-        (field (name Value) STF202))
+        (field (name Value) STF202)
+        (field (name Footprint) hack-footprints:TSOP-6)
+        (field (name "Mfr. Part #") STF202-22T1G))
       (pins
         (pin (num 1) (name VBUS) (type power_out))
         (pin (num 2) (name D-IN) (type input))
@@ -445,7 +457,9 @@
         (fp USB*))
       (fields
         (field (name Reference) P)
-        (field (name Value) USB_micro))
+        (field (name Value) USB_micro)
+        (field (name Footprint) hack-footprints:ST-USB-001G)
+        (field (name "Mfr. Part #") ST-USB-001G))
       (pins
         (pin (num 1) (name VBUS) (type power_in))
         (pin (num 2) (name D-) (type output))

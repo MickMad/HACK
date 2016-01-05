@@ -74,7 +74,7 @@ U 1 1 5657010B
 P 950 700
 F 0 "P1" H 950 750 60  0000 C CNN
 F 1 "USB_micro" H 950 650 60  0000 C CNN
-F 2 "hack-footprints:47346-0001" H 950 700 60  0001 C CNN
+F 2 "hack-footprints:ST-USB-001G" H 950 700 60  0001 C CNN
 F 3 "" H 950 700 60  0000 C CNN
 	1    950  700 
 	1    0    0    -1  
@@ -260,7 +260,7 @@ U 1 1 56587624
 P 1475 3400
 F 0 "P2" H 1475 4100 50  0000 C CNN
 F 1 "CONN_01X13" V 1575 3400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x13" H 1475 3400 60  0001 C CNN
+F 2 "hack-footprints:Pin_Castellated_1x13" H 1475 3400 60  0001 C CNN
 F 3 "" H 1475 3400 60  0000 C CNN
 	1    1475 3400
 	1    0    0    -1  
@@ -271,7 +271,7 @@ U 1 1 56587957
 P 2325 3400
 F 0 "P3" H 2325 4100 50  0000 C CNN
 F 1 "CONN_01X13" V 2425 3400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x13" H 2325 3400 60  0001 C CNN
+F 2 "hack-footprints:Pin_Castellated_1x13" H 2325 3400 60  0001 C CNN
 F 3 "" H 2325 3400 60  0000 C CNN
 	1    2325 3400
 	1    0    0    -1  
@@ -730,7 +730,7 @@ U 1 1 567C599F
 P 1475 4225
 F 0 "P4" H 1475 4325 50  0000 C CNN
 F 1 "CONN_01X01" V 1575 4225 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 1475 4225 60  0001 C CNN
+F 2 "hack-footprints:Pin_Castellated_1x01" H 1475 4225 60  0001 C CNN
 F 3 "" H 1475 4225 60  0000 C CNN
 	1    1475 4225
 	1    0    0    -1  
