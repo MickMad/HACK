@@ -236,7 +236,8 @@ P 1775 6175
 F 0 "P2" H 1775 6875 40  0000 C CNB
 F 1 "CONN_01X13" V 1875 6175 40  0000 C CNB
 F 2 "hack-footprints:Pin_Castellated_1x13" H 1775 6175 40  0001 C CNB
-F 3 "" H 1775 6175 40  0000 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320020128.pdf" H 1775 6175 40  0001 C CNB
+F 4 "320020128" H 1775 6175 60  0001 C CNN "manf#"
 	1    1775 6175
 	1    0    0    -1  
 $EndComp

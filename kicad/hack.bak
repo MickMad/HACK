@@ -56,7 +56,8 @@ P 2025 1975
 F 0 "R1" H 2075 1975 40  0000 L CNB
 F 1 "1M" V 2025 1975 40  0000 C CNN
 F 2 "hack:R_0603_HandSoldering" H 2025 1975 40  0001 C CNB
-F 3 "" H 2025 1975 40  0000 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/301010151.pdf" H 2025 1975 40  0001 C CNB
+F 4 "301010151" H 2025 1975 60  0001 C CNN "manf#"
 	1    2025 1975
 	1    0    0    -1  
 $EndComp
@@ -65,9 +66,10 @@ L C_Small C5
 U 1 1 56571A23
 P 1700 1975
 F 0 "C5" H 1775 1975 40  0000 L CNB
-F 1 "4.5nF" H 1775 1900 40  0000 L CNN
+F 1 "4.7nF" H 1775 1900 40  0000 L CNN
 F 2 "hack:C_0603_HandSoldering" H 1700 1975 40  0001 C CNB
-F 3 "" H 1700 1975 40  0000 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100850P1.pdf" H 1700 1975 40  0001 C CNB
+F 4 "302010144" H 1700 1975 60  0001 C CNN "manf#"
 	1    1700 1975
 	1    0    0    -1  
 $EndComp
@@ -121,7 +123,8 @@ P 1500 4350
 F 0 "C6" H 1575 4350 40  0000 L CNB
 F 1 "10pF" H 1575 4275 40  0000 L CNN
 F 2 "hack:C_0603_HandSoldering" H 1500 4350 40  0001 C CNB
-F 3 "" H 1500 4350 40  0000 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf" H 1500 4350 40  0001 C CNB
+F 4 "302010097" H 1500 4350 60  0001 C CNN "manf#"
 	1    1500 4350
 	1    0    0    -1  
 $EndComp
@@ -143,7 +146,8 @@ P 4925 2425
 F 0 "C3" H 4850 2425 40  0000 R CNB
 F 1 "10uF" H 4850 2350 40  0000 R CNN
 F 2 "hack:c_elec_3x5.3" H 4925 2425 40  0001 C CNB
-F 3 "" H 4925 2425 40  0000 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/e-wx-11809.pdf" H 4925 2425 40  0001 C CNB
+F 4 "UWX1C100MCL2GB" H 4925 2425 60  0001 C CNN "manf#"
 	1    4925 2425
 	-1   0    0    -1  
 $EndComp
@@ -154,7 +158,8 @@ P 5300 2425
 F 0 "C8" H 5225 2425 40  0000 R CNB
 F 1 "100nF" H 5225 2350 40  0000 R CNN
 F 2 "hack:C_0603_HandSoldering" H 5300 2425 40  0001 C CNB
-F 3 "" H 5300 2425 40  0000 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 5300 2425 40  0001 C CNB
+F 4 "302010138" H 5300 2425 60  0001 C CNN "manf#"
 	1    5300 2425
 	-1   0    0    -1  
 $EndComp
@@ -251,9 +256,10 @@ L Led_Small D1
 U 1 1 56587FAD
 P 8050 2950
 F 0 "D1" V 8050 2900 40  0000 R CNB
-F 1 "BLUE" V 7975 2900 40  0000 R CNN
+F 1 "RED" V 7975 2900 40  0000 R CNN
 F 2 "hack:LED_0603_HandSoldering" V 8050 2950 40  0001 C CNB
-F 3 "" V 8050 2950 40  0000 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0330020P1.pdf" V 8050 2950 40  0001 C CNB
+F 4 "304090042" V 8050 2950 60  0001 C CNN "manf#"
 	1    8050 2950
 	0    -1   -1   0   
 $EndComp
@@ -262,9 +268,10 @@ L R_Small R2
 U 1 1 56588562
 P 8050 2625
 F 0 "R2" H 8100 2625 40  0000 L CNB
-F 1 "68" V 8050 2625 40  0000 C CNN
+F 1 "330" V 8050 2625 40  0000 C CNN
 F 2 "hack:R_0603_HandSoldering" H 8050 2625 40  0001 C CNB
-F 3 "" H 8050 2625 40  0000 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf" H 8050 2625 40  0001 C CNB
+F 4 "301010300" H 8050 2625 60  0001 C CNN "manf#"
 	1    8050 2625
 	1    0    0    -1  
 $EndComp
@@ -297,7 +304,8 @@ P 9350 2950
 F 0 "S1" V 9350 3125 40  0000 L CNB
 F 1 "RST" V 9275 3125 40  0000 L CNN
 F 2 "hack-footprints:SPST-PTS_810" H 9350 2950 40  0001 C CNB
-F 3 "" H 9350 2950 40  0000 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/311020045.pdf" H 9350 2950 40  0001 C CNB
+F 4 "311020045" V 9350 2950 60  0001 C CNN "manf#"
 	1    9350 2950
 	0    1    -1   0   
 $EndComp
@@ -387,7 +395,8 @@ P 8975 2175
 F 0 "R3" H 9025 2175 40  0000 L CNB
 F 1 "10k" V 8975 2175 40  0000 C CNN
 F 2 "hack:R_0603_HandSoldering" H 8975 2175 40  0001 C CNB
-F 3 "" H 8975 2175 40  0000 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011240P1.pdf" H 8975 2175 40  0001 C CNB
+F 4 "301010299" H 8975 2175 60  0001 C CNN "manf#"
 	1    8975 2175
 	1    0    0    1   
 $EndComp
@@ -437,7 +446,8 @@ P 1500 3350
 F 0 "C1" H 1575 3350 40  0000 L CNB
 F 1 "2.2uF" H 1575 3275 40  0000 L CNN
 F 2 "hack:C_0603_HandSoldering" H 1500 3350 40  0001 C CNB
-F 3 "" H 1500 3350 40  0000 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010054.pdf" H 1500 3350 40  0001 C CNB
+F 4 "302010054" H 1500 3350 60  0001 C CNN "manf#"
 	1    1500 3350
 	1    0    0    -1  
 $EndComp
