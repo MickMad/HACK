@@ -1,9 +1,9 @@
-(module HACKADAY-LOGO (layer F.Cu) (tedit 0)
-  (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
-    (effects (font (thickness 0.3)))
+(module hack-footprints:HACKADAY-LOGO (layer F.Cu) (tedit 0)
+  (fp_text reference LOGO2 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
-  (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
-    (effects (font (thickness 0.3)))
+  (fp_text value HACKADAY (at 0.75 0) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
   (fp_poly (pts (xy -1.418115 0.726943) (xy -1.407769 0.74663) (xy -1.394104 0.775515) (xy -1.38213 0.802468)
     (xy -1.308801 0.950755) (xy -1.220861 1.091301) (xy -1.119537 1.22226) (xy -1.059149 1.288905)

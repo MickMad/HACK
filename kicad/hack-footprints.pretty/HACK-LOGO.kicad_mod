@@ -1,9 +1,9 @@
-(module HACK-LOGO (layer F.Cu) (tedit 0)
-  (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
-    (effects (font (thickness 0.3)))
+(module hack-footprints:HACK-LOGO (layer F.Cu) (tedit 0)
+  (fp_text reference LOGO3 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
-  (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
-    (effects (font (thickness 0.3)))
+  (fp_text value HACK (at 0.75 0) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
   (fp_poly (pts (xy 4.111012 -3.075694) (xy 4.471776 -3.007062) (xy 4.823602 -2.898506) (xy 5.162823 -2.750258)
     (xy 5.485767 -2.562553) (xy 5.712936 -2.397728) (xy 5.793056 -2.332575) (xy 5.864782 -2.271514)

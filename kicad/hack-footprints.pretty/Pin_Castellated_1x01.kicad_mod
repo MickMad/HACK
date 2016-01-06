@@ -5,10 +5,10 @@
   (solder_paste_margin -0.0762)
   (clearance 0.0762)
   (fp_text reference P4 (at 0 -5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
   (fp_text value CONN_01X01 (at 0 -3) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
   (pad 1 thru_hole rect (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 1.905 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))

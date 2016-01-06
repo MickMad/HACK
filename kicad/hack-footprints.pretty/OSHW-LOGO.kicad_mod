@@ -1,9 +1,9 @@
-(module OSHW-LOGO (layer F.Cu) (tedit 0)
-  (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
-    (effects (font (thickness 0.3)))
+(module hack-footprints:OSHW-LOGO (layer F.Cu) (tedit 0)
+  (fp_text reference LOGO1 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
-  (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
-    (effects (font (thickness 0.3)))
+  (fp_text value OSHW (at 0.75 0) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
   (fp_poly (pts (xy -1.472971 2.5113) (xy -1.453238 2.514373) (xy -1.392804 2.531937) (xy -1.345873 2.559407)
     (xy -1.312016 2.597067) (xy -1.30297 2.613123) (xy -1.297034 2.625732) (xy -1.292356 2.638087)

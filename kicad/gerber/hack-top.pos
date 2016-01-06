@@ -1,0 +1,32 @@
+### Module positions - created on Wed Jan  6 13:43:13 2016 ###
+### Printed by Pcbnew version kicad 4.0.1-3.201512202202+6198~38~ubuntu15.04.1-stable
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       2.2u             C_0603_HandSolde    0.0525     0.2300     270.0    top
+C2       2.2u             C_0603_HandSolde    0.2100     0.2676     270.0    top
+C3       10u              c_elec_3x5.3        0.4000     0.6650     180.0    top
+C4       10u              c_elec_3x5.3        0.4700     0.2950       0.0    top
+C5       4.5n             C_0603_HandSolde    0.1574     0.6625     180.0    top
+C6       10p              C_0603_HandSolde    1.1550     0.3900       0.0    top
+C7       10p              C_0603_HandSolde    1.1550     0.4875       0.0    top
+C8       100n             C_0603_HandSolde    0.9300     0.6500     180.0    top
+C9       100n             C_0603_HandSolde    0.8200     0.3100     180.0    top
+C10      100n             C_0603_HandSolde    0.8200     0.2500     180.0    top
+C11      100n             C_0603_HandSolde    0.9325     0.2775     270.0    top
+D1       BLUE             LED_0603_HandSol    0.5587     0.1510       0.0    top
+FID1     FIDUCIAL         FIDUCIAL            0.1300     0.1700       0.0    top
+FID2     FIDUCIAL         FIDUCIAL            0.1300     0.7700       0.0    top
+FID3     FIDUCIAL         FIDUCIAL            1.1550     0.7700       0.0    top
+L1       BLM18EG221       L_0603_HandSolde    0.2950     0.6500      90.0    top
+L2       10u              ELLVFG              0.3150     0.2700     270.0    top
+R1       1M               R_0603_HandSolde    0.0450     0.7250     270.0    top
+R2       68               R_0603_HandSolde    0.4000     0.1510       0.0    top
+R3       10K              R_0603_HandSolde    0.8200     0.1875       0.0    top
+R4       330              R_0603_HandSolde    0.9950     0.2800     270.0    top
+S1       SPST-M           SPST-PTS_810        1.1700     0.2300      90.0    top
+U1       MIC5528          DFN-6-1EP_1.2x1.    0.1300     0.2700      90.0    top
+U2       STF202           TSOP-6              0.3300     0.5050     270.0    top
+U3       ATSAMD21E        QFN-32-1EP_5x5mm    0.8210     0.4990     180.0    top
+X1       ABS07            xtal_3.2x1.5mm      1.0350     0.4400     180.0    top
+## End
