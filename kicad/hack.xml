@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:/Users/MickMad/Documents/GitHub/HACK/kicad/hack.sch</source>
-    <date>06/01/2016 13:14:58</date>
+    <source>C:\Users\MickMad\Documents\GitHub\HACK\kicad\hack.sch</source>
+    <date>06/01/2016 22:54:39</date>
     <tool>Eeschema 4.0.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -43,13 +43,21 @@
     <comp ref="R1">
       <value>1M</value>
       <footprint>hack:R_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/301010151.pdf</datasheet>
+      <fields>
+        <field name="manf#">301010151</field>
+      </fields>
       <libsource lib="hack" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>565719DA</tstamp>
     </comp>
     <comp ref="C5">
-      <value>4.5nF</value>
+      <value>4.7nF</value>
       <footprint>hack:C_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100850P1.pdf</datasheet>
+      <fields>
+        <field name="manf#">302010144</field>
+      </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56571A23</tstamp>
@@ -57,6 +65,10 @@
     <comp ref="C6">
       <value>10pF</value>
       <footprint>hack:C_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf</datasheet>
+      <fields>
+        <field name="manf#">302010097</field>
+      </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56575F2E</tstamp>
@@ -71,6 +83,10 @@
     <comp ref="C3">
       <value>10uF</value>
       <footprint>hack:c_elec_3x5.3</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/e-wx-11809.pdf</datasheet>
+      <fields>
+        <field name="manf#">UWX1C100MCL2GB</field>
+      </fields>
       <libsource lib="hack" part="CP_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56577AD5</tstamp>
@@ -78,6 +94,10 @@
     <comp ref="C8">
       <value>100nF</value>
       <footprint>hack:C_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
+      <fields>
+        <field name="manf#">302010138</field>
+      </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56577B23</tstamp>
@@ -132,15 +152,23 @@
       <tstamp>56587957</tstamp>
     </comp>
     <comp ref="D1">
-      <value>BLUE</value>
+      <value>RED</value>
       <footprint>hack:LED_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0330020P1.pdf</datasheet>
+      <fields>
+        <field name="manf#">304090042</field>
+      </fields>
       <libsource lib="hack" part="Led_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56587FAD</tstamp>
     </comp>
     <comp ref="R2">
-      <value>68</value>
+      <value>330</value>
       <footprint>hack:R_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf</datasheet>
+      <fields>
+        <field name="manf#">301010300</field>
+      </fields>
       <libsource lib="hack" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56588562</tstamp>
@@ -162,6 +190,10 @@
     <comp ref="S1">
       <value>RST</value>
       <footprint>hack-footprints:SPST-PTS_810</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/311020045.pdf</datasheet>
+      <fields>
+        <field name="manf#">311020045</field>
+      </fields>
       <libsource lib="hack" part="SPST-M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5658420D</tstamp>
@@ -169,6 +201,10 @@
     <comp ref="R3">
       <value>10k</value>
       <footprint>hack:R_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011240P1.pdf</datasheet>
+      <fields>
+        <field name="manf#">301010299</field>
+      </fields>
       <libsource lib="hack" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5659B02E</tstamp>
@@ -183,6 +219,10 @@
     <comp ref="C1">
       <value>2.2uF</value>
       <footprint>hack:C_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010054.pdf</datasheet>
+      <fields>
+        <field name="manf#">302010054</field>
+      </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567ADE21</tstamp>
@@ -268,11 +308,12 @@
   <libparts>
     <libpart lib="hack" part="ABS07">
       <description>Abracon 32768 KHz Crystal</description>
-      <docs>datasheets/ABS07-32768KHZ-7-T.pdf</docs>
+      <docs>datasheets/ABS07-11028.pdf</docs>
       <fields>
         <field name="Reference">X</field>
         <field name="Value">ABS07</field>
-        <field name="manf#">ABS07-32.768KHZ-7-T</field>
+        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/306010055.pdf</field>
+        <field name="manf#">306010055</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -280,6 +321,8 @@
       </pins>
     </libpart>
     <libpart lib="hack" part="ATSAMD21E">
+      <description>Atmel SAM D21 Cortex M0+ series</description>
+      <docs>datasheets/Atmel-42181-SAM-D21_Datasheet.pdf</docs>
       <footprints>
         <fp>TQFP-32</fp>
         <fp>QFN-32</fp>
@@ -287,6 +330,8 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">ATSAMD21E</field>
+        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/Atmel-42181-SAM-D21_Datasheet.pdf</field>
+        <field name="manf#">ATSAMD21E18A-MU</field>
       </fields>
       <pins>
         <pin num="1" name="PA00/XIN32" type="BiDi"/>
@@ -402,9 +447,13 @@
       </pins>
     </libpart>
     <libpart lib="hack" part="FERRITE_BEAD">
+      <description>Murata EMI Filter Beads, Chips &amp; Arrays 220ohms GHz General Usage</description>
+      <docs>datasheets/ENFA0003-769587.pdf</docs>
       <fields>
         <field name="Reference">L</field>
         <field name="Value">FERRITE_BEAD</field>
+        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/ENFA0003-769587.pdf</field>
+        <field name="manf#">BLM18EG221SN1D</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -440,6 +489,8 @@
       </pins>
     </libpart>
     <libpart lib="hack" part="L_Small">
+      <description>Panasonic Fixed Inductors 10uH 20% 550mA 380mohm</description>
+      <docs>datasheets/AGM0000CE1-37141.pdf</docs>
       <footprints>
         <fp>CP*</fp>
         <fp>SM*</fp>
@@ -447,6 +498,8 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">L_Small</field>
+        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/AGM0000CE1-37141.pdf</field>
+        <field name="manf#">ELL-VFG100MC</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -468,12 +521,15 @@
       </pins>
     </libpart>
     <libpart lib="hack" part="MIC5528">
+      <description>Microchip / Micrel LDO Voltage Regulators High-Performance 500mA LDO</description>
       <footprints>
         <fp>SOT-223</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
         <field name="Value">MIC5528</field>
+        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/MIC5528-779152.pdf</field>
+        <field name="manf#">MIC5528-3.3YMT-TR</field>
       </fields>
       <pins>
         <pin num="1" name="VOUT" type="power_in"/>
@@ -518,12 +574,16 @@
       </pins>
     </libpart>
     <libpart lib="hack" part="STF202">
+      <description>ON Semiconductor ESD Suppressors Upstream USB Port Filter w/6V TVS</description>
       <footprints>
         <fp>TSOP-6</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
         <field name="Value">STF202</field>
+        <field name="Footprint">hack-footprints:TSOP-6</field>
+        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/STF202-22T1-D-117165.pdf</field>
+        <field name="manf#">STF202-22T1G</field>
       </fields>
       <pins>
         <pin num="1" name="VBUS" type="power_out"/>
@@ -541,6 +601,8 @@
       <fields>
         <field name="Reference">P</field>
         <field name="Value">USB_micro</field>
+        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320010000.pdf</field>
+        <field name="manf#">320010000</field>
       </fields>
       <pins>
         <pin num="1" name="VBUS" type="power_in"/>
