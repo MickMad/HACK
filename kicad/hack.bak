@@ -1,9 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:hack
 LIBS:power
-LIBS:conn
-LIBS:regul
-LIBS:atmel
 LIBS:hack-cache
 EELAYER 25 0
 EELAYER END

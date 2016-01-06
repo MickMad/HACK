@@ -1,3 +1,31 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABS07
+D Abracon 32768 KHz Crystal
+F datasheets/ABS07-11028.pdf
+$ENDCMP
+#
+$CMP ATSAMD21E
+D Atmel SAM D21 Cortex M0+ series
+F datasheets/Atmel-42181-SAM-D21_Datasheet.pdf
+$ENDCMP
+#
+$CMP FERRITE_BEAD
+D Murata EMI Filter Beads, Chips & Arrays 220ohms GHz General Usage
+F datasheets/ENFA0003-769587.pdf
+$ENDCMP
+#
+$CMP L_Small
+D Panasonic Fixed Inductors 10uH 20% 550mA 380mohm
+F datasheets/AGM0000CE1-37141.pdf
+$ENDCMP
+#
+$CMP MIC5528
+D Microchip / Micrel LDO Voltage Regulators High-Performance 500mA LDO
+$ENDCMP
+#
+$CMP STF202
+D ON Semiconductor ESD Suppressors Upstream USB Port Filter w/6V TVS
+$ENDCMP
+#
 #End Doc Library

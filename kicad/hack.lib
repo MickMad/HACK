@@ -7,7 +7,8 @@ DEF ABS07 X 0 40 Y Y 1 F N
 F0 "X" 0 -150 40 H V C CNB
 F1 "ABS07" 0 25 40 H V C CNB
 F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/306010055.pdf" 0 -150 60 H V C CNN
+F4 "306010055" 100 -50 60 H V C CNN "manf#"
 DRAW
 P 2 0 0 10  -200 -50  -200 -250 N
 P 2 0 0 10  200 -50  200 -250 N
@@ -23,7 +24,8 @@ DEF ATSAMD21E U 0 40 Y Y 1 F N
 F0 "U" -650 200 40 H V L CNB
 F1 "ATSAMD21E" -425 200 40 H V L CNB
 F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/Atmel-42181-SAM-D21_Datasheet.pdf" -650 200 60 H V C CNN
+F4 "ATSAMD21E18A-MU" -550 300 60 H V C CNN "manf#"
 $FPLIST
  TQFP-32
  QFN-32
@@ -185,7 +187,8 @@ DEF FERRITE_BEAD L 0 40 N Y 1 F N
 F0 "L" -35 90 40 H V L CNB
 F1 "FERRITE_BEAD" -185 -95 40 H V L CNB
 F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/ENFA0003-769587.pdf" -35 90 60 H V C CNN
+F4 "BLM18EG221SN1D" 65 190 60 H V C CNN "manf#"
 DRAW
 S -100 50 100 -50 1 1 0 F
 X ~ 1 -150 0 50 R 40 40 1 1 P
@@ -272,7 +275,8 @@ DEF L_Small L 0 10 N N 1 F N
 F0 "L" 30 40 40 H V L CNB
 F1 "L_Small" 30 -40 40 H V L CNB
 F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/AGM0000CE1-37141.pdf" 30 40 50 H V C CNN
+F4 "ELL-VFG100MC" 130 140 60 H V C CNN "manf#"
 $FPLIST
  CP*
  SM*
@@ -332,7 +336,8 @@ DEF MIC5528 U 0 40 Y Y 1 F N
 F0 "U" 0 250 40 H V C CNB
 F1 "MIC5528" 0 150 40 H V C CNB
 F2 "" 0 200 60 H V C CNN
-F3 "" 0 200 60 H V C CNN
+F3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/MIC5528-779152.pdf" 0 200 60 H V C CNN
+F4 "MIC5528-3.3YMT-TR" 100 350 60 H V C CNN "manf#"
 $FPLIST
  SOT-223
 $ENDFPLIST
@@ -425,8 +430,9 @@ ENDDEF
 DEF STF202 U 0 40 Y Y 1 F N
 F0 "U" -250 50 40 H V C CNB
 F1 "STF202" 0 50 40 H V C CNB
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F2 "hack-footprints:TSOP-6" -350 -50 60 H V C CNN
+F3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/STF202-22T1-D-117165.pdf" -250 50 60 H V C CNN
+F4 "STF202-22T1G" -150 150 60 H V C CNN "manf#"
 $FPLIST
  TSOP-6
 $ENDFPLIST
@@ -448,7 +454,8 @@ DEF USB_micro P 0 40 Y Y 1 F N
 F0 "P" 0 50 40 H V C CNB
 F1 "USB_micro" 0 -50 40 H V C CNB
 F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320010000.pdf" 0 50 60 H V C CNN
+F4 "320010000" 100 150 60 H V C CNN "manf#"
 $FPLIST
  USB*
 $ENDFPLIST
