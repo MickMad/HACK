@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\mperla.CORP\Documents\GitHub\HACK\kicad\hack.sch</source>
-    <date>07/01/2016 11:34:19</date>
+    <source>C:/Users/mperla.CORP/Documents/GitHub/HACK/kicad/hack.sch</source>
+    <date>07/01/2016 12:04:46</date>
     <tool>Eeschema (2015-08-16 BZR 6097, Git b384c94)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,7 +24,6 @@
       <footprint>hack-footprints:R_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/301010151.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">301010151</field>
         <field name="kicost:Seeedstudio:pricing">100:$1</field>
       </fields>
@@ -37,7 +36,6 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100850P1.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">302010144</field>
         <field name="kicost:Seeedstudio:pricing">100:$1</field>
       </fields>
@@ -50,7 +48,6 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">302010097</field>
         <field name="kicost:Seeedstudio:pricing">100:$1</field>
       </fields>
@@ -74,7 +71,6 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">302010138</field>
         <field name="kicost:Seeedstudio:pricing">100:$2</field>
       </fields>
@@ -87,7 +83,6 @@
       <footprint>hack-footprints:Pin_Castellated_1x13</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320020128.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">320020128</field>
         <field name="kicost:Seeedstudio:pricing">30:$2.4</field>
       </fields>
@@ -111,7 +106,6 @@
       <footprint>hack-footprints:R_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">301010300</field>
         <field name="kicost:Seeedstudio:pricing">100:$1</field>
       </fields>
@@ -124,7 +118,6 @@
       <footprint>hack-footprints:SPST-PTS_810</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/311020045.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">311020045</field>
         <field name="kicost:Seeedstudio:pricing">10:$2.036</field>
       </fields>
@@ -137,7 +130,6 @@
       <footprint>hack-footprints:R_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011240P1.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">301010299</field>
         <field name="kicost:Seeedstudio:pricing">100:$1</field>
       </fields>
@@ -150,7 +142,6 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">CC0603MRX5R5BB225</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
@@ -220,9 +211,7 @@
       <footprint>hack-footprints:ST-USB-001G</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320010000.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">320010000</field>
-        <field name="kicost:Seeedstudio:pricing">10:$3</field>
       </fields>
       <libsource lib="hack" part="USB_micro"/>
       <sheetpath names="/" tstamps="/"/>
@@ -255,7 +244,6 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">CC0603MRX5R5BB225</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
@@ -267,7 +255,6 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">302010097</field>
         <field name="kicost:Seeedstudio:pricing">100:$1</field>
       </fields>
@@ -280,9 +267,7 @@
       <footprint>hack-footprints:xtal_3.2x1.5mm</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/306010055.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">306010055</field>
-        <field name="kicost:Seeedstudio:pricing">5:$1.75</field>
       </fields>
       <libsource lib="hack" part="ABS07"/>
       <sheetpath names="/" tstamps="/"/>
@@ -293,7 +278,6 @@
       <footprint>hack-footprints:Pin_Castellated_1x13</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320020128.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">320020128</field>
         <field name="kicost:Seeedstudio:pricing">30:$2.4</field>
       </fields>
@@ -335,7 +319,6 @@
       <footprint>hack-footprints:R_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">301010300</field>
         <field name="kicost:Seeedstudio:pricing">100:$1</field>
       </fields>
@@ -348,7 +331,6 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">302010138</field>
         <field name="kicost:Seeedstudio:pricing">100:$2</field>
       </fields>
@@ -361,7 +343,6 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">302010138</field>
         <field name="kicost:Seeedstudio:pricing">100:$2</field>
       </fields>
@@ -374,7 +355,6 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
-        <field name="Mfr. Part #">0</field>
         <field name="manf#">302010138</field>
         <field name="kicost:Seeedstudio:pricing">100:$2</field>
       </fields>
@@ -413,7 +393,9 @@
         <field name="Reference">X</field>
         <field name="Value">ABS07</field>
         <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/306010055.pdf</field>
+        <field name="Mfr. Part #">0</field>
         <field name="manf#">306010055</field>
+        <field name="kicost:Seeedstudio:pricing">5:$1.75</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -702,7 +684,9 @@
         <field name="Reference">P</field>
         <field name="Value">USB_micro</field>
         <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320010000.pdf</field>
+        <field name="Mfr. Part #">0</field>
         <field name="manf#">320010000</field>
+        <field name="kicost:Seeedstudio:pricing">10:$3</field>
       </fields>
       <pins>
         <pin num="1" name="VBUS" type="power_in"/>

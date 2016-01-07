@@ -24,9 +24,8 @@ F 0 "R1" H 2075 1975 40  0000 L CNB
 F 1 "1M" V 2025 1975 40  0000 C CNN
 F 2 "hack-footprints:R_0603_HandSoldering" H 2025 1975 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/301010151.pdf" H 2025 1975 40  0001 C CNB
-F 4 "0" H 2025 1975 60  0001 C CNN "Mfr. Part #"
-F 5 "301010151" H 2025 1975 60  0001 C CNN "manf#"
-F 6 "100:$1" H 2025 1975 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "301010151" H 2025 1975 60  0001 C CNN "manf#"
+F 5 "100:$1" H 2025 1975 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    2025 1975
 	1    0    0    -1  
 $EndComp
@@ -38,9 +37,8 @@ F 0 "C5" H 1775 1975 40  0000 L CNB
 F 1 "4.7nF" H 1775 1900 40  0000 L CNN
 F 2 "hack-footprints:C_0603_HandSoldering" H 1700 1975 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100850P1.pdf" H 1700 1975 40  0001 C CNB
-F 4 "0" H 1700 1975 60  0001 C CNN "Mfr. Part #"
-F 5 "302010144" H 1700 1975 60  0001 C CNN "manf#"
-F 6 "100:$1" H 1700 1975 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "302010144" H 1700 1975 60  0001 C CNN "manf#"
+F 5 "100:$1" H 1700 1975 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    1700 1975
 	1    0    0    -1  
 $EndComp
@@ -95,9 +93,8 @@ F 0 "C6" H 1575 4350 40  0000 L CNB
 F 1 "10pF" H 1575 4275 40  0000 L CNN
 F 2 "hack-footprints:C_0603_HandSoldering" H 1500 4350 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf" H 1500 4350 40  0001 C CNB
-F 4 "0" H 1500 4350 60  0001 C CNN "Mfr. Part #"
-F 5 "302010097" H 1500 4350 60  0001 C CNN "manf#"
-F 6 "100:$1" H 1500 4350 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "302010097" H 1500 4350 60  0001 C CNN "manf#"
+F 5 "100:$1" H 1500 4350 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    1500 4350
 	1    0    0    -1  
 $EndComp
@@ -121,9 +118,8 @@ F 0 "C8" H 5225 2425 40  0000 R CNB
 F 1 "100nF" H 5225 2350 40  0000 R CNN
 F 2 "hack-footprints:C_0603_HandSoldering" H 5300 2425 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 5300 2425 40  0001 C CNB
-F 4 "0" H 5300 2425 60  0001 C CNN "Mfr. Part #"
-F 5 "302010138" H 5300 2425 60  0001 C CNN "manf#"
-F 6 "100:$2" H 5300 2425 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "302010138" H 5300 2425 60  0001 C CNN "manf#"
+F 5 "100:$2" H 5300 2425 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    5300 2425
 	-1   0    0    -1  
 $EndComp
@@ -146,9 +142,8 @@ F 0 "P2" H 1775 6875 40  0000 C CNB
 F 1 "CONN_01X13" V 1875 6175 40  0000 C CNB
 F 2 "hack-footprints:Pin_Castellated_1x13" H 1775 6175 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320020128.pdf" H 1775 6175 40  0001 C CNB
-F 4 "0" H 1775 6175 60  0001 C CNN "Mfr. Part #"
-F 5 "320020128" H 1775 6175 60  0001 C CNN "manf#"
-F 6 "30:$2.4" H 1775 6175 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "320020128" H 1775 6175 60  0001 C CNN "manf#"
+F 5 "30:$2.4" H 1775 6175 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    1775 6175
 	1    0    0    -1  
 $EndComp
@@ -172,9 +167,8 @@ F 0 "R2" H 8100 2625 40  0000 L CNB
 F 1 "330" V 8050 2625 40  0000 C CNN
 F 2 "hack-footprints:R_0603_HandSoldering" H 8050 2625 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf" H 8050 2625 40  0001 C CNB
-F 4 "0" H 8050 2625 60  0001 C CNN "Mfr. Part #"
-F 5 "301010300" H 8050 2625 60  0001 C CNN "manf#"
-F 6 "100:$1" H 8050 2625 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "301010300" H 8050 2625 60  0001 C CNN "manf#"
+F 5 "100:$1" H 8050 2625 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    8050 2625
 	1    0    0    -1  
 $EndComp
@@ -186,9 +180,8 @@ F 0 "S1" V 9350 3125 40  0000 L CNB
 F 1 "RST" V 9275 3125 40  0000 L CNN
 F 2 "hack-footprints:SPST-PTS_810" H 9350 2950 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/311020045.pdf" H 9350 2950 40  0001 C CNB
-F 4 "0" H 9350 2950 60  0001 C CNN "Mfr. Part #"
-F 5 "311020045" V 9350 2950 60  0001 C CNN "manf#"
-F 6 "10:$2.036" V 9350 2950 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "311020045" V 9350 2950 60  0001 C CNN "manf#"
+F 5 "10:$2.036" V 9350 2950 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    9350 2950
 	0    1    -1   0   
 $EndComp
@@ -279,9 +272,8 @@ F 0 "R3" H 9025 2175 40  0000 L CNB
 F 1 "10k" V 8975 2175 40  0000 C CNN
 F 2 "hack-footprints:R_0603_HandSoldering" H 8975 2175 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011240P1.pdf" H 8975 2175 40  0001 C CNB
-F 4 "0" H 8975 2175 60  0001 C CNN "Mfr. Part #"
-F 5 "301010299" H 8975 2175 60  0001 C CNN "manf#"
-F 6 "100:$1" H 8975 2175 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "301010299" H 8975 2175 60  0001 C CNN "manf#"
+F 5 "100:$1" H 8975 2175 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    8975 2175
 	1    0    0    1   
 $EndComp
@@ -321,8 +313,7 @@ F 0 "C1" H 1575 3350 40  0000 L CNB
 F 1 "2.2uF" H 1575 3275 40  0000 L CNN
 F 2 "hack-footprints:C_0603_HandSoldering" H 1500 3350 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf" H 1500 3350 40  0001 C CNB
-F 4 "0" H 1500 3350 60  0001 C CNN "Mfr. Part #"
-F 5 "CC0603MRX5R5BB225" H 1500 3350 60  0001 C CNN "manf#"
+F 4 "CC0603MRX5R5BB225" H 1500 3350 60  0001 C CNN "manf#"
 	1    1500 3350
 	1    0    0    -1  
 $EndComp
@@ -774,9 +765,7 @@ F 0 "P1" H 1250 1200 40  0000 C CNB
 F 1 "USB_micro" H 1250 1100 40  0000 C CNB
 F 2 "hack-footprints:ST-USB-001G" H 1250 1150 60  0001 C CNN
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320010000.pdf" H 1250 1200 60  0001 C CNN
-F 4 "0" H 1250 1150 60  0001 C CNN "Mfr. Part #"
-F 5 "320010000" H 1350 1300 60  0001 C CNN "manf#"
-F 6 "10:$3" H 1250 1150 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "320010000" H 1350 1300 60  0001 C CNN "manf#"
 	1    1250 1150
 	1    0    0    -1  
 $EndComp
@@ -812,8 +801,7 @@ F 0 "C2" H 2875 3350 40  0000 L CNB
 F 1 "2.2uF" H 2875 3275 40  0000 L CNN
 F 2 "hack-footprints:C_0603_HandSoldering" H 2800 3350 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf" H 2800 3350 40  0001 C CNB
-F 4 "0" H 2800 3350 60  0001 C CNN "Mfr. Part #"
-F 5 "CC0603MRX5R5BB225" H 2800 3350 60  0001 C CNN "manf#"
+F 4 "CC0603MRX5R5BB225" H 2800 3350 60  0001 C CNN "manf#"
 	1    2800 3350
 	1    0    0    -1  
 $EndComp
@@ -825,9 +813,8 @@ F 0 "C7" H 2775 4350 40  0000 L CNB
 F 1 "10pF" H 2775 4275 40  0000 L CNN
 F 2 "hack-footprints:C_0603_HandSoldering" H 2700 4350 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf" H 2700 4350 40  0001 C CNB
-F 4 "0" H 2700 4350 60  0001 C CNN "Mfr. Part #"
-F 5 "302010097" H 2700 4350 60  0001 C CNN "manf#"
-F 6 "100:$1" H 2700 4350 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "302010097" H 2700 4350 60  0001 C CNN "manf#"
+F 5 "100:$1" H 2700 4350 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    2700 4350
 	1    0    0    -1  
 $EndComp
@@ -839,9 +826,7 @@ F 0 "X1" H 2100 4050 40  0000 C CNB
 F 1 "ABS07" H 2100 3950 40  0000 C CNB
 F 2 "hack-footprints:xtal_3.2x1.5mm" H 2100 4050 60  0001 C CNN
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/306010055.pdf" H 2100 3900 60  0001 C CNN
-F 4 "0" H 2100 4050 60  0001 C CNN "Mfr. Part #"
-F 5 "306010055" H 2200 4000 60  0001 C CNN "manf#"
-F 6 "5:$1.75" H 2100 4050 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "306010055" H 2200 4000 60  0001 C CNN "manf#"
 	1    2100 4050
 	1    0    0    -1  
 $EndComp
@@ -853,9 +838,8 @@ F 0 "P3" H 2625 5475 40  0000 C CNB
 F 1 "CONN_01X13" V 2725 6175 40  0000 C CNB
 F 2 "hack-footprints:Pin_Castellated_1x13" H 2625 6175 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320020128.pdf" H 2625 6175 40  0001 C CNB
-F 4 "0" H 2625 6175 60  0001 C CNN "Mfr. Part #"
-F 5 "320020128" H 2625 6175 60  0001 C CNN "manf#"
-F 6 "30:$2.4" H 2625 6175 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "320020128" H 2625 6175 60  0001 C CNN "manf#"
+F 5 "30:$2.4" H 2625 6175 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    2625 6175
 	-1   0    0    1   
 $EndComp
@@ -902,9 +886,8 @@ F 0 "R4" H 9400 2625 40  0000 L CNB
 F 1 "330" V 9350 2625 40  0000 C CNN
 F 2 "hack-footprints:R_0603_HandSoldering" H 9350 2625 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf" H 9350 2625 40  0001 C CNB
-F 4 "0" H 9350 2625 60  0001 C CNN "Mfr. Part #"
-F 5 "301010300" H 9350 2625 60  0001 C CNN "manf#"
-F 6 "100:$1" H 9350 2625 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "301010300" H 9350 2625 60  0001 C CNN "manf#"
+F 5 "100:$1" H 9350 2625 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    9350 2625
 	1    0    0    -1  
 $EndComp
@@ -916,9 +899,8 @@ F 0 "C9" H 7475 2025 40  0000 R CNB
 F 1 "100nF" H 7475 1950 40  0000 R CNN
 F 2 "hack-footprints:C_0603_HandSoldering" H 7550 2025 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 7550 2025 40  0001 C CNB
-F 4 "0" H 7550 2025 60  0001 C CNN "Mfr. Part #"
-F 5 "302010138" H 7550 2025 60  0001 C CNN "manf#"
-F 6 "100:$2" H 7550 2025 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "302010138" H 7550 2025 60  0001 C CNN "manf#"
+F 5 "100:$2" H 7550 2025 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    7550 2025
 	-1   0    0    -1  
 $EndComp
@@ -930,9 +912,8 @@ F 0 "C10" H 7975 2025 40  0000 R CNB
 F 1 "100nF" H 7975 1950 40  0000 R CNN
 F 2 "hack-footprints:C_0603_HandSoldering" H 8050 2025 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 8050 2025 40  0001 C CNB
-F 4 "0" H 8050 2025 60  0001 C CNN "Mfr. Part #"
-F 5 "302010138" H 8050 2025 60  0001 C CNN "manf#"
-F 6 "100:$2" H 8050 2025 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "302010138" H 8050 2025 60  0001 C CNN "manf#"
+F 5 "100:$2" H 8050 2025 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    8050 2025
 	-1   0    0    -1  
 $EndComp
@@ -944,9 +925,8 @@ F 0 "C11" H 8900 2950 40  0000 R CNB
 F 1 "100nF" H 8900 2875 40  0000 R CNN
 F 2 "hack-footprints:C_0603_HandSoldering" H 8975 2950 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 8975 2950 40  0001 C CNB
-F 4 "0" H 8975 2950 60  0001 C CNN "Mfr. Part #"
-F 5 "302010138" H 8975 2950 60  0001 C CNN "manf#"
-F 6 "100:$2" H 8975 2950 60  0001 C CNN "kicost:Seeedstudio:pricing"
+F 4 "302010138" H 8975 2950 60  0001 C CNN "manf#"
+F 5 "100:$2" H 8975 2950 60  0001 C CNN "kicost:Seeedstudio:pricing"
 	1    8975 2950
 	-1   0    0    -1  
 $EndComp
