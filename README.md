@@ -3,6 +3,10 @@
 
 A Cortex-M0+ development kit with an Atmel SAM R21, a USB device/host port, a regulator, some passives, a programming header, and breakout headers.
 
+![HACK top](https://github.com/MickMad/HACK/blob/master/graphics/hack01.png)
+
+![HACK bottom](https://github.com/MickMad/HACK/blob/master/graphics/hack02.png)
+
 ```
 Copyright © Michele Perla 2015
 
