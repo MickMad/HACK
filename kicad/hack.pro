@@ -1,4 +1,4 @@
-update=Wed Jan  6 15:13:50 2016
+update=Thu Jan  7 12:14:53 2016
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ LabSize=60
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=hack
-LibName2=power
+LibName1=power
+LibName2=hack
 [general]
 version=1
