@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\MickMad\Documents\GitHub\HACK\kicad\hack.sch</source>
-    <date>06/01/2016 22:54:39</date>
-    <tool>Eeschema 4.0.1-stable</tool>
+    <source>C:\Users\mperla.CORP\Documents\GitHub\HACK\kicad\hack.sch</source>
+    <date>07/01/2016 11:34:19</date>
+    <tool>Eeschema (2015-08-16 BZR 6097, Git b384c94)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>HACK</title>
@@ -19,33 +19,14 @@
     </sheet>
   </design>
   <components>
-    <comp ref="U3">
-      <value>ATSAMD21E</value>
-      <footprint>hack:QFN-32-1EP_5x5mm_Pitch0.5mm</footprint>
-      <libsource lib="hack" part="ATSAMD21E"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5656E464</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>STF202</value>
-      <footprint>hack:TSOP-6</footprint>
-      <libsource lib="hack" part="STF202"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5656E679</tstamp>
-    </comp>
-    <comp ref="P1">
-      <value>USB_micro</value>
-      <footprint>hack:47346-0001</footprint>
-      <libsource lib="hack" part="USB_micro"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5657010B</tstamp>
-    </comp>
     <comp ref="R1">
       <value>1M</value>
-      <footprint>hack:R_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:R_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/301010151.pdf</datasheet>
       <fields>
+        <field name="Mfr. Part #">0</field>
         <field name="manf#">301010151</field>
+        <field name="kicost:Seeedstudio:pricing">100:$1</field>
       </fields>
       <libsource lib="hack" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -53,10 +34,12 @@
     </comp>
     <comp ref="C5">
       <value>4.7nF</value>
-      <footprint>hack:C_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100850P1.pdf</datasheet>
       <fields>
+        <field name="Mfr. Part #">0</field>
         <field name="manf#">302010144</field>
+        <field name="kicost:Seeedstudio:pricing">100:$1</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -64,25 +47,20 @@
     </comp>
     <comp ref="C6">
       <value>10pF</value>
-      <footprint>hack:C_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf</datasheet>
       <fields>
+        <field name="Mfr. Part #">0</field>
         <field name="manf#">302010097</field>
+        <field name="kicost:Seeedstudio:pricing">100:$1</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56575F2E</tstamp>
     </comp>
-    <comp ref="C7">
-      <value>10pF</value>
-      <footprint>hack:C_0603_HandSoldering</footprint>
-      <libsource lib="hack" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56576565</tstamp>
-    </comp>
     <comp ref="C3">
       <value>10uF</value>
-      <footprint>hack:c_elec_3x5.3</footprint>
+      <footprint>hack-footprints:c_elec_3x5.3</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/e-wx-11809.pdf</datasheet>
       <fields>
         <field name="manf#">UWX1C100MCL2GB</field>
@@ -93,67 +71,33 @@
     </comp>
     <comp ref="C8">
       <value>100nF</value>
-      <footprint>hack:C_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
+        <field name="Mfr. Part #">0</field>
         <field name="manf#">302010138</field>
+        <field name="kicost:Seeedstudio:pricing">100:$2</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56577B23</tstamp>
     </comp>
-    <comp ref="C9">
-      <value>100nF</value>
-      <footprint>hack:C_0603_HandSoldering</footprint>
-      <libsource lib="hack" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56578DF5</tstamp>
-    </comp>
-    <comp ref="C10">
-      <value>100nF</value>
-      <footprint>hack:C_0603_HandSoldering</footprint>
-      <libsource lib="hack" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56578FD6</tstamp>
-    </comp>
-    <comp ref="L2">
-      <value>10uH</value>
-      <footprint>hack:ELLVFG</footprint>
-      <libsource lib="hack" part="L_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5657A334</tstamp>
-    </comp>
-    <comp ref="L1">
-      <value>BLM18EG221</value>
-      <footprint>hack:L_0603_HandSoldering</footprint>
-      <libsource lib="hack" part="FERRITE_BEAD"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5657A81E</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>10uF</value>
-      <footprint>hack:c_elec_3x5.3</footprint>
-      <libsource lib="hack" part="CP_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5657C55A</tstamp>
-    </comp>
     <comp ref="P2">
       <value>CONN_01X13</value>
       <footprint>hack-footprints:Pin_Castellated_1x13</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320020128.pdf</datasheet>
+      <fields>
+        <field name="Mfr. Part #">0</field>
+        <field name="manf#">320020128</field>
+        <field name="kicost:Seeedstudio:pricing">30:$2.4</field>
+      </fields>
       <libsource lib="hack" part="CONN_01X13"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56587624</tstamp>
     </comp>
-    <comp ref="P3">
-      <value>CONN_01X13</value>
-      <footprint>hack-footprints:Pin_Castellated_1x13</footprint>
-      <libsource lib="hack" part="CONN_01X13"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56587957</tstamp>
-    </comp>
     <comp ref="D1">
       <value>RED</value>
-      <footprint>hack:LED_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:LED_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0330020P1.pdf</datasheet>
       <fields>
         <field name="manf#">304090042</field>
@@ -164,35 +108,25 @@
     </comp>
     <comp ref="R2">
       <value>330</value>
-      <footprint>hack:R_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:R_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf</datasheet>
       <fields>
+        <field name="Mfr. Part #">0</field>
         <field name="manf#">301010300</field>
+        <field name="kicost:Seeedstudio:pricing">100:$1</field>
       </fields>
       <libsource lib="hack" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56588562</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>330</value>
-      <footprint>hack:R_0603_HandSoldering</footprint>
-      <libsource lib="hack" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56589A59</tstamp>
-    </comp>
-    <comp ref="C11">
-      <value>100nF</value>
-      <footprint>hack:C_0603_HandSoldering</footprint>
-      <libsource lib="hack" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56589C41</tstamp>
     </comp>
     <comp ref="S1">
       <value>RST</value>
       <footprint>hack-footprints:SPST-PTS_810</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/311020045.pdf</datasheet>
       <fields>
+        <field name="Mfr. Part #">0</field>
         <field name="manf#">311020045</field>
+        <field name="kicost:Seeedstudio:pricing">10:$2.036</field>
       </fields>
       <libsource lib="hack" part="SPST-M"/>
       <sheetpath names="/" tstamps="/"/>
@@ -200,78 +134,60 @@
     </comp>
     <comp ref="R3">
       <value>10k</value>
-      <footprint>hack:R_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:R_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011240P1.pdf</datasheet>
       <fields>
+        <field name="Mfr. Part #">0</field>
         <field name="manf#">301010299</field>
+        <field name="kicost:Seeedstudio:pricing">100:$1</field>
       </fields>
       <libsource lib="hack" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5659B02E</tstamp>
     </comp>
-    <comp ref="U1">
-      <value>MIC5528</value>
-      <footprint>hack:DFN-6-1EP_1.2x1.2mm_Pitch0.4mm</footprint>
-      <libsource lib="hack" part="MIC5528"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567AC91D</tstamp>
-    </comp>
     <comp ref="C1">
       <value>2.2uF</value>
-      <footprint>hack:C_0603_HandSoldering</footprint>
-      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010054.pdf</datasheet>
+      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf</datasheet>
       <fields>
-        <field name="manf#">302010054</field>
+        <field name="Mfr. Part #">0</field>
+        <field name="manf#">CC0603MRX5R5BB225</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567ADE21</tstamp>
     </comp>
-    <comp ref="C2">
-      <value>2.2uF</value>
-      <footprint>hack:C_0603_HandSoldering</footprint>
-      <libsource lib="hack" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567ADE94</tstamp>
-    </comp>
     <comp ref="JP1">
       <value>Jumper_NO_Small</value>
-      <footprint>hack:SMD_Jumper</footprint>
+      <footprint>hack-footprints:SMD_Jumper</footprint>
       <libsource lib="hack" part="Jumper_NO_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567C1358</tstamp>
     </comp>
-    <comp ref="P4">
-      <value>CONN_01X01</value>
-      <footprint>hack-footprints:Pin_Castellated_1x01</footprint>
-      <libsource lib="hack" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567C599F</tstamp>
-    </comp>
     <comp ref="FID1">
       <value>FIDUCIAL</value>
-      <footprint>hack:FIDUCIAL</footprint>
+      <footprint>hack-footprints:FIDUCIAL</footprint>
       <libsource lib="hack" part="FIDUCIAL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567C2921</tstamp>
     </comp>
     <comp ref="FID2">
       <value>FIDUCIAL</value>
-      <footprint>hack:FIDUCIAL</footprint>
+      <footprint>hack-footprints:FIDUCIAL</footprint>
       <libsource lib="hack" part="FIDUCIAL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567C2A0D</tstamp>
     </comp>
     <comp ref="FID3">
       <value>FIDUCIAL</value>
-      <footprint>hack:FIDUCIAL</footprint>
+      <footprint>hack-footprints:FIDUCIAL</footprint>
       <libsource lib="hack" part="FIDUCIAL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567C2EF2</tstamp>
     </comp>
     <comp ref="LOGO2">
       <value>HACKADAY</value>
-      <footprint>hack:HACKADAY-LOGO</footprint>
+      <footprint>hack-footprints:HACKADAY-LOGO</footprint>
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
@@ -281,7 +197,7 @@
     </comp>
     <comp ref="LOGO1">
       <value>OSHW</value>
-      <footprint>hack:OSHW-LOGO</footprint>
+      <footprint>hack-footprints:OSHW-LOGO</footprint>
       <fields>
         <field name="manf#">mfr_pn</field>
       </fields>
@@ -291,6 +207,7 @@
     </comp>
     <comp ref="LOGO3">
       <value>HACK</value>
+      <footprint>hack-footprints:HACK-LOGO</footprint>
       <fields>
         <field name="manf#">Value</field>
       </fields>
@@ -298,11 +215,194 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>568C457B</tstamp>
     </comp>
+    <comp ref="P1">
+      <value>USB_micro</value>
+      <footprint>hack-footprints:ST-USB-001G</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320010000.pdf</datasheet>
+      <fields>
+        <field name="Mfr. Part #">0</field>
+        <field name="manf#">320010000</field>
+        <field name="kicost:Seeedstudio:pricing">10:$3</field>
+      </fields>
+      <libsource lib="hack" part="USB_micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568DEDE0</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>STF202</value>
+      <footprint>hack-footprints:TSOP-6</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/STF202-22T1-D-117165.pdf</datasheet>
+      <fields>
+        <field name="manf#">STF202-22T1G</field>
+      </fields>
+      <libsource lib="hack" part="STF202"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E01AF</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MIC5528</value>
+      <footprint>hack-footprints:DFN-6-1EP_1.2x1.2mm_Pitch0.4mm</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/MIC5528-779152.pdf</datasheet>
+      <fields>
+        <field name="manf#">MIC5528-3.3YMT-TR</field>
+      </fields>
+      <libsource lib="hack" part="MIC5528"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E0B91</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF</value>
+      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf</datasheet>
+      <fields>
+        <field name="Mfr. Part #">0</field>
+        <field name="manf#">CC0603MRX5R5BB225</field>
+      </fields>
+      <libsource lib="hack" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E114E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10pF</value>
+      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf</datasheet>
+      <fields>
+        <field name="Mfr. Part #">0</field>
+        <field name="manf#">302010097</field>
+        <field name="kicost:Seeedstudio:pricing">100:$1</field>
+      </fields>
+      <libsource lib="hack" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E1524</tstamp>
+    </comp>
     <comp ref="X1">
       <value>ABS07</value>
+      <footprint>hack-footprints:xtal_3.2x1.5mm</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/306010055.pdf</datasheet>
+      <fields>
+        <field name="Mfr. Part #">0</field>
+        <field name="manf#">306010055</field>
+        <field name="kicost:Seeedstudio:pricing">5:$1.75</field>
+      </fields>
       <libsource lib="hack" part="ABS07"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>568CCDAA</tstamp>
+      <tstamp>568E18BC</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X13</value>
+      <footprint>hack-footprints:Pin_Castellated_1x13</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320020128.pdf</datasheet>
+      <fields>
+        <field name="Mfr. Part #">0</field>
+        <field name="manf#">320020128</field>
+        <field name="kicost:Seeedstudio:pricing">30:$2.4</field>
+      </fields>
+      <libsource lib="hack" part="CONN_01X13"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E22DB</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X01</value>
+      <footprint>hack-footprints:Pin_Castellated_1x01</footprint>
+      <libsource lib="hack" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E26C4</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ATSAMD21E</value>
+      <footprint>hack-footprints:QFN-32-1EP_5x5mm_Pitch0.5mm</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/Atmel-42181-SAM-D21_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="manf#">ATSAMD21E18A-MU</field>
+      </fields>
+      <libsource lib="hack" part="ATSAMD21E"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E2B7A</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>BLM18EG221</value>
+      <footprint>hack-footprints:L_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/ENFA0003-769587.pdf</datasheet>
+      <fields>
+        <field name="manf#">BLM18EG221SN1D</field>
+      </fields>
+      <libsource lib="hack" part="FERRITE_BEAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E35DA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>hack-footprints:R_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf</datasheet>
+      <fields>
+        <field name="Mfr. Part #">0</field>
+        <field name="manf#">301010300</field>
+        <field name="kicost:Seeedstudio:pricing">100:$1</field>
+      </fields>
+      <libsource lib="hack" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E44C5</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
+      <fields>
+        <field name="Mfr. Part #">0</field>
+        <field name="manf#">302010138</field>
+        <field name="kicost:Seeedstudio:pricing">100:$2</field>
+      </fields>
+      <libsource lib="hack" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E4A0A</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
+      <fields>
+        <field name="Mfr. Part #">0</field>
+        <field name="manf#">302010138</field>
+        <field name="kicost:Seeedstudio:pricing">100:$2</field>
+      </fields>
+      <libsource lib="hack" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E4DBE</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
+      <fields>
+        <field name="Mfr. Part #">0</field>
+        <field name="manf#">302010138</field>
+        <field name="kicost:Seeedstudio:pricing">100:$2</field>
+      </fields>
+      <libsource lib="hack" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E4FE1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>hack-footprints:c_elec_3x5.3</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/e-wx-11809.pdf</datasheet>
+      <fields>
+        <field name="manf#">UWX1C100MCL2GB</field>
+      </fields>
+      <libsource lib="hack" part="CP_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E5502</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>10uH</value>
+      <footprint>hack-footprints:ELLVFG</footprint>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/AGM0000CE1-37141.pdf</datasheet>
+      <fields>
+        <field name="manf#">ELL-VFG100MC</field>
+      </fields>
+      <libsource lib="hack" part="L_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568E59BE</tstamp>
     </comp>
   </components>
   <libparts>
@@ -616,220 +716,220 @@
   </libparts>
   <libraries>
     <library logical="hack">
-      <uri>C:\Users\MickMad\Documents\GitHub\HACK\kicad\hack.lib</uri>
+      <uri>C:\Users\mperla.CORP\Documents\GitHub\HACK\kicad\hack.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(P1-Pad3)">
-      <node ref="U2" pin="3"/>
-      <node ref="P1" pin="3"/>
-    </net>
-    <net code="2" name="Net-(P1-Pad2)">
-      <node ref="P1" pin="2"/>
-      <node ref="U2" pin="2"/>
-    </net>
-    <net code="3" name="/VDDCORE">
-      <node ref="C9" pin="1"/>
-      <node ref="U3" pin="29"/>
-    </net>
-    <net code="4" name="XOUT32">
-      <node ref="U3" pin="2"/>
-      <node ref="X1" pin="2"/>
-      <node ref="C7" pin="1"/>
-    </net>
-    <net code="5" name="XIN32">
-      <node ref="X1" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="U3" pin="1"/>
-    </net>
-    <net code="6" name="Net-(P1-Pad4)">
-      <node ref="P1" pin="4"/>
-    </net>
-    <net code="7" name="USB-D+">
-      <node ref="U3" pin="24"/>
-      <node ref="U2" pin="4"/>
-    </net>
-    <net code="8" name="USB-D-">
-      <node ref="U3" pin="23"/>
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="9" name="/shield">
-      <node ref="C5" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="P1" pin="6"/>
-    </net>
-    <net code="10" name="VLDO">
-      <node ref="C1" pin="1"/>
-      <node ref="U1" pin="6"/>
-      <node ref="JP1" pin="2"/>
-      <node ref="P2" pin="2"/>
-    </net>
-    <net code="11" name="VBUS">
-      <node ref="U2" pin="1"/>
-      <node ref="P1" pin="1"/>
-      <node ref="JP1" pin="1"/>
-    </net>
-    <net code="12" name="VDDANA">
-      <node ref="C3" pin="1"/>
-      <node ref="U3" pin="9"/>
-      <node ref="C8" pin="1"/>
-      <node ref="L1" pin="2"/>
-      <node ref="P4" pin="1"/>
-    </net>
-    <net code="13" name="Net-(R4-Pad2)">
-      <node ref="R4" pin="2"/>
-      <node ref="S1" pin="3"/>
-    </net>
-    <net code="14" name="Net-(S1-Pad2)">
-      <node ref="S1" pin="2"/>
-    </net>
-    <net code="15" name="Net-(S1-Pad4)">
-      <node ref="S1" pin="4"/>
-    </net>
-    <net code="16" name="VDD">
-      <node ref="U1" pin="1"/>
-      <node ref="L1" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="L2" pin="1"/>
-      <node ref="C2" pin="1"/>
-    </net>
-    <net code="17" name="Net-(D1-Pad1)">
-      <node ref="R2" pin="2"/>
-      <node ref="D1" pin="1"/>
-    </net>
-    <net code="18" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="19" name="VDDF">
-      <node ref="C10" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U3" pin="30"/>
-      <node ref="P2" pin="3"/>
-      <node ref="L2" pin="2"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="20" name="PA27/12">
-      <node ref="U3" pin="25"/>
-      <node ref="P2" pin="4"/>
-    </net>
-    <net code="21" name="Net-(U1-Pad5)">
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="22" name="GND">
-      <node ref="C5" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="C7" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U1" pin="7"/>
-      <node ref="U3" pin="28"/>
-      <node ref="U2" pin="6"/>
-      <node ref="U3" pin="10"/>
-      <node ref="C11" pin="2"/>
-      <node ref="U3" pin="33"/>
-      <node ref="P1" pin="5"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="P2" pin="1"/>
-      <node ref="S1" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="23" name="PA07/A5">
-      <node ref="P3" pin="1"/>
-      <node ref="U3" pin="8"/>
-    </net>
-    <net code="24" name="PA19/9">
-      <node ref="P3" pin="11"/>
-      <node ref="U3" pin="20"/>
-    </net>
-    <net code="25" name="PA18/8">
-      <node ref="U3" pin="19"/>
-      <node ref="P3" pin="10"/>
-    </net>
-    <net code="26" name="PA17/7">
-      <node ref="P3" pin="9"/>
-      <node ref="U3" pin="18"/>
-    </net>
-    <net code="27" name="PA16/6">
-      <node ref="U3" pin="17"/>
-      <node ref="P3" pin="8"/>
-    </net>
-    <net code="28" name="PA15/5">
-      <node ref="P3" pin="7"/>
-      <node ref="U3" pin="16"/>
-    </net>
-    <net code="29" name="PA14/4">
-      <node ref="P3" pin="6"/>
-      <node ref="U3" pin="15"/>
-    </net>
-    <net code="30" name="PA11/3">
-      <node ref="P3" pin="5"/>
-      <node ref="U3" pin="14"/>
-    </net>
-    <net code="31" name="PA10/2">
-      <node ref="U3" pin="13"/>
-      <node ref="P3" pin="4"/>
-    </net>
-    <net code="32" name="PA09/1">
-      <node ref="P3" pin="3"/>
-      <node ref="U3" pin="12"/>
-    </net>
-    <net code="33" name="PA08/0">
-      <node ref="U3" pin="11"/>
-      <node ref="P3" pin="2"/>
-    </net>
-    <net code="34" name="PA22/10">
-      <node ref="P3" pin="12"/>
-      <node ref="U3" pin="21"/>
-    </net>
-    <net code="35" name="PA06/A4">
-      <node ref="U3" pin="7"/>
-      <node ref="P2" pin="13"/>
-    </net>
-    <net code="36" name="PA05/A3">
-      <node ref="P2" pin="12"/>
-      <node ref="U3" pin="6"/>
-    </net>
-    <net code="37" name="PA04/A2">
-      <node ref="P2" pin="11"/>
-      <node ref="U3" pin="5"/>
-    </net>
-    <net code="38" name="PA03/A1">
-      <node ref="U3" pin="4"/>
-      <node ref="P2" pin="10"/>
-    </net>
-    <net code="39" name="PA02/A0">
+    <net code="1" name="PA02/A0">
       <node ref="U3" pin="3"/>
       <node ref="P2" pin="9"/>
     </net>
-    <net code="40" name="PA31/SWDIO">
-      <node ref="P2" pin="8"/>
-      <node ref="U3" pin="32"/>
+    <net code="2" name="PA03/A1">
+      <node ref="P2" pin="10"/>
+      <node ref="U3" pin="4"/>
     </net>
-    <net code="41" name="PA30/SWCLK">
-      <node ref="P2" pin="7"/>
-      <node ref="U3" pin="31"/>
+    <net code="3" name="PA04/A2">
+      <node ref="U3" pin="5"/>
+      <node ref="P2" pin="11"/>
     </net>
-    <net code="42" name="PA28/13">
+    <net code="4" name="PA05/A3">
+      <node ref="P2" pin="12"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="5" name="PA06/A4">
+      <node ref="P2" pin="13"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="6" name="PA07/A5">
+      <node ref="P3" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="7" name="VDD">
+      <node ref="C2" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="8" name="VLDO">
+      <node ref="P2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="9" name="Net-(R4-Pad2)">
+      <node ref="S1" pin="3"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="10" name="Net-(S1-Pad2)">
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(S1-Pad4)">
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="12" name="PA28/13">
       <node ref="P2" pin="6"/>
       <node ref="U3" pin="27"/>
       <node ref="R2" pin="1"/>
     </net>
-    <net code="43" name="!RESET">
+    <net code="13" name="GND">
+      <node ref="R1" pin="1"/>
+      <node ref="P1" pin="5"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="S1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U3" pin="33"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="14" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="15" name="USB-D+">
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="16" name="USB-D-">
+      <node ref="U3" pin="23"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="17" name="VDDF">
+      <node ref="C10" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U3" pin="30"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="18" name="/VDDCORE">
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="19" name="PA17/7">
+      <node ref="P3" pin="9"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="20" name="PA30/SWCLK">
+      <node ref="U3" pin="31"/>
+      <node ref="P2" pin="7"/>
+    </net>
+    <net code="21" name="PA31/SWDIO">
+      <node ref="P2" pin="8"/>
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="22" name="PA15/5">
+      <node ref="U3" pin="16"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="23" name="PA14/4">
+      <node ref="P3" pin="6"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="24" name="PA11/3">
+      <node ref="P3" pin="5"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="25" name="PA10/2">
+      <node ref="P3" pin="4"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="26" name="PA09/1">
+      <node ref="P3" pin="3"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="27" name="PA08/0">
+      <node ref="P3" pin="2"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="28" name="PA16/6">
+      <node ref="P3" pin="8"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="29" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="30" name="PA18/8">
+      <node ref="P3" pin="10"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="31" name="PA19/9">
+      <node ref="P3" pin="11"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="32" name="PA22/10">
+      <node ref="U3" pin="21"/>
+      <node ref="P3" pin="12"/>
+    </net>
+    <net code="33" name="PA23/11">
+      <node ref="P3" pin="13"/>
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="34" name="PA27/12">
+      <node ref="P2" pin="4"/>
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="35" name="!RESET">
+      <node ref="U3" pin="26"/>
       <node ref="R4" pin="1"/>
       <node ref="C11" pin="1"/>
-      <node ref="P2" pin="5"/>
       <node ref="R3" pin="1"/>
-      <node ref="U3" pin="26"/>
+      <node ref="P2" pin="5"/>
     </net>
-    <net code="44" name="PA23/11">
-      <node ref="U3" pin="22"/>
-      <node ref="P3" pin="13"/>
+    <net code="36" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="38" name="Net-(P1-Pad3)">
+      <node ref="P1" pin="3"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="39" name="Net-(P1-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="40" name="VBUS">
+      <node ref="U2" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="41" name="XIN32">
+      <node ref="U3" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="42" name="VDDANA">
+      <node ref="P4" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="43" name="XOUT32">
+      <node ref="X1" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="44" name="/shield">
+      <node ref="C5" pin="2"/>
+      <node ref="P1" pin="6"/>
+      <node ref="R1" pin="2"/>
     </net>
   </nets>
 </export>

@@ -21,7 +21,7 @@ U 1 1 565719DA
 P 2025 1975
 F 0 "R1" H 2075 1975 40  0000 L CNB
 F 1 "1M" V 2025 1975 40  0000 C CNN
-F 2 "hack:R_0603_HandSoldering" H 2025 1975 40  0001 C CNB
+F 2 "hack-footprints:R_0603_HandSoldering" H 2025 1975 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/301010151.pdf" H 2025 1975 40  0001 C CNB
 F 4 "301010151" H 2025 1975 60  0001 C CNN "manf#"
 	1    2025 1975
@@ -33,7 +33,7 @@ U 1 1 56571A23
 P 1700 1975
 F 0 "C5" H 1775 1975 40  0000 L CNB
 F 1 "4.7nF" H 1775 1900 40  0000 L CNN
-F 2 "hack:C_0603_HandSoldering" H 1700 1975 40  0001 C CNB
+F 2 "hack-footprints:C_0603_HandSoldering" H 1700 1975 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100850P1.pdf" H 1700 1975 40  0001 C CNB
 F 4 "302010144" H 1700 1975 60  0001 C CNN "manf#"
 	1    1700 1975
@@ -88,7 +88,7 @@ U 1 1 56575F2E
 P 1500 4350
 F 0 "C6" H 1575 4350 40  0000 L CNB
 F 1 "10pF" H 1575 4275 40  0000 L CNN
-F 2 "hack:C_0603_HandSoldering" H 1500 4350 40  0001 C CNB
+F 2 "hack-footprints:C_0603_HandSoldering" H 1500 4350 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf" H 1500 4350 40  0001 C CNB
 F 4 "302010097" H 1500 4350 60  0001 C CNN "manf#"
 	1    1500 4350
@@ -100,7 +100,7 @@ U 1 1 56577AD5
 P 4925 2425
 F 0 "C3" H 4850 2425 40  0000 R CNB
 F 1 "10uF" H 4850 2350 40  0000 R CNN
-F 2 "hack:c_elec_3x5.3" H 4925 2425 40  0001 C CNB
+F 2 "hack-footprints:c_elec_3x5.3" H 4925 2425 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/e-wx-11809.pdf" H 4925 2425 40  0001 C CNB
 F 4 "UWX1C100MCL2GB" H 4925 2425 60  0001 C CNN "manf#"
 	1    4925 2425
@@ -112,7 +112,7 @@ U 1 1 56577B23
 P 5300 2425
 F 0 "C8" H 5225 2425 40  0000 R CNB
 F 1 "100nF" H 5225 2350 40  0000 R CNN
-F 2 "hack:C_0603_HandSoldering" H 5300 2425 40  0001 C CNB
+F 2 "hack-footprints:C_0603_HandSoldering" H 5300 2425 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 5300 2425 40  0001 C CNB
 F 4 "302010138" H 5300 2425 60  0001 C CNN "manf#"
 	1    5300 2425
@@ -147,7 +147,7 @@ U 1 1 56587FAD
 P 8050 2950
 F 0 "D1" V 8050 2900 40  0000 R CNB
 F 1 "RED" V 7975 2900 40  0000 R CNN
-F 2 "hack:LED_0603_HandSoldering" V 8050 2950 40  0001 C CNB
+F 2 "hack-footprints:LED_0603_HandSoldering" V 8050 2950 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0330020P1.pdf" V 8050 2950 40  0001 C CNB
 F 4 "304090042" V 8050 2950 60  0001 C CNN "manf#"
 	1    8050 2950
@@ -159,7 +159,7 @@ U 1 1 56588562
 P 8050 2625
 F 0 "R2" H 8100 2625 40  0000 L CNB
 F 1 "330" V 8050 2625 40  0000 C CNN
-F 2 "hack:R_0603_HandSoldering" H 8050 2625 40  0001 C CNB
+F 2 "hack-footprints:R_0603_HandSoldering" H 8050 2625 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf" H 8050 2625 40  0001 C CNB
 F 4 "301010300" H 8050 2625 60  0001 C CNN "manf#"
 	1    8050 2625
@@ -262,7 +262,7 @@ U 1 1 5659B02E
 P 8975 2175
 F 0 "R3" H 9025 2175 40  0000 L CNB
 F 1 "10k" V 8975 2175 40  0000 C CNN
-F 2 "hack:R_0603_HandSoldering" H 8975 2175 40  0001 C CNB
+F 2 "hack-footprints:R_0603_HandSoldering" H 8975 2175 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011240P1.pdf" H 8975 2175 40  0001 C CNB
 F 4 "301010299" H 8975 2175 60  0001 C CNN "manf#"
 	1    8975 2175
@@ -302,7 +302,7 @@ U 1 1 567ADE21
 P 1500 3350
 F 0 "C1" H 1575 3350 40  0000 L CNB
 F 1 "2.2uF" H 1575 3275 40  0000 L CNN
-F 2 "hack:C_0603_HandSoldering" H 1500 3350 40  0001 C CNB
+F 2 "hack-footprints:C_0603_HandSoldering" H 1500 3350 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010054.pdf" H 1500 3350 40  0001 C CNB
 F 4 "302010054" H 1500 3350 60  0001 C CNN "manf#"
 	1    1500 3350
@@ -325,7 +325,7 @@ U 1 1 567C1358
 P 2200 5050
 F 0 "JP1" H 2200 5130 40  0000 C CNB
 F 1 "Jumper_NO_Small" H 2210 4990 40  0001 C CNB
-F 2 "hack:SMD_Jumper" H 2200 5050 40  0001 C CNB
+F 2 "hack-footprints:SMD_Jumper" H 2200 5050 40  0001 C CNB
 F 3 "" H 2200 5050 40  0000 C CNB
 	1    2200 5050
 	1    0    0    -1  
@@ -400,7 +400,7 @@ U 1 1 567C2921
 P 5800 7425
 F 0 "FID1" H 5800 7575 40  0000 C CNB
 F 1 "FIDUCIAL" H 5800 7275 40  0000 C CNB
-F 2 "hack:FIDUCIAL" H 5800 7425 40  0001 C CNB
+F 2 "hack-footprints:FIDUCIAL" H 5800 7425 40  0001 C CNB
 F 3 "" H 5800 7425 40  0000 C CNB
 	1    5800 7425
 	1    0    0    -1  
@@ -411,7 +411,7 @@ U 1 1 567C2A0D
 P 6225 7425
 F 0 "FID2" H 6225 7575 40  0000 C CNB
 F 1 "FIDUCIAL" H 6225 7275 40  0000 C CNB
-F 2 "hack:FIDUCIAL" H 6225 7425 40  0001 C CNB
+F 2 "hack-footprints:FIDUCIAL" H 6225 7425 40  0001 C CNB
 F 3 "" H 6225 7425 40  0000 C CNB
 	1    6225 7425
 	1    0    0    -1  
@@ -422,7 +422,7 @@ U 1 1 567C2EF2
 P 6650 7425
 F 0 "FID3" H 6650 7575 40  0000 C CNB
 F 1 "FIDUCIAL" H 6650 7275 40  0000 C CNB
-F 2 "hack:FIDUCIAL" H 6650 7425 40  0001 C CNB
+F 2 "hack-footprints:FIDUCIAL" H 6650 7425 40  0001 C CNB
 F 3 "" H 6650 7425 40  0000 C CNB
 	1    6650 7425
 	1    0    0    -1  
@@ -451,7 +451,7 @@ U 1 1 56826BC9
 P 10700 6900
 F 0 "LOGO2" H 10700 6718 40  0001 C CNN
 F 1 "HACKADAY" H 10700 7082 40  0001 C CNN
-F 2 "hack:HACKADAY-LOGO" H 10700 6900 60  0001 C CNN
+F 2 "hack-footprints:HACKADAY-LOGO" H 10700 6900 60  0001 C CNN
 F 3 "" H 10700 6900 60  0000 C CNN
 F 4 "mfr_pn" H 10700 6900 60  0001 C CNN "manf#"
 	1    10700 6900
@@ -463,7 +463,7 @@ U 1 1 56826CD5
 P 10700 6100
 F 0 "LOGO1" H 10700 6050 40  0001 C CNN
 F 1 "OSHW" H 10700 6200 40  0001 C CNN
-F 2 "hack:OSHW-LOGO" H 10700 6100 60  0001 C CNN
+F 2 "hack-footprints:OSHW-LOGO" H 10700 6100 60  0001 C CNN
 F 3 "" H 10700 6100 60  0000 C CNN
 F 4 "mfr_pn" H 10700 6100 60  0001 C CNN "manf#"
 	1    10700 6100
@@ -778,7 +778,7 @@ U 1 1 568E0B91
 P 2150 3150
 F 0 "U1" H 2150 3400 40  0000 C CNB
 F 1 "MIC5528" H 2150 3300 40  0000 C CNB
-F 2 "hack:DFN-6-1EP_1.2x1.2mm_Pitch0.4mm" H 2150 3350 60  0001 C CNN
+F 2 "hack-footprints:DFN-6-1EP_1.2x1.2mm_Pitch0.4mm" H 2150 3350 60  0001 C CNN
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/MIC5528-779152.pdf" H 2150 3350 60  0001 C CNN
 F 4 "MIC5528-3.3YMT-TR" H 2250 3500 60  0001 C CNN "manf#"
 	1    2150 3150
@@ -790,7 +790,7 @@ U 1 1 568E114E
 P 2800 3350
 F 0 "C2" H 2875 3350 40  0000 L CNB
 F 1 "2.2uF" H 2875 3275 40  0000 L CNN
-F 2 "hack:C_0603_HandSoldering" H 2800 3350 40  0001 C CNB
+F 2 "hack-footprints:C_0603_HandSoldering" H 2800 3350 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010054.pdf" H 2800 3350 40  0001 C CNB
 F 4 "302010054" H 2800 3350 60  0001 C CNN "manf#"
 	1    2800 3350
@@ -802,7 +802,7 @@ U 1 1 568E1524
 P 2700 4350
 F 0 "C7" H 2775 4350 40  0000 L CNB
 F 1 "10pF" H 2775 4275 40  0000 L CNN
-F 2 "hack:C_0603_HandSoldering" H 2700 4350 40  0001 C CNB
+F 2 "hack-footprints:C_0603_HandSoldering" H 2700 4350 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf" H 2700 4350 40  0001 C CNB
 F 4 "302010097" H 2700 4350 60  0001 C CNN "manf#"
 	1    2700 4350
@@ -849,7 +849,7 @@ U 1 1 568E2B7A
 P 6500 1525
 F 0 "U3" H 5850 1725 40  0000 L CNB
 F 1 "ATSAMD21E" H 6075 1725 40  0000 L CNB
-F 2 "hack:QFN-32-1EP_5x5mm_Pitch0.5mm" H 6500 1525 60  0001 C CNN
+F 2 "hack-footprints:QFN-32-1EP_5x5mm_Pitch0.5mm" H 6500 1525 60  0001 C CNN
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/Atmel-42181-SAM-D21_Datasheet.pdf" H 5850 1725 60  0001 C CNN
 F 4 "ATSAMD21E18A-MU" H 5950 1825 60  0001 C CNN "manf#"
 	1    6500 1525
@@ -873,7 +873,7 @@ U 1 1 568E44C5
 P 9350 2625
 F 0 "R4" H 9400 2625 40  0000 L CNB
 F 1 "330" V 9350 2625 40  0000 C CNN
-F 2 "hack:R_0603_HandSoldering" H 9350 2625 40  0001 C CNB
+F 2 "hack-footprints:R_0603_HandSoldering" H 9350 2625 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf" H 9350 2625 40  0001 C CNB
 F 4 "301010300" H 9350 2625 60  0001 C CNN "manf#"
 	1    9350 2625
@@ -885,7 +885,7 @@ U 1 1 568E4A0A
 P 7550 2025
 F 0 "C9" H 7475 2025 40  0000 R CNB
 F 1 "100nF" H 7475 1950 40  0000 R CNN
-F 2 "hack:C_0603_HandSoldering" H 7550 2025 40  0001 C CNB
+F 2 "hack-footprints:C_0603_HandSoldering" H 7550 2025 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 7550 2025 40  0001 C CNB
 F 4 "302010138" H 7550 2025 60  0001 C CNN "manf#"
 	1    7550 2025
@@ -897,7 +897,7 @@ U 1 1 568E4DBE
 P 8050 2025
 F 0 "C10" H 7975 2025 40  0000 R CNB
 F 1 "100nF" H 7975 1950 40  0000 R CNN
-F 2 "hack:C_0603_HandSoldering" H 8050 2025 40  0001 C CNB
+F 2 "hack-footprints:C_0603_HandSoldering" H 8050 2025 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 8050 2025 40  0001 C CNB
 F 4 "302010138" H 8050 2025 60  0001 C CNN "manf#"
 	1    8050 2025
@@ -909,7 +909,7 @@ U 1 1 568E4FE1
 P 8975 2950
 F 0 "C11" H 8900 2950 40  0000 R CNB
 F 1 "100nF" H 8900 2875 40  0000 R CNN
-F 2 "hack:C_0603_HandSoldering" H 8975 2950 40  0001 C CNB
+F 2 "hack-footprints:C_0603_HandSoldering" H 8975 2950 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 8975 2950 40  0001 C CNB
 F 4 "302010138" H 8975 2950 60  0001 C CNN "manf#"
 	1    8975 2950
@@ -921,7 +921,7 @@ U 1 1 568E5502
 P 8650 2025
 F 0 "C4" H 8575 2025 40  0000 R CNB
 F 1 "10uF" H 8575 1950 40  0000 R CNN
-F 2 "hack:c_elec_3x5.3" H 8650 2025 40  0001 C CNB
+F 2 "hack-footprints:c_elec_3x5.3" H 8650 2025 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/e-wx-11809.pdf" H 8650 2025 40  0001 C CNB
 F 4 "UWX1C100MCL2GB" H 8650 2025 60  0001 C CNN "manf#"
 	1    8650 2025
@@ -933,7 +933,7 @@ U 1 1 568E59BE
 P 8650 1575
 F 0 "L2" H 8680 1615 40  0000 L CNB
 F 1 "10uH" H 8680 1535 40  0000 L CNN
-F 2 "hack:ELLVFG" H 8650 1575 50  0001 C CNN
+F 2 "hack-footprints:ELLVFG" H 8650 1575 50  0001 C CNN
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/AGM0000CE1-37141.pdf" H 8680 1615 50  0001 C CNN
 F 4 "ELL-VFG100MC" H 8780 1715 60  0001 C CNN "manf#"
 	1    8650 1575
