@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/Users/mperla.CORP/Documents/GitHub/HACK/kicad/hack.sch</source>
-    <date>07/01/2016 13:47:26</date>
+    <date>08/01/2016 17:25:32</date>
     <tool>Eeschema (2015-08-16 BZR 6097, Git b384c94)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,8 +24,7 @@
       <footprint>hack-footprints:R_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/301010151.pdf</datasheet>
       <fields>
-        <field name="manf#">301010151</field>
-        <field name="kicost:pricing">1:$0.01</field>
+        <field name="manf#">RC0603FR-071ML</field>
       </fields>
       <libsource lib="hack" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -36,8 +35,7 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100850P1.pdf</datasheet>
       <fields>
-        <field name="manf#">302010144</field>
-        <field name="kicost:pricing">1:$0.01</field>
+        <field name="manf#">CC0603KRX7R9BB472</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -48,8 +46,7 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf</datasheet>
       <fields>
-        <field name="manf#">302010097</field>
-        <field name="kicost:pricing">1:$0.01</field>
+        <field name="manf#">CC0603JRNPO9BN100</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -71,8 +68,7 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
-        <field name="manf#">302010138</field>
-        <field name="kicost:pricing">1:$0.02</field>
+        <field name="manf#">CC0603KRX7R9BB104</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -81,10 +77,9 @@
     <comp ref="P2">
       <value>CONN_01X13</value>
       <footprint>hack-footprints:Pin_Castellated_1x13</footprint>
-      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320020128.pdf</datasheet>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/xRxCzzzSxxN-RC_ST_11635-B.pdf</datasheet>
       <fields>
-        <field name="manf#">320020128</field>
-        <field name="kicost:pricing">1:$0.08</field>
+        <field name="manf#">PREC014SACN-RC</field>
       </fields>
       <libsource lib="hack" part="CONN_01X13"/>
       <sheetpath names="/" tstamps="/"/>
@@ -93,10 +88,9 @@
     <comp ref="D1">
       <value>RED</value>
       <footprint>hack-footprints:LED_0603_HandSoldering</footprint>
-      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0330020P1.pdf</datasheet>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/S_110_LTST-C190KRKT.pdf</datasheet>
       <fields>
-        <field name="manf#">304090042</field>
-        <field name="kicost:pricing">1:$0.03</field>
+        <field name="manf#">LTST-C190KRKT</field>
       </fields>
       <libsource lib="hack" part="Led_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -107,8 +101,7 @@
       <footprint>hack-footprints:R_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf</datasheet>
       <fields>
-        <field name="manf#">301010300</field>
-        <field name="kicost:pricing">1:$0.01</field>
+        <field name="manf#">RC0603FR-07330RL</field>
       </fields>
       <libsource lib="hack" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -119,8 +112,7 @@
       <footprint>hack-footprints:SPST-PTS_810</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/311020045.pdf</datasheet>
       <fields>
-        <field name="manf#">311020045</field>
-        <field name="kicost:pricing">1:$0.2036</field>
+        <field name="manf#">PTS810 SJM 250 SMTR LFS</field>
       </fields>
       <libsource lib="hack" part="SPST-M"/>
       <sheetpath names="/" tstamps="/"/>
@@ -131,8 +123,7 @@
       <footprint>hack-footprints:R_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011240P1.pdf</datasheet>
       <fields>
-        <field name="manf#">301010299</field>
-        <field name="kicost:pricing">1:$0.01</field>
+        <field name="manf#">RC0603FR-0710KL</field>
       </fields>
       <libsource lib="hack" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -210,9 +201,9 @@
     <comp ref="P1">
       <value>USB_micro</value>
       <footprint>hack-footprints:ST-USB-001G</footprint>
-      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320010000.pdf</datasheet>
+      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/10118193.pdf</datasheet>
       <fields>
-        <field name="manf#">320010000</field>
+        <field name="manf#">10118193-0001LF</field>
       </fields>
       <libsource lib="hack" part="USB_micro"/>
       <sheetpath names="/" tstamps="/"/>
@@ -256,8 +247,7 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf</datasheet>
       <fields>
-        <field name="manf#">302010097</field>
-        <field name="kicost:Seeedstudio:pricing">100:$1</field>
+        <field name="manf#">CC0603JRNPO9BN100</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -268,7 +258,7 @@
       <footprint>hack-footprints:xtal_3.2x1.5mm</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/306010055.pdf</datasheet>
       <fields>
-        <field name="manf#">306010055</field>
+        <field name="manf#">ABS07-32.768KHZ-7-T</field>
       </fields>
       <libsource lib="hack" part="ABS07"/>
       <sheetpath names="/" tstamps="/"/>
@@ -279,8 +269,7 @@
       <footprint>hack-footprints:Pin_Castellated_1x13</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320020128.pdf</datasheet>
       <fields>
-        <field name="manf#">320020128</field>
-        <field name="kicost:pricing">1:$0.08</field>
+        <field name="manf#">PREC014SACN-RC</field>
       </fields>
       <libsource lib="hack" part="CONN_01X13"/>
       <sheetpath names="/" tstamps="/"/>
@@ -320,8 +309,7 @@
       <footprint>hack-footprints:R_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf</datasheet>
       <fields>
-        <field name="manf#">301010300</field>
-        <field name="kicost:pricing">1:$0.01</field>
+        <field name="manf#">RC0603FR-07330RL</field>
       </fields>
       <libsource lib="hack" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -332,8 +320,7 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
-        <field name="manf#">302010138</field>
-        <field name="kicost:pricing">1:$0.02</field>
+        <field name="manf#">CC0603KRX7R9BB104</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -344,8 +331,7 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
-        <field name="manf#">302010138</field>
-        <field name="kicost:pricing">1:$0.02</field>
+        <field name="manf#">CC0603KRX7R9BB104</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -356,8 +342,7 @@
       <footprint>hack-footprints:C_0603_HandSoldering</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
-        <field name="manf#">302010138</field>
-        <field name="kicost:pricing">1:$0.02</field>
+        <field name="manf#">CC0603KRX7R9BB104</field>
       </fields>
       <libsource lib="hack" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -387,115 +372,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="hack" part="Led_Small">
-      <footprints>
-        <fp>CP*</fp>
-        <fp>SM*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">Led_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="hack" part="MIC5528">
-      <description>Microchip / Micrel LDO Voltage Regulators High-Performance 500mA LDO</description>
-      <footprints>
-        <fp>SOT-223</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MIC5528</field>
-        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/MIC5528-779152.pdf</field>
-        <field name="manf#">MIC5528-3.3YMT-TR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VOUT" type="power_in"/>
-        <pin num="2" name="VOUT" type="power_in"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="EN" type="input"/>
-        <pin num="5" name="NC" type="NotConnected"/>
-        <pin num="6" name="VIN" type="power_out"/>
-        <pin num="7" name="EP" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="hack" part="OSHW">
-      <fields>
-        <field name="Reference">#G</field>
-        <field name="Value">OSHW</field>
-      </fields>
-    </libpart>
-    <libpart lib="hack" part="R_Small">
-      <footprints>
-        <fp>Resistor_*</fp>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="hack" part="SPST-M">
-      <fields>
-        <field name="Reference">S</field>
-        <field name="Value">SPST-M</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-        <pin num="4" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="hack" part="STF202">
-      <description>ON Semiconductor ESD Suppressors Upstream USB Port Filter w/6V TVS</description>
-      <footprints>
-        <fp>TSOP-6</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">STF202</field>
-        <field name="Footprint">hack-footprints:TSOP-6</field>
-        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/STF202-22T1-D-117165.pdf</field>
-        <field name="manf#">STF202-22T1G</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBUS" type="power_out"/>
-        <pin num="2" name="D-IN" type="input"/>
-        <pin num="3" name="D+IN" type="input"/>
-        <pin num="4" name="D+OUT" type="output"/>
-        <pin num="5" name="D-OUT" type="output"/>
-        <pin num="6" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="hack" part="USB_micro">
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">USB_micro</field>
-        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320010000.pdf</field>
-        <field name="Mfr. Part #">0</field>
-        <field name="manf#">320010000</field>
-        <field name="kicost:pricing">1:$0.3</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBUS" type="power_in"/>
-        <pin num="2" name="D-" type="output"/>
-        <pin num="3" name="D+" type="output"/>
-        <pin num="4" name="ID" type="output"/>
-        <pin num="5" name="GND" type="power_out"/>
-        <pin num="6" name="shield" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="hack" part="ABS07">
       <description>Abracon 32768 KHz Crystal</description>
       <docs>datasheets/ABS07-11028.pdf</docs>
@@ -503,9 +379,6 @@
         <field name="Reference">X</field>
         <field name="Value">ABS07</field>
         <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/306010055.pdf</field>
-        <field name="Mfr. Part #">0</field>
-        <field name="manf#">306010055</field>
-        <field name="kicost:pricing">1:$0.35</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -696,6 +569,112 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hack" part="Led_Small">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hack" part="MIC5528">
+      <description>Microchip / Micrel LDO Voltage Regulators High-Performance 500mA LDO</description>
+      <footprints>
+        <fp>SOT-223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5528</field>
+        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/MIC5528-779152.pdf</field>
+        <field name="manf#">MIC5528-3.3YMT-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="VIN" type="power_out"/>
+        <pin num="7" name="EP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="hack" part="OSHW">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">OSHW</field>
+      </fields>
+    </libpart>
+    <libpart lib="hack" part="R_Small">
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hack" part="SPST-M">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SPST-M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hack" part="STF202">
+      <description>ON Semiconductor ESD Suppressors Upstream USB Port Filter w/6V TVS</description>
+      <footprints>
+        <fp>TSOP-6</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STF202</field>
+        <field name="Footprint">hack-footprints:TSOP-6</field>
+        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/STF202-22T1-D-117165.pdf</field>
+        <field name="manf#">STF202-22T1G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-IN" type="input"/>
+        <pin num="3" name="D+IN" type="input"/>
+        <pin num="4" name="D+OUT" type="output"/>
+        <pin num="5" name="D-OUT" type="output"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="hack" part="USB_micro">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_micro</field>
+        <field name="Datasheet">https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320010000.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="output"/>
+        <pin num="3" name="D+" type="output"/>
+        <pin num="4" name="ID" type="output"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="shield" type="passive"/>
       </pins>
     </libpart>
   </libparts>
