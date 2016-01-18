@@ -1,6 +1,6 @@
-update=Thu Jan  7 15:21:45 2016
+update=18/01/2016 12:13:11
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,6 +23,14 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=power
+LibName2=hack
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -33,11 +41,3 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=power
-LibName2=hack
-[general]
-version=1
