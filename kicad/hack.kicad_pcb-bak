@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-08-16 BZR 6097, Git b384c94)-product")
+(kicad_pcb (version 4) (host pcbnew 4.0.1-3.201512221401+6198~38~ubuntu15.10.1-stable)
 
   (general
     (links 116)
-    (no_connects 1)
-    (area 146.007619 68.952 197.019383 100.352401)
+    (no_connects 0)
+    (area 153.340999 74.219999 187.400001 98.500001)
     (thickness 1.6)
     (drawings 48)
     (tracks 336)
@@ -14,13 +14,13 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user)
+    (36 B.SilkS user hide)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
@@ -31,7 +31,7 @@
     (44 Edge.Cuts user)
     (45 Margin user hide)
     (46 B.CrtYd user hide)
-    (47 F.CrtYd user)
+    (47 F.CrtYd user hide)
     (48 B.Fab user hide)
     (49 F.Fab user hide)
   )
@@ -64,14 +64,14 @@
     (aux_axis_origin 153.416 98.425)
     (visible_elements 7FFFFE7F)
     (pcbplotparams
-      (layerselection 0x01130_80000001)
-      (usegerberextensions false)
-      (excludeedgelayer false)
+      (layerselection 0x010fc_80000001)
+      (usegerberextensions true)
+      (excludeedgelayer true)
       (linewidth 0.100000)
-      (plotframeref true)
+      (plotframeref false)
       (viasonmask false)
       (mode 1)
-      (useauxorigin false)
+      (useauxorigin true)
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
@@ -79,15 +79,15 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue false)
+      (plotvalue true)
       (plotinvisibletext false)
-      (padsonsilk true)
-      (subtractmaskfromsilk false)
-      (outputformat 4)
+      (padsonsilk false)
+      (subtractmaskfromsilk true)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory pdf/))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
@@ -234,7 +234,7 @@
       (net 7 "Net-(R4-Pad2)") (solder_mask_margin 0.0762) (solder_paste_margin -0.0762) (clearance 0.0762))
     (model SW_tact_6x3.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1 1 0.5))
       (rotate (xyz 0 0 0))
     )
   )
@@ -482,6 +482,11 @@
       (net 38 /shield) (solder_mask_margin 0.0762) (solder_paste_margin -0.0762) (clearance 0.0762))
     (pad 6 smd rect (at 0 -1.45) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask)
       (net 38 /shield) (solder_mask_margin 0.0762) (solder_paste_margin -0.0762) (clearance 0.0762))
+    (model micro_USB-B_Molex_105017.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module hack-footprints:Pin_Castellated_1x01 (layer B.Cu) (tedit 569CD0CC) (tstamp 567C2108)
@@ -1943,7 +1948,7 @@
       (net 17 VLDO))
     (pad 2 smd rect (at 0.5 0 270) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Cap_SMD_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1980,6 +1985,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model Cap_SMD_0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module hack-footprints:C_0603 (layer F.Cu) (tedit 569CC200) (tstamp 565CC226)
@@ -2007,7 +2017,7 @@
       (net 4 !RESET))
     (pad 2 smd rect (at 0.5 0 90) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Cap_SMD_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2039,7 +2049,7 @@
       (net 10 VDDF))
     (pad 2 smd rect (at 0.5 0 180) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Cap_SMD_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2071,7 +2081,7 @@
       (net 11 VDDANA))
     (pad 2 smd rect (at 0.5 0 180) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Cap_SMD_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2103,7 +2113,7 @@
       (net 3 XOUT32))
     (pad 2 smd rect (at 0.5 0 270) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Cap_SMD_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2135,7 +2145,7 @@
       (net 2 XIN32))
     (pad 2 smd rect (at 0.5 0 90) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Cap_SMD_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2167,7 +2177,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.5 0 270) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 38 /shield))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Cap_SMD_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2199,7 +2209,7 @@
       (net 39 /VDDCORE))
     (pad 2 smd rect (at 0.5 0 180) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Cap_SMD_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

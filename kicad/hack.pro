@@ -1,6 +1,6 @@
-update=18/01/2016 12:13:11
+update=Mon Jan 18 22:13:48 2016
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -29,8 +29,6 @@ LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=hack
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -41,3 +39,5 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
