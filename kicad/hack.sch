@@ -393,7 +393,7 @@ Text GLabel 2825 6675 2    40   BiDi ~ 0
 PA08/0
 Text GLabel 2825 6075 2    40   BiDi ~ 0
 PA16/6
-Text GLabel 2425 7275 3    40   Output ~ 0
+Text GLabel 2625 7275 3    40   Output ~ 0
 VDDANA
 $Comp
 L FIDUCIAL FID1
@@ -836,12 +836,12 @@ $EndComp
 $Comp
 L CONN_01X01 P4
 U 1 1 568E26C4
-P 2425 7075
-F 0 "P4" V 2425 7175 40  0000 L CNB
-F 1 "CONN_01X01" V 2525 6900 40  0000 L CNB
-F 2 "hack-footprints:Pin_Castellated_1x01" H 2425 7075 50  0001 C CNN
-F 3 "" H 2425 7075 50  0000 C CNN
-	1    2425 7075
+P 2625 7075
+F 0 "P4" V 2625 7175 40  0000 L CNB
+F 1 "CONN_01X01" V 2725 6900 40  0000 L CNB
+F 2 "hack-footprints:Pin_Castellated_1x01" H 2625 7075 50  0001 C CNN
+F 3 "" H 2625 7075 50  0000 C CNN
+	1    2625 7075
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -939,5 +939,31 @@ F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/AGM0000CE1-371
 F 4 "ELL-VFG100MC" H 8780 1715 60  0001 C CNN "manf#"
 	1    8650 1575
 	1    0    0    -1  
+$EndComp
+Text GLabel 2225 7275 3    40   Output ~ 0
+VBUS
+$Comp
+L CONN_01X01 P5
+U 1 1 569F6050
+P 2225 7075
+F 0 "P5" V 2225 7175 40  0000 L CNB
+F 1 "CONN_01X01" V 2325 6900 40  0000 L CNB
+F 2 "hack-footprints:Pin_Castellated_1x01" H 2225 7075 50  0001 C CNN
+F 3 "" H 2225 7075 50  0000 C CNN
+	1    2225 7075
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1825 7275 3    40   Output ~ 0
+GND
+$Comp
+L CONN_01X01 P6
+U 1 1 569F8542
+P 1825 7075
+F 0 "P6" V 1825 7175 40  0000 L CNB
+F 1 "CONN_01X01" V 1925 6900 40  0000 L CNB
+F 2 "hack-footprints:Pin_Castellated_1x01" H 1825 7075 50  0001 C CNN
+F 3 "" H 1825 7075 50  0000 C CNN
+	1    1825 7075
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

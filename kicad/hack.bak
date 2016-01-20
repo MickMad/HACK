@@ -137,7 +137,7 @@ P 1775 6175
 F 0 "P2" H 1775 6875 40  0000 C CNB
 F 1 "CONN_01X13" V 1875 6175 40  0000 C CNB
 F 2 "hack-footprints:Pin_Castellated_1x13" H 1775 6175 40  0001 C CNB
-F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320020128.pdf" H 1775 6175 40  0001 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/xRxCzzzSxxN-RC_ST_11635-B.pdf" H 1775 6175 40  0001 C CNB
 F 4 "PREC014SACN-RC" H 1775 6175 60  0001 C CNN "manf#"
 	1    1775 6175
 	1    0    0    -1  
@@ -149,7 +149,7 @@ P 8050 2950
 F 0 "D1" V 8050 2900 40  0000 R CNB
 F 1 "RED" V 7975 2900 40  0000 R CNN
 F 2 "hack-footprints:LED_0603_HandSoldering" V 8050 2950 40  0001 C CNB
-F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0330020P1.pdf" V 8050 2950 40  0001 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/S_110_LTST-C190KRKT.pdf" V 8050 2950 40  0001 C CNB
 F 4 "LTST-C190KRKT" V 8050 2950 60  0001 C CNN "manf#"
 	1    8050 2950
 	0    -1   -1   0   
@@ -939,5 +939,18 @@ F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/AGM0000CE1-371
 F 4 "ELL-VFG100MC" H 8780 1715 60  0001 C CNN "manf#"
 	1    8650 1575
 	1    0    0    -1  
+$EndComp
+Text GLabel 2025 7275 3    40   Output ~ 0
+VBUS
+$Comp
+L CONN_01X01 P5
+U 1 1 569F6050
+P 2025 7075
+F 0 "P5" V 2025 7175 40  0000 L CNB
+F 1 "CONN_01X01" V 2125 6900 40  0000 L CNB
+F 2 "hack-footprints:Pin_Castellated_1x01" H 2025 7075 50  0001 C CNN
+F 3 "" H 2025 7075 50  0000 C CNN
+	1    2025 7075
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
