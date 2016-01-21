@@ -131,18 +131,6 @@ F 3 "" H 4925 3425 40  0000 C CNB
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X13 P2
-U 1 1 56587624
-P 1775 6175
-F 0 "P2" H 1775 6875 40  0000 C CNB
-F 1 "CONN_01X13" V 1875 6175 40  0000 C CNB
-F 2 "hack-footprints:Pin_Castellated_1x13" H 1775 6175 40  0001 C CNB
-F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/xRxCzzzSxxN-RC_ST_11635-B.pdf" H 1775 6175 40  0001 C CNB
-F 4 "PREC014SACN-RC" H 1775 6175 60  0001 C CNN "manf#"
-	1    1775 6175
-	1    0    0    -1  
-$EndComp
-$Comp
 L Led_Small D1
 U 1 1 56587FAD
 P 8050 2950
@@ -335,31 +323,31 @@ Text GLabel 2100 5050 0    40   Input ~ 0
 VBUS
 Text GLabel 2300 5050 2    40   Input ~ 0
 VLDO
-Text GLabel 1575 5575 0    40   Output ~ 0
+Text GLabel 1450 5800 0    40   Output ~ 0
 GND
-Text GLabel 1575 5675 0    40   BiDi ~ 0
+Text GLabel 1450 5900 0    40   BiDi ~ 0
 VLDO
-Text GLabel 1575 5775 0    40   Output ~ 0
+Text GLabel 1450 6000 0    40   Output ~ 0
 VDDF
-Text GLabel 2825 5975 2    40   BiDi ~ 0
+Text GLabel 2825 6225 2    40   BiDi ~ 0
 PA17/7
-Text GLabel 2825 5875 2    40   BiDi ~ 0
+Text GLabel 2825 6125 2    40   BiDi ~ 0
 PA18/8
-Text GLabel 2825 5775 2    40   BiDi ~ 0
+Text GLabel 2825 6025 2    40   BiDi ~ 0
 PA19/9
-Text GLabel 2825 5675 2    40   BiDi ~ 0
+Text GLabel 2825 5925 2    40   BiDi ~ 0
 PA22/10
-Text GLabel 2825 5575 2    40   BiDi ~ 0
+Text GLabel 2825 5825 2    40   BiDi ~ 0
 PA23/11
-Text GLabel 1575 5875 0    40   BiDi ~ 0
+Text GLabel 1450 6100 0    40   BiDi ~ 0
 PA27/12
-Text GLabel 1575 5975 0    40   Input ~ 0
+Text GLabel 1450 6200 0    40   Input ~ 0
 !RESET
-Text GLabel 1575 6075 0    40   BiDi ~ 0
+Text GLabel 1450 6300 0    40   BiDi ~ 0
 PA28/13
-Text GLabel 1575 6175 0    40   BiDi ~ 0
+Text GLabel 1450 6400 0    40   BiDi ~ 0
 PA30/SWCLK
-Text GLabel 1575 6275 0    40   BiDi ~ 0
+Text GLabel 1450 6500 0    40   BiDi ~ 0
 PA31/SWDIO
 Text GLabel 5700 1625 0    40   Input ~ 0
 XOUT32
@@ -367,33 +355,33 @@ Text GLabel 2775 1500 2    40   Output ~ 0
 USB-D+
 Text GLabel 2775 1400 2    40   Output ~ 0
 USB-D-
-Text GLabel 1575 6375 0    40   BiDi ~ 0
+Text GLabel 1450 6600 0    40   BiDi ~ 0
 PA02/A0
-Text GLabel 1575 6475 0    40   BiDi ~ 0
+Text GLabel 1450 6700 0    40   BiDi ~ 0
 PA03/A1
-Text GLabel 1575 6575 0    40   BiDi ~ 0
+Text GLabel 1450 6800 0    40   BiDi ~ 0
 PA04/A2
-Text GLabel 1575 6675 0    40   BiDi ~ 0
+Text GLabel 1875 7150 3    40   BiDi ~ 0
 PA05/A3
-Text GLabel 1575 6775 0    40   BiDi ~ 0
+Text GLabel 1975 7150 3    40   BiDi ~ 0
 PA06/A4
-Text GLabel 2825 6775 2    40   BiDi ~ 0
+Text GLabel 2075 7150 3    40   BiDi ~ 0
 PA07/A5
-Text GLabel 2825 6175 2    40   BiDi ~ 0
+Text GLabel 2825 6425 2    40   BiDi ~ 0
 PA15/5
-Text GLabel 2825 6275 2    40   BiDi ~ 0
+Text GLabel 2825 6525 2    40   BiDi ~ 0
 PA14/4
-Text GLabel 2825 6375 2    40   BiDi ~ 0
+Text GLabel 2825 6625 2    40   BiDi ~ 0
 PA11/3
-Text GLabel 2825 6475 2    40   BiDi ~ 0
+Text GLabel 2825 6725 2    40   BiDi ~ 0
 PA10/2
-Text GLabel 2825 6575 2    40   BiDi ~ 0
+Text GLabel 2825 6825 2    40   BiDi ~ 0
 PA09/1
-Text GLabel 2825 6675 2    40   BiDi ~ 0
+Text GLabel 2175 7150 3    40   BiDi ~ 0
 PA08/0
-Text GLabel 2825 6075 2    40   BiDi ~ 0
+Text GLabel 2825 6325 2    40   BiDi ~ 0
 PA16/6
-Text GLabel 2425 7275 3    40   Output ~ 0
+Text GLabel 2375 7150 3    40   Output ~ 0
 VDDANA
 $Comp
 L FIDUCIAL FID1
@@ -822,29 +810,6 @@ F 4 "ABS07-32.768KHZ-7-T" H 2200 4000 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X13 P3
-U 1 1 568E22DB
-P 2625 6175
-F 0 "P3" H 2625 5475 40  0000 C CNB
-F 1 "CONN_01X13" V 2725 6175 40  0000 C CNB
-F 2 "hack-footprints:Pin_Castellated_1x13" H 2625 6175 40  0001 C CNB
-F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320020128.pdf" H 2625 6175 40  0001 C CNB
-F 4 "PREC014SACN-RC" H 2625 6175 60  0001 C CNN "manf#"
-	1    2625 6175
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X01 P4
-U 1 1 568E26C4
-P 2425 7075
-F 0 "P4" V 2425 7175 40  0000 L CNB
-F 1 "CONN_01X01" V 2525 6900 40  0000 L CNB
-F 2 "hack-footprints:Pin_Castellated_1x01" H 2425 7075 50  0001 C CNN
-F 3 "" H 2425 7075 50  0000 C CNN
-	1    2425 7075
-	0    -1   -1   0   
-$EndComp
-$Comp
 L ATSAMD21E U3
 U 1 1 568E2B7A
 P 6500 1525
@@ -940,17 +905,52 @@ F 4 "ELL-VFG100MC" H 8780 1715 60  0001 C CNN "manf#"
 	1    8650 1575
 	1    0    0    -1  
 $EndComp
-Text GLabel 2025 7275 3    40   Output ~ 0
+Text GLabel 2175 5575 1    40   Output ~ 0
 VBUS
 $Comp
 L CONN_01X01 P5
 U 1 1 569F6050
-P 2025 7075
-F 0 "P5" V 2025 7175 40  0000 L CNB
-F 1 "CONN_01X01" V 2125 6900 40  0000 L CNB
-F 2 "hack-footprints:Pin_Castellated_1x01" H 2025 7075 50  0001 C CNN
-F 3 "" H 2025 7075 50  0000 C CNN
-	1    2025 7075
+P 2175 5775
+F 0 "P5" V 2175 5875 40  0000 L CNB
+F 1 "CONN_01X01" V 2275 5600 40  0000 L CNB
+F 2 "hack-footprints:Pin_Castellated_1x01" H 2175 5775 50  0001 C CNN
+F 3 "" H 2175 5775 50  0000 C CNN
+	1    2175 5775
+	0    1    1    0   
+$EndComp
+Text GLabel 2275 7150 3    40   Output ~ 0
+GND
+$Comp
+L CONN_01X06 P4
+U 1 1 56A11B5B
+P 2125 6950
+F 0 "P4" H 2200 7225 40  0000 L CNB
+F 1 "CONN_01X06" V 2225 6750 40  0000 L CNB
+F 2 "hack-footprints:Pin_Castellated_1x06" H 2125 6600 50  0001 C CNN
+F 3 "" H 2125 6600 50  0000 C CNN
+	1    2125 6950
 	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X11 P2
+U 1 1 56A1367E
+P 1650 6300
+F 0 "P2" H 1725 6825 40  0000 L CNB
+F 1 "CONN_01X11" V 1750 6025 40  0000 L CNB
+F 2 "hack-footprints:Pin_Castellated_1x11" H 1650 6200 50  0001 C CNN
+F 3 "" H 1650 6200 50  0000 C CNN
+	1    1650 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X11 P3
+U 1 1 56A13781
+P 2625 6325
+F 0 "P3" H 2700 6850 40  0000 L CNB
+F 1 "CONN_01X11" V 2725 6050 40  0000 L CNB
+F 2 "hack-footprints:Pin_Castellated_1x11" H 2625 6225 50  0001 C CNN
+F 3 "" H 2625 6225 50  0000 C CNN
+	1    2625 6325
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
