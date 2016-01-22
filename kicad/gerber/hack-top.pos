@@ -1,4 +1,4 @@
-### Module positions - created on 22/01/2016 14:41:42 ###
+### Module positions - created on 22/01/2016 15:18:36 ###
 ### Printed by Pcbnew version kicad (2015-08-16 BZR 6097, Git b384c94)-product
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -7,7 +7,7 @@ C1       2.2uF            C_0603              0.1875     0.2550     180.0    top
 C2       2.2uF            C_0603              0.3175     0.2350     270.0    top
 C3       10uF             c_elec_3x5.3        0.3275     0.6500      90.0    top
 C4       10uF             c_elec_3x5.3        0.4400     0.3300       0.0    top
-C5       4.7nF            C_0603              0.0950     0.6800     270.0    top
+C5       4.7nF            C_0603              0.0460     0.2370     180.0    top
 C6       10pF             C_0603              0.9725     0.4050      90.0    top
 C7       10pF             C_0603              0.9725     0.4800     270.0    top
 C8       100nF            C_0603              0.7700     0.6450     180.0    top
@@ -20,7 +20,7 @@ FID2     FIDUCIAL         FIDUCIAL            0.1700     0.6810       0.0    top
 FID3     FIDUCIAL         FIDUCIAL            0.9650     0.6750       0.0    top
 L1       BLM18EG221       L_0603              0.4625     0.6050      90.0    top
 L2       10uH             ELLVFG              0.2875     0.3675       0.0    top
-R1       1M               R_0603              0.0450     0.6800     270.0    top
+R1       1M               R_0603              0.0460     0.2870     180.0    top
 R2       330              R_0603              0.5725     0.2000     180.0    top
 R3       10k              R_0603              0.6990     0.1945       0.0    top
 R4       330              R_0603              0.6990     0.2425       0.0    top
