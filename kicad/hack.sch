@@ -928,6 +928,7 @@ F 0 "P4" H 2200 7225 40  0000 L CNB
 F 1 "CONN_01X06" V 2225 6750 40  0000 L CNB
 F 2 "hack-footprints:Pin_Castellated_1x06" H 2125 6600 50  0001 C CNN
 F 3 "" H 2125 6600 50  0000 C CNN
+F 4 "1" H 2125 6950 60  0001 C CNN "manf#"
 	1    2125 6950
 	0    1    -1   0   
 $EndComp

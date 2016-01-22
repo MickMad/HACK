@@ -18,5 +18,3 @@ MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A
 PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable
 conditions
 ```
-
-test

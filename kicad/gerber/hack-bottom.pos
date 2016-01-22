@@ -1,10 +1,9 @@
-### Module positions - created on 20/01/2016 15:18:47 ###
+### Module positions - created on 22/01/2016 14:41:42 ###
 ### Printed by Pcbnew version kicad (2015-08-16 BZR 6097, Git b384c94)-product
 ## Unit = inches, Angle = deg.
 ## Side : bottom
 # Ref    Val                  Package         PosX       PosY        Rot     Side
 JP1      Jumper_NO_Small  SMD_Jumper          0.0550     0.4750     270.0    bottom
-LOGO1    OSHW             OSHW-LOGO           1.0500     0.3750     180.0    bottom
-LOGO2    HACKADAY         HACKADAY-LOGO       0.3000     0.3750     180.0    bottom
-LOGO3    HACK             HACK-LOGO           0.6750     0.6250     180.0    bottom
+LOGO1    OSHW             OSHW-LOGO           0.8500     0.4000     180.0    bottom
+LOGO2    HACKADAY         HACKADAY-LOGO       0.2500     0.4000     180.0    bottom
 ## End
