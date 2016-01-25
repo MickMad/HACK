@@ -22,7 +22,7 @@ U 1 1 565719DA
 P 2025 1975
 F 0 "R1" H 2075 1975 40  0000 L CNB
 F 1 "1M" V 2025 1975 40  0000 C CNN
-F 2 "hack-footprints:R_0603_HandSoldering" H 2025 1975 40  0001 C CNB
+F 2 "hack-footprints:R_0603" H 2025 1975 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/301010151.pdf" H 2025 1975 40  0001 C CNB
 F 4 "RC0603FR-071ML" H 2025 1975 60  0001 C CNN "manf#"
 	1    2025 1975
@@ -34,7 +34,7 @@ U 1 1 56571A23
 P 1700 1975
 F 0 "C5" H 1775 1975 40  0000 L CNB
 F 1 "4.7nF" H 1775 1900 40  0000 L CNN
-F 2 "hack-footprints:C_0603_HandSoldering" H 1700 1975 40  0001 C CNB
+F 2 "hack-footprints:C_0603" H 1700 1975 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100850P1.pdf" H 1700 1975 40  0001 C CNB
 F 4 "CC0603KRX7R9BB472" H 1700 1975 60  0001 C CNN "manf#"
 	1    1700 1975
@@ -68,31 +68,31 @@ F 3 "" H 3175 2100 40  0000 C CNB
 $EndComp
 Text GLabel 5700 1525 0    40   Output ~ 0
 XIN32
-Text GLabel 1375 4200 0    40   Input ~ 0
+Text GLabel 1375 3825 0    40   Input ~ 0
 XIN32
-Text GLabel 2825 4200 2    40   Output ~ 0
+Text GLabel 2825 3825 2    40   Output ~ 0
 XOUT32
 $Comp
 L GND #PWR03
 U 1 1 56575AA6
-P 2100 4550
-F 0 "#PWR03" H 2100 4300 40  0001 C CNB
-F 1 "GND" H 2100 4400 40  0000 C CNB
-F 2 "" H 2100 4550 40  0000 C CNB
-F 3 "" H 2100 4550 40  0000 C CNB
-	1    2100 4550
+P 2100 4175
+F 0 "#PWR03" H 2100 3925 40  0001 C CNB
+F 1 "GND" H 2100 4025 40  0000 C CNB
+F 2 "" H 2100 4175 40  0000 C CNB
+F 3 "" H 2100 4175 40  0000 C CNB
+	1    2100 4175
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C6
 U 1 1 56575F2E
-P 1500 4350
-F 0 "C6" H 1575 4350 40  0000 L CNB
-F 1 "10pF" H 1575 4275 40  0000 L CNN
-F 2 "hack-footprints:C_0603_HandSoldering" H 1500 4350 40  0001 C CNB
-F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf" H 1500 4350 40  0001 C CNB
-F 4 "CC0603JRNPO9BN100" H 1500 4350 60  0001 C CNN "manf#"
-	1    1500 4350
+P 1500 3975
+F 0 "C6" H 1575 3975 40  0000 L CNB
+F 1 "10pF" H 1575 3900 40  0000 L CNN
+F 2 "hack-footprints:C_0603" H 1500 3975 40  0001 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf" H 1500 3975 40  0001 C CNB
+F 4 "CC0603JRNPO9BN100" H 1500 3975 60  0001 C CNN "manf#"
+	1    1500 3975
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -101,7 +101,7 @@ U 1 1 56577AD5
 P 4925 2425
 F 0 "C3" H 4850 2425 40  0000 R CNB
 F 1 "10uF" H 4850 2350 40  0000 R CNN
-F 2 "hack-footprints:c_elec_3x5.3" H 4925 2425 40  0001 C CNB
+F 2 "hack-footprints:CAP_ELEC_SMD_3x5mm" H 4925 2425 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/e-wx-11809.pdf" H 4925 2425 40  0001 C CNB
 F 4 "UWX1C100MCL2GB" H 4925 2425 60  0001 C CNN "manf#"
 	1    4925 2425
@@ -113,7 +113,7 @@ U 1 1 56577B23
 P 5300 2425
 F 0 "C8" H 5225 2425 40  0000 R CNB
 F 1 "100nF" H 5225 2350 40  0000 R CNN
-F 2 "hack-footprints:C_0603_HandSoldering" H 5300 2425 40  0001 C CNB
+F 2 "hack-footprints:C_0603" H 5300 2425 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 5300 2425 40  0001 C CNB
 F 4 "CC0603KRX7R9BB104" H 5300 2425 60  0001 C CNN "manf#"
 	1    5300 2425
@@ -136,7 +136,7 @@ U 1 1 56587FAD
 P 8050 2950
 F 0 "D1" V 8050 2900 40  0000 R CNB
 F 1 "RED" V 7975 2900 40  0000 R CNN
-F 2 "hack-footprints:LED_0603_HandSoldering" V 8050 2950 40  0001 C CNB
+F 2 "hack-footprints:LED_0603" V 8050 2950 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/S_110_LTST-C190KRKT.pdf" V 8050 2950 40  0001 C CNB
 F 4 "LTST-C190KRKT" V 8050 2950 60  0001 C CNN "manf#"
 	1    8050 2950
@@ -148,7 +148,7 @@ U 1 1 56588562
 P 8050 2625
 F 0 "R2" H 8100 2625 40  0000 L CNB
 F 1 "330" V 8050 2625 40  0000 C CNN
-F 2 "hack-footprints:R_0603_HandSoldering" H 8050 2625 40  0001 C CNB
+F 2 "hack-footprints:R_0603" H 8050 2625 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf" H 8050 2625 40  0001 C CNB
 F 4 "RC0603FR-07330RL" H 8050 2625 60  0001 C CNN "manf#"
 	1    8050 2625
@@ -237,12 +237,12 @@ PA07/A5
 $Comp
 L GND #PWR07
 U 1 1 56599C96
-P 2150 3550
-F 0 "#PWR07" H 2150 3300 40  0001 C CNB
-F 1 "GND" H 2150 3400 40  0000 C CNB
-F 2 "" H 2150 3550 40  0000 C CNB
-F 3 "" H 2150 3550 40  0000 C CNB
-	1    2150 3550
+P 2150 3350
+F 0 "#PWR07" H 2150 3100 40  0001 C CNB
+F 1 "GND" H 2150 3200 40  0000 C CNB
+F 2 "" H 2150 3350 40  0000 C CNB
+F 3 "" H 2150 3350 40  0000 C CNB
+	1    2150 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -251,7 +251,7 @@ U 1 1 5659B02E
 P 8975 2175
 F 0 "R3" H 9025 2175 40  0000 L CNB
 F 1 "10k" V 8975 2175 40  0000 C CNN
-F 2 "hack-footprints:R_0603_HandSoldering" H 8975 2175 40  0001 C CNB
+F 2 "hack-footprints:R_0603" H 8975 2175 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011240P1.pdf" H 8975 2175 40  0001 C CNB
 F 4 "RC0603FR-0710KL" H 8975 2175 60  0001 C CNN "manf#"
 	1    8975 2175
@@ -270,11 +270,11 @@ F 3 "" H 8650 2175 40  0000 C CNB
 $EndComp
 Text GLabel 9425 1725 2    40   Input ~ 0
 VDDF
-Text GLabel 2925 3100 2    40   Input ~ 0
+Text GLabel 2925 2900 2    40   Input ~ 0
 VDD
 Text GLabel 4625 2325 0    40   Input ~ 0
 VDDANA
-Text GLabel 1375 3100 0    40   Input ~ 0
+Text GLabel 1375 2900 0    40   Input ~ 0
 VLDO
 Text GLabel 1700 1250 1    40   Input ~ 0
 VBUS
@@ -284,17 +284,17 @@ Text GLabel 9425 1400 2    40   Input ~ 0
 VDD
 Text GLabel 9425 1875 2    40   Input ~ 0
 VDDF
-NoConn ~ 1800 3200
+NoConn ~ 1800 3000
 $Comp
 L C_Small C1
 U 1 1 567ADE21
-P 1500 3350
-F 0 "C1" H 1575 3350 40  0000 L CNB
-F 1 "2.2uF" H 1575 3275 40  0000 L CNN
-F 2 "hack-footprints:C_0603_HandSoldering" H 1500 3350 40  0001 C CNB
-F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf" H 1500 3350 40  0001 C CNB
-F 4 "CC0603MRX5R5BB225" H 1500 3350 60  0001 C CNN "manf#"
-	1    1500 3350
+P 1500 3150
+F 0 "C1" H 1575 3150 40  0000 L CNB
+F 1 "2.2uF" H 1575 3075 40  0000 L CNN
+F 2 "hack-footprints:C_0603" H 1500 3150 40  0001 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf" H 1500 3150 40  0001 C CNB
+F 4 "CC0603MRX5R5BB225" H 1500 3150 60  0001 C CNN "manf#"
+	1    1500 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -311,43 +311,43 @@ $EndComp
 $Comp
 L Jumper_NO_Small JP1
 U 1 1 567C1358
-P 2200 5050
-F 0 "JP1" H 2200 5130 40  0000 C CNB
-F 1 "Jumper_NO_Small" H 2210 4990 40  0001 C CNB
-F 2 "hack-footprints:SMD_Jumper" H 2200 5050 40  0001 C CNB
-F 3 "" H 2200 5050 40  0000 C CNB
-	1    2200 5050
+P 2200 4675
+F 0 "JP1" H 2200 4755 40  0000 C CNB
+F 1 "Jumper_NO_Small" H 2210 4615 40  0001 C CNB
+F 2 "hack-footprints:SMD_Jumper" H 2200 4675 40  0001 C CNB
+F 3 "" H 2200 4675 40  0000 C CNB
+	1    2200 4675
 	1    0    0    -1  
 $EndComp
-Text GLabel 2100 5050 0    40   Input ~ 0
+Text GLabel 2100 4675 0    40   Input ~ 0
 VBUS
-Text GLabel 2300 5050 2    40   Input ~ 0
+Text GLabel 2300 4675 2    40   Input ~ 0
 VLDO
-Text GLabel 1450 5800 0    40   Output ~ 0
+Text GLabel 1450 5425 0    40   Output ~ 0
 GND
-Text GLabel 1450 5900 0    40   BiDi ~ 0
+Text GLabel 1450 5525 0    40   BiDi ~ 0
 VLDO
-Text GLabel 1450 6000 0    40   Output ~ 0
+Text GLabel 1450 5625 0    40   Output ~ 0
 VDDF
-Text GLabel 2825 6225 2    40   BiDi ~ 0
+Text GLabel 2825 5850 2    40   BiDi ~ 0
 PA17/7
-Text GLabel 2825 6125 2    40   BiDi ~ 0
+Text GLabel 2825 5750 2    40   BiDi ~ 0
 PA18/8
-Text GLabel 2825 6025 2    40   BiDi ~ 0
+Text GLabel 2825 5650 2    40   BiDi ~ 0
 PA19/9
-Text GLabel 2825 5925 2    40   BiDi ~ 0
+Text GLabel 2825 5550 2    40   BiDi ~ 0
 PA22/10
-Text GLabel 2825 5825 2    40   BiDi ~ 0
+Text GLabel 2825 5450 2    40   BiDi ~ 0
 PA23/11
-Text GLabel 1450 6100 0    40   BiDi ~ 0
+Text GLabel 1450 5725 0    40   BiDi ~ 0
 PA27/12
-Text GLabel 1450 6200 0    40   Input ~ 0
+Text GLabel 1450 5825 0    40   Input ~ 0
 !RESET
-Text GLabel 1450 6300 0    40   BiDi ~ 0
+Text GLabel 1450 5925 0    40   BiDi ~ 0
 PA28/13
-Text GLabel 1450 6400 0    40   BiDi ~ 0
+Text GLabel 1450 6025 0    40   BiDi ~ 0
 PA30/SWCLK
-Text GLabel 1450 6500 0    40   BiDi ~ 0
+Text GLabel 1450 6125 0    40   BiDi ~ 0
 PA31/SWDIO
 Text GLabel 5700 1625 0    40   Input ~ 0
 XOUT32
@@ -355,84 +355,51 @@ Text GLabel 2775 1500 2    40   Output ~ 0
 USB-D+
 Text GLabel 2775 1400 2    40   Output ~ 0
 USB-D-
-Text GLabel 1450 6600 0    40   BiDi ~ 0
+Text GLabel 1450 6225 0    40   BiDi ~ 0
 PA02/A0
-Text GLabel 1450 6700 0    40   BiDi ~ 0
+Text GLabel 1450 6325 0    40   BiDi ~ 0
 PA03/A1
-Text GLabel 1450 6800 0    40   BiDi ~ 0
+Text GLabel 1450 6425 0    40   BiDi ~ 0
 PA04/A2
-Text GLabel 1875 7150 3    40   BiDi ~ 0
+Text GLabel 1450 6525 0    40   BiDi ~ 0
 PA05/A3
-Text GLabel 1975 7150 3    40   BiDi ~ 0
+Text GLabel 1450 6625 0    40   BiDi ~ 0
 PA06/A4
-Text GLabel 2075 7150 3    40   BiDi ~ 0
+Text GLabel 1450 6725 0    40   BiDi ~ 0
 PA07/A5
-Text GLabel 2825 6425 2    40   BiDi ~ 0
+Text GLabel 2825 6050 2    40   BiDi ~ 0
 PA15/5
-Text GLabel 2825 6525 2    40   BiDi ~ 0
+Text GLabel 2825 6150 2    40   BiDi ~ 0
 PA14/4
-Text GLabel 2825 6625 2    40   BiDi ~ 0
+Text GLabel 2825 6250 2    40   BiDi ~ 0
 PA11/3
-Text GLabel 2825 6725 2    40   BiDi ~ 0
+Text GLabel 2825 6350 2    40   BiDi ~ 0
 PA10/2
-Text GLabel 2825 6825 2    40   BiDi ~ 0
+Text GLabel 2825 6450 2    40   BiDi ~ 0
 PA09/1
-Text GLabel 2175 7150 3    40   BiDi ~ 0
+Text GLabel 2825 6550 2    40   BiDi ~ 0
 PA08/0
-Text GLabel 2825 6325 2    40   BiDi ~ 0
+Text GLabel 2825 5950 2    40   BiDi ~ 0
 PA16/6
-Text GLabel 2375 7150 3    40   Output ~ 0
+Text GLabel 2825 6650 2    40   Output ~ 0
 VDDANA
-$Comp
-L FIDUCIAL FID1
-U 1 1 567C2921
-P 5800 7425
-F 0 "FID1" H 5800 7575 40  0000 C CNB
-F 1 "FIDUCIAL" H 5800 7275 40  0000 C CNB
-F 2 "hack-footprints:FIDUCIAL" H 5800 7425 40  0001 C CNB
-F 3 "" H 5800 7425 40  0000 C CNB
-	1    5800 7425
-	1    0    0    -1  
-$EndComp
-$Comp
-L FIDUCIAL FID2
-U 1 1 567C2A0D
-P 6225 7425
-F 0 "FID2" H 6225 7575 40  0000 C CNB
-F 1 "FIDUCIAL" H 6225 7275 40  0000 C CNB
-F 2 "hack-footprints:FIDUCIAL" H 6225 7425 40  0001 C CNB
-F 3 "" H 6225 7425 40  0000 C CNB
-	1    6225 7425
-	1    0    0    -1  
-$EndComp
-$Comp
-L FIDUCIAL FID3
-U 1 1 567C2EF2
-P 6650 7425
-F 0 "FID3" H 6650 7575 40  0000 C CNB
-F 1 "FIDUCIAL" H 6650 7275 40  0000 C CNB
-F 2 "hack-footprints:FIDUCIAL" H 6650 7425 40  0001 C CNB
-F 3 "" H 6650 7425 40  0000 C CNB
-	1    6650 7425
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1650 1600
 Text Label 1200 2150 0    40   ~ 0
 shield
 $Comp
 L PWR_FLAG #FLG010
 U 1 1 56824C17
-P 2800 2925
-F 0 "#FLG010" H 2800 3020 50  0001 C CNN
-F 1 "PWR_FLAG" H 2800 3105 40  0000 C CNN
-F 2 "" H 2800 2925 50  0000 C CNN
-F 3 "" H 2800 2925 50  0000 C CNN
-	1    2800 2925
+P 2800 2725
+F 0 "#FLG010" H 2800 2820 50  0001 C CNN
+F 1 "PWR_FLAG" H 2800 2905 40  0000 C CNN
+F 2 "" H 2800 2725 50  0000 C CNN
+F 3 "" H 2800 2725 50  0000 C CNN
+	1    2800 2725
 	1    0    0    -1  
 $EndComp
 Text Label 7550 1925 0    40   ~ 0
 VDDCORE
-Text GLabel 1375 3500 0    40   Output ~ 0
+Text GLabel 1375 3300 0    40   Output ~ 0
 GND
 $Comp
 L HACKADAY LOGO2
@@ -474,27 +441,27 @@ Text Notes 825  875  0    40   ~ 8
 USB_IN + FILTER
 Text Notes 825  2475 0    40   ~ 8
 V_REG
-Text Notes 825  4075 0    40   ~ 8
+Text Notes 825  3700 0    40   ~ 8
 CRYSTAL
-Text Notes 825  4925 0    40   ~ 8
+Text Notes 825  4550 0    40   ~ 8
 JUMPER
-Text Notes 825  5400 0    40   ~ 8
+Text Notes 825  5025 0    40   ~ 8
 BREAKOUT PINS + CASTELLATED EDGES
 Text Notes 4325 875  0    40   ~ 8
 MICRO CONTROLLER
-Connection ~ 1500 3100
+Connection ~ 1500 2900
 Wire Wire Line
-	1500 3450 1500 3500
+	1500 3250 1500 3300
 Wire Wire Line
-	2800 3500 2800 3450
+	2800 3300 2800 3250
 Wire Wire Line
-	2800 3200 2500 3200
+	2800 3000 2500 3000
 Wire Wire Line
-	2500 3100 2925 3100
+	2500 2900 2925 2900
 Wire Wire Line
-	2800 2925 2800 3250
-Connection ~ 2800 3200
-Connection ~ 2800 3100
+	2800 2725 2800 3050
+Connection ~ 2800 3000
+Connection ~ 2800 2900
 Wire Wire Line
 	1700 1300 1700 1250
 Wire Wire Line
@@ -531,24 +498,24 @@ Wire Wire Line
 Wire Wire Line
 	5750 1625 5700 1625
 Wire Wire Line
-	1500 4450 1500 4500
+	1500 4075 1500 4125
 Wire Wire Line
-	1500 4500 2700 4500
+	1500 4125 2700 4125
 Wire Wire Line
-	2700 4500 2700 4450
+	2700 4125 2700 4075
 Wire Wire Line
-	1375 4200 1800 4200
+	1375 3825 1800 3825
 Wire Wire Line
-	1500 4200 1500 4250
-Connection ~ 1500 4200
+	1500 3825 1500 3875
+Connection ~ 1500 3825
 Wire Wire Line
-	2400 4200 2825 4200
+	2400 3825 2825 3825
 Wire Wire Line
-	2700 4200 2700 4250
-Connection ~ 2700 4200
+	2700 3825 2700 3875
+Connection ~ 2700 3825
 Wire Wire Line
-	2100 4550 2100 4500
-Connection ~ 2100 4500
+	2100 4175 2100 4125
+Connection ~ 2100 4125
 Wire Wire Line
 	4625 2325 5750 2325
 Connection ~ 4925 2325
@@ -630,20 +597,20 @@ Wire Wire Line
 	9350 2325 9350 2525
 Connection ~ 9350 2325
 Wire Wire Line
-	1375 3100 1800 3100
+	1375 2900 1800 2900
 Wire Wire Line
-	1500 3100 1500 3250
+	1500 2900 1500 3050
 Wire Wire Line
 	4625 1925 4925 1925
 Wire Wire Line
 	9425 1875 8975 1875
 Wire Wire Line
-	1375 3500 2800 3500
-Connection ~ 2100 3500
-Connection ~ 2200 3500
+	1375 3300 2800 3300
+Connection ~ 2100 3300
+Connection ~ 2200 3300
 Wire Wire Line
-	2150 3500 2150 3550
-Connection ~ 2150 3500
+	2150 3300 2150 3350
+Connection ~ 2150 3300
 Connection ~ 1700 1300
 Wire Wire Line
 	1650 1300 1925 1300
@@ -665,7 +632,7 @@ Wire Wire Line
 	8650 1400 8650 1475
 Wire Wire Line
 	9350 3100 9350 3175
-Connection ~ 1500 3500
+Connection ~ 1500 3300
 Wire Wire Line
 	8650 2125 8650 2175
 Connection ~ 8650 2125
@@ -683,37 +650,37 @@ Wire Notes Line
 Wire Notes Line
 	800  2400 3300 2400
 Wire Notes Line
-	3300 2400 3300 3900
+	3300 2400 3300 3550
 Wire Notes Line
-	3300 3900 800  3900
+	3300 3550 800  3550
 Wire Notes Line
-	800  3900 800  2400
+	800  3550 800  2400
 Wire Notes Line
-	800  4000 3300 4000
+	800  3625 3300 3625
 Wire Notes Line
-	3300 4000 3300 4750
+	3300 3625 3300 4375
 Wire Notes Line
-	3300 4750 800  4750
+	3300 4375 800  4375
 Wire Notes Line
-	800  4750 800  4000
+	800  4375 800  3625
 Wire Notes Line
-	800  4850 3300 4850
+	800  4475 3300 4475
 Wire Notes Line
-	3300 4850 3300 5225
+	3300 4475 3300 4850
 Wire Notes Line
-	3300 5225 800  5225
+	3300 4850 800  4850
 Wire Notes Line
-	800  5225 800  4850
+	800  4850 800  4475
 Wire Wire Line
 	3175 1300 3175 2100
 Wire Notes Line
-	800  5325 3300 5325
+	800  4950 3300 4950
 Wire Notes Line
-	3300 5325 3300 7575
+	3300 4950 3300 6850
 Wire Notes Line
-	3300 7575 800  7575
+	3300 6850 800  6850
 Wire Notes Line
-	800  7575 800  5325
+	800  6850 800  4950
 Wire Notes Line
 	4300 800  9800 800 
 Wire Notes Line
@@ -732,9 +699,9 @@ Wire Wire Line
 Wire Bus Line
 	1100 2150 2025 2150
 Wire Bus Line
-	1375 3500 2800 3500
+	1375 3300 2800 3300
 Wire Bus Line
-	1500 4500 2700 4500
+	1500 4125 2700 4125
 NoConn ~ 9300 2800
 NoConn ~ 9300 3100
 $Comp
@@ -764,49 +731,49 @@ $EndComp
 $Comp
 L MIC5528 U1
 U 1 1 568E0B91
-P 2150 3150
-F 0 "U1" H 2150 3400 40  0000 C CNB
-F 1 "MIC5528" H 2150 3300 40  0000 C CNB
-F 2 "hack-footprints:DFN-6-1EP_1.2x1.2mm_Pitch0.4mm" H 2150 3350 60  0001 C CNN
-F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/MIC5528-779152.pdf" H 2150 3350 60  0001 C CNN
-F 4 "MIC5528-3.3YMT-TR" H 2250 3500 60  0001 C CNN "manf#"
-	1    2150 3150
+P 2150 2950
+F 0 "U1" H 2150 3200 40  0000 C CNB
+F 1 "MIC5528" H 2150 3100 40  0000 C CNB
+F 2 "hack-footprints:DFN-6-1EP_1.2x1.2mm_Pitch0.4mm" H 2150 3150 60  0001 C CNN
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/MIC5528-779152.pdf" H 2150 3150 60  0001 C CNN
+F 4 "MIC5528-3.3YMT-TR" H 2250 3300 60  0001 C CNN "manf#"
+	1    2150 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C2
 U 1 1 568E114E
-P 2800 3350
-F 0 "C2" H 2875 3350 40  0000 L CNB
-F 1 "2.2uF" H 2875 3275 40  0000 L CNN
-F 2 "hack-footprints:C_0603_HandSoldering" H 2800 3350 40  0001 C CNB
-F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf" H 2800 3350 40  0001 C CNB
-F 4 "CC0603MRX5R5BB225" H 2800 3350 60  0001 C CNN "manf#"
-	1    2800 3350
+P 2800 3150
+F 0 "C2" H 2875 3150 40  0000 L CNB
+F 1 "2.2uF" H 2875 3075 40  0000 L CNN
+F 2 "hack-footprints:C_0603" H 2800 3150 40  0001 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf" H 2800 3150 40  0001 C CNB
+F 4 "CC0603MRX5R5BB225" H 2800 3150 60  0001 C CNN "manf#"
+	1    2800 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C7
 U 1 1 568E1524
-P 2700 4350
-F 0 "C7" H 2775 4350 40  0000 L CNB
-F 1 "10pF" H 2775 4275 40  0000 L CNN
-F 2 "hack-footprints:C_0603_HandSoldering" H 2700 4350 40  0001 C CNB
-F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf" H 2700 4350 40  0001 C CNB
-F 4 "CC0603JRNPO9BN100" H 2700 4350 60  0001 C CNN "manf#"
-	1    2700 4350
+P 2700 3975
+F 0 "C7" H 2775 3975 40  0000 L CNB
+F 1 "10pF" H 2775 3900 40  0000 L CNN
+F 2 "hack-footprints:C_0603" H 2700 3975 40  0001 C CNB
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf" H 2700 3975 40  0001 C CNB
+F 4 "CC0603JRNPO9BN100" H 2700 3975 60  0001 C CNN "manf#"
+	1    2700 3975
 	1    0    0    -1  
 $EndComp
 $Comp
 L ABS07 X1
 U 1 1 568E18BC
-P 2100 4050
-F 0 "X1" H 2100 4050 40  0000 C CNB
-F 1 "ABS07" H 2100 3950 40  0000 C CNB
-F 2 "hack-footprints:xtal_3.2x1.5mm" H 2100 4050 60  0001 C CNN
-F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/306010055.pdf" H 2100 3900 60  0001 C CNN
-F 4 "ABS07-32.768KHZ-7-T" H 2200 4000 60  0001 C CNN "manf#"
-	1    2100 4050
+P 2100 3675
+F 0 "X1" H 2100 3675 40  0000 C CNB
+F 1 "ABS07" H 2100 3575 40  0000 C CNB
+F 2 "hack-footprints:xtal_3.2x1.5mm" H 2100 3675 60  0001 C CNN
+F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/306010055.pdf" H 2100 3525 60  0001 C CNN
+F 4 "ABS07-32.768KHZ-7-T" H 2200 3625 60  0001 C CNN "manf#"
+	1    2100 3675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -827,7 +794,7 @@ U 1 1 568E35DA
 P 4925 2125
 F 0 "L1" H 4890 2215 40  0000 L CNB
 F 1 "BLM18EG221" H 4740 2030 40  0000 L CNN
-F 2 "hack-footprints:L_0603_HandSoldering" H 4925 2125 60  0001 C CNN
+F 2 "hack-footprints:L_0603" H 4925 2125 60  0001 C CNN
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/ENFA0003-769587.pdf" H 4890 2215 60  0001 C CNN
 F 4 "BLM18EG221SN1D" H 4990 2315 60  0001 C CNN "manf#"
 	1    4925 2125
@@ -839,7 +806,7 @@ U 1 1 568E44C5
 P 9350 2625
 F 0 "R4" H 9400 2625 40  0000 L CNB
 F 1 "330" V 9350 2625 40  0000 C CNN
-F 2 "hack-footprints:R_0603_HandSoldering" H 9350 2625 40  0001 C CNB
+F 2 "hack-footprints:R_0603" H 9350 2625 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf" H 9350 2625 40  0001 C CNB
 F 4 "RC0603FR-07330RL" H 9350 2625 60  0001 C CNN "manf#"
 	1    9350 2625
@@ -851,7 +818,7 @@ U 1 1 568E4A0A
 P 7550 2025
 F 0 "C9" H 7475 2025 40  0000 R CNB
 F 1 "100nF" H 7475 1950 40  0000 R CNN
-F 2 "hack-footprints:C_0603_HandSoldering" H 7550 2025 40  0001 C CNB
+F 2 "hack-footprints:C_0603" H 7550 2025 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 7550 2025 40  0001 C CNB
 F 4 "CC0603KRX7R9BB104" H 7550 2025 60  0001 C CNN "manf#"
 	1    7550 2025
@@ -863,7 +830,7 @@ U 1 1 568E4DBE
 P 8050 2025
 F 0 "C10" H 7975 2025 40  0000 R CNB
 F 1 "100nF" H 7975 1950 40  0000 R CNN
-F 2 "hack-footprints:C_0603_HandSoldering" H 8050 2025 40  0001 C CNB
+F 2 "hack-footprints:C_0603" H 8050 2025 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 8050 2025 40  0001 C CNB
 F 4 "CC0603KRX7R9BB104" H 8050 2025 60  0001 C CNN "manf#"
 	1    8050 2025
@@ -875,7 +842,7 @@ U 1 1 568E4FE1
 P 8975 2950
 F 0 "C11" H 8900 2950 40  0000 R CNB
 F 1 "100nF" H 8900 2875 40  0000 R CNN
-F 2 "hack-footprints:C_0603_HandSoldering" H 8975 2950 40  0001 C CNB
+F 2 "hack-footprints:C_0603" H 8975 2950 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf" H 8975 2950 40  0001 C CNB
 F 4 "CC0603KRX7R9BB104" H 8975 2950 60  0001 C CNN "manf#"
 	1    8975 2950
@@ -887,7 +854,7 @@ U 1 1 568E5502
 P 8650 2025
 F 0 "C4" H 8575 2025 40  0000 R CNB
 F 1 "10uF" H 8575 1950 40  0000 R CNN
-F 2 "hack-footprints:c_elec_3x5.3" H 8650 2025 40  0001 C CNB
+F 2 "hack-footprints:CAP_ELEC_SMD_3x5mm" H 8650 2025 40  0001 C CNB
 F 3 "https://github.com/MickMad/HACK/tree/master/kicad/datasheets/e-wx-11809.pdf" H 8650 2025 40  0001 C CNB
 F 4 "UWX1C100MCL2GB" H 8650 2025 60  0001 C CNN "manf#"
 	1    8650 2025
@@ -905,53 +872,75 @@ F 4 "ELL-VFG100MC" H 8780 1715 60  0001 C CNN "manf#"
 	1    8650 1575
 	1    0    0    -1  
 $EndComp
-Text GLabel 2175 5575 1    40   Output ~ 0
+Text GLabel 2175 5200 1    40   Output ~ 0
 VBUS
 $Comp
-L CONN_01X01 P5
+L CONN_01X01 P4
 U 1 1 569F6050
-P 2175 5775
-F 0 "P5" V 2175 5875 40  0000 L CNB
-F 1 "CONN_01X01" V 2275 5600 40  0000 L CNB
-F 2 "hack-footprints:Pin_Castellated_1x01" H 2175 5775 50  0001 C CNN
-F 3 "" H 2175 5775 50  0000 C CNN
-	1    2175 5775
+P 2175 5400
+F 0 "P4" V 2175 5500 40  0000 L CNB
+F 1 "CONN_01X01" V 2275 5225 40  0000 L CNB
+F 2 "hack-footprints:Pin_Castellated_1x01" H 2175 5400 50  0001 C CNN
+F 3 "" H 2175 5400 50  0000 C CNN
+	1    2175 5400
 	0    1    1    0   
 $EndComp
-Text GLabel 2275 7150 3    40   Output ~ 0
+Text GLabel 2825 6750 2    40   Output ~ 0
 GND
 $Comp
-L CONN_01X06 P4
-U 1 1 56A11B5B
-P 2125 6950
-F 0 "P4" H 2200 7225 40  0000 L CNB
-F 1 "CONN_01X06" V 2225 6750 40  0000 L CNB
-F 2 "hack-footprints:Pin_Castellated_1x06" H 2125 6600 50  0001 C CNN
-F 3 "" H 2125 6600 50  0000 C CNN
-F 4 "1" H 2125 6950 60  0001 C CNN "manf#"
-	1    2125 6950
-	0    1    -1   0   
-$EndComp
-$Comp
-L CONN_01X11 P2
-U 1 1 56A1367E
-P 1650 6300
-F 0 "P2" H 1725 6825 40  0000 L CNB
-F 1 "CONN_01X11" V 1750 6025 40  0000 L CNB
-F 2 "hack-footprints:Pin_Castellated_1x11" H 1650 6200 50  0001 C CNN
-F 3 "" H 1650 6200 50  0000 C CNN
-	1    1650 6300
+L CONN_01X14 P2
+U 1 1 56A604A7
+P 1650 6075
+F 0 "P2" H 1725 6750 40  0000 L CNB
+F 1 "CONN_01X14" V 1750 5950 40  0000 L CNB
+F 2 "hack-footprints:Pin_Castellated_1x14" H 1650 6125 50  0001 C CNN
+F 3 "" H 1650 6125 50  0000 C CNN
+	1    1650 6075
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X11 P3
-U 1 1 56A13781
-P 2625 6325
-F 0 "P3" H 2700 6850 40  0000 L CNB
-F 1 "CONN_01X11" V 2725 6050 40  0000 L CNB
-F 2 "hack-footprints:Pin_Castellated_1x11" H 2625 6225 50  0001 C CNN
-F 3 "" H 2625 6225 50  0000 C CNN
-	1    2625 6325
+L CONN_01X14 P3
+U 1 1 56A60559
+P 2625 6100
+F 0 "P3" H 2700 6775 40  0000 L CNB
+F 1 "CONN_01X14" V 2725 5975 40  0000 L CNB
+F 2 "hack-footprints:Pin_Castellated_1x14" H 2625 6150 50  0001 C CNN
+F 3 "" H 2625 6150 50  0000 C CNN
+	1    2625 6100
 	-1   0    0    -1  
 $EndComp
+$Comp
+L CONN_SWD P5
+U 1 1 56A64721
+P 2075 7325
+F 0 "P5" H 2050 7550 40  0000 L CNB
+F 1 "CONN_SWD" V 2075 7075 40  0000 L CNB
+F 2 "hack-footprints:Cortex_Debug_Connector_50mils" H 2075 6975 50  0001 C CNN
+F 3 "" H 2075 6975 50  0000 C CNN
+F 4 "320020119" H 2075 7325 60  0001 C CNN "manf#"
+	1    2075 7325
+	1    0    0    -1  
+$EndComp
+Text Notes 825  6975 0    40   ~ 8
+CORTEX DEBUG CONNECTOR
+Wire Notes Line
+	800  6900 3300 6900
+Wire Notes Line
+	3300 6900 3300 7650
+Wire Notes Line
+	3300 7650 800  7650
+Wire Notes Line
+	800  7650 800  6900
+Text GLabel 1775 7125 0    40   Output ~ 0
+VDDF
+Text GLabel 2375 7525 2    40   Input ~ 0
+!RESET
+Text GLabel 2375 7225 2    40   BiDi ~ 0
+PA30/SWCLK
+Text GLabel 2375 7125 2    40   BiDi ~ 0
+PA31/SWDIO
+Text GLabel 1775 7225 0    40   Output ~ 0
+GND
+Text GLabel 1775 7325 0    40   Output ~ 0
+GND
 $EndSCHEMATC
