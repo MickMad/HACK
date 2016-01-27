@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/Users/mperla.CORP/Documents/GitHub/HACK/kicad/hack.sch</source>
-    <date>18/01/2016 12:52:32</date>
+    <date>25/01/2016 17:34:31</date>
     <tool>Eeschema (2015-08-16 BZR 6097, Git b384c94)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -21,7 +21,7 @@
   <components>
     <comp ref="R1">
       <value>1M</value>
-      <footprint>hack-footprints:R_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:R_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/301010151.pdf</datasheet>
       <fields>
         <field name="manf#">RC0603FR-071ML</field>
@@ -32,7 +32,7 @@
     </comp>
     <comp ref="C5">
       <value>4.7nF</value>
-      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:C_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100850P1.pdf</datasheet>
       <fields>
         <field name="manf#">CC0603KRX7R9BB472</field>
@@ -43,7 +43,7 @@
     </comp>
     <comp ref="C6">
       <value>10pF</value>
-      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:C_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf</datasheet>
       <fields>
         <field name="manf#">CC0603JRNPO9BN100</field>
@@ -54,7 +54,7 @@
     </comp>
     <comp ref="C3">
       <value>10uF</value>
-      <footprint>hack-footprints:c_elec_3x5.3</footprint>
+      <footprint>hack-footprints:CAP_ELEC_SMD_3x5mm</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/e-wx-11809.pdf</datasheet>
       <fields>
         <field name="manf#">UWX1C100MCL2GB</field>
@@ -65,7 +65,7 @@
     </comp>
     <comp ref="C8">
       <value>100nF</value>
-      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:C_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
         <field name="manf#">CC0603KRX7R9BB104</field>
@@ -74,20 +74,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56577B23</tstamp>
     </comp>
-    <comp ref="P2">
-      <value>CONN_01X13</value>
-      <footprint>hack-footprints:Pin_Castellated_1x13</footprint>
-      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/xRxCzzzSxxN-RC_ST_11635-B.pdf</datasheet>
-      <fields>
-        <field name="manf#">PREC014SACN-RC</field>
-      </fields>
-      <libsource lib="hack" part="CONN_01X13"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56587624</tstamp>
-    </comp>
     <comp ref="D1">
       <value>RED</value>
-      <footprint>hack-footprints:LED_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:LED_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/S_110_LTST-C190KRKT.pdf</datasheet>
       <fields>
         <field name="manf#">LTST-C190KRKT</field>
@@ -98,7 +87,7 @@
     </comp>
     <comp ref="R2">
       <value>330</value>
-      <footprint>hack-footprints:R_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:R_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf</datasheet>
       <fields>
         <field name="manf#">RC0603FR-07330RL</field>
@@ -120,7 +109,7 @@
     </comp>
     <comp ref="R3">
       <value>10k</value>
-      <footprint>hack-footprints:R_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:R_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011240P1.pdf</datasheet>
       <fields>
         <field name="manf#">RC0603FR-0710KL</field>
@@ -131,7 +120,7 @@
     </comp>
     <comp ref="C1">
       <value>2.2uF</value>
-      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:C_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf</datasheet>
       <fields>
         <field name="manf#">CC0603MRX5R5BB225</field>
@@ -146,27 +135,6 @@
       <libsource lib="hack" part="Jumper_NO_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>567C1358</tstamp>
-    </comp>
-    <comp ref="FID1">
-      <value>FIDUCIAL</value>
-      <footprint>hack-footprints:FIDUCIAL</footprint>
-      <libsource lib="hack" part="FIDUCIAL"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567C2921</tstamp>
-    </comp>
-    <comp ref="FID2">
-      <value>FIDUCIAL</value>
-      <footprint>hack-footprints:FIDUCIAL</footprint>
-      <libsource lib="hack" part="FIDUCIAL"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567C2A0D</tstamp>
-    </comp>
-    <comp ref="FID3">
-      <value>FIDUCIAL</value>
-      <footprint>hack-footprints:FIDUCIAL</footprint>
-      <libsource lib="hack" part="FIDUCIAL"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>567C2EF2</tstamp>
     </comp>
     <comp ref="LOGO2">
       <value>HACKADAY</value>
@@ -233,7 +201,7 @@
     </comp>
     <comp ref="C2">
       <value>2.2uF</value>
-      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:C_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf</datasheet>
       <fields>
         <field name="manf#">CC0603MRX5R5BB225</field>
@@ -244,7 +212,7 @@
     </comp>
     <comp ref="C7">
       <value>10pF</value>
-      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:C_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/302010097.pdf</datasheet>
       <fields>
         <field name="manf#">CC0603JRNPO9BN100</field>
@@ -264,24 +232,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>568E18BC</tstamp>
     </comp>
-    <comp ref="P3">
-      <value>CONN_01X13</value>
-      <footprint>hack-footprints:Pin_Castellated_1x13</footprint>
-      <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/320020128.pdf</datasheet>
-      <fields>
-        <field name="manf#">PREC014SACN-RC</field>
-      </fields>
-      <libsource lib="hack" part="CONN_01X13"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>568E22DB</tstamp>
-    </comp>
-    <comp ref="P4">
-      <value>CONN_01X01</value>
-      <footprint>hack-footprints:Pin_Castellated_1x01</footprint>
-      <libsource lib="hack" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>568E26C4</tstamp>
-    </comp>
     <comp ref="U3">
       <value>ATSAMD21E</value>
       <footprint>hack-footprints:QFN-32-1EP_5x5mm_Pitch0.5mm</footprint>
@@ -295,7 +245,7 @@
     </comp>
     <comp ref="L1">
       <value>BLM18EG221</value>
-      <footprint>hack-footprints:L_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:L_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/ENFA0003-769587.pdf</datasheet>
       <fields>
         <field name="manf#">BLM18EG221SN1D</field>
@@ -306,7 +256,7 @@
     </comp>
     <comp ref="R4">
       <value>330</value>
-      <footprint>hack-footprints:R_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:R_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0011330P1.pdf</datasheet>
       <fields>
         <field name="manf#">RC0603FR-07330RL</field>
@@ -317,7 +267,7 @@
     </comp>
     <comp ref="C9">
       <value>100nF</value>
-      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:C_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
         <field name="manf#">CC0603KRX7R9BB104</field>
@@ -328,7 +278,7 @@
     </comp>
     <comp ref="C10">
       <value>100nF</value>
-      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:C_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
         <field name="manf#">CC0603KRX7R9BB104</field>
@@ -339,7 +289,7 @@
     </comp>
     <comp ref="C11">
       <value>100nF</value>
-      <footprint>hack-footprints:C_0603_HandSoldering</footprint>
+      <footprint>hack-footprints:C_0603</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/0100020P1.pdf</datasheet>
       <fields>
         <field name="manf#">CC0603KRX7R9BB104</field>
@@ -350,7 +300,7 @@
     </comp>
     <comp ref="C4">
       <value>10uF</value>
-      <footprint>hack-footprints:c_elec_3x5.3</footprint>
+      <footprint>hack-footprints:CAP_ELEC_SMD_3x5mm</footprint>
       <datasheet>https://github.com/MickMad/HACK/tree/master/kicad/datasheets/e-wx-11809.pdf</datasheet>
       <fields>
         <field name="manf#">UWX1C100MCL2GB</field>
@@ -369,6 +319,34 @@
       <libsource lib="hack" part="L_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>568E59BE</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X01</value>
+      <footprint>hack-footprints:Pin_Castellated_1x01</footprint>
+      <libsource lib="hack" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>569F6050</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X14</value>
+      <footprint>hack-footprints:Pin_Castellated_1x14</footprint>
+      <libsource lib="hack" part="CONN_01X14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A604A7</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X14</value>
+      <footprint>hack-footprints:Pin_Castellated_1x14</footprint>
+      <libsource lib="hack" part="CONN_01X14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A60559</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_SWD</value>
+      <footprint>hack-footprints:Cortex_Debug_Connector_50mils</footprint>
+      <libsource lib="hack" part="CONN_SWD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A64721</tstamp>
     </comp>
   </components>
   <libparts>
@@ -449,7 +427,7 @@
         <pin num="1" name="P1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="hack" part="CONN_01X13">
+    <libpart lib="hack" part="CONN_01X14">
       <footprints>
         <fp>Pin_Header_Straight_1X13</fp>
         <fp>Pin_Header_Angled_1X13</fp>
@@ -458,7 +436,7 @@
       </footprints>
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">CONN_01X13</field>
+        <field name="Value">CONN_01X14</field>
       </fields>
       <pins>
         <pin num="1" name="P1" type="passive"/>
@@ -474,6 +452,31 @@
         <pin num="11" name="P11" type="passive"/>
         <pin num="12" name="P12" type="passive"/>
         <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="hack" part="CONN_SWD">
+      <footprints>
+        <fp>Pin_Header_Straight_1X13</fp>
+        <fp>Pin_Header_Angled_1X13</fp>
+        <fp>Socket_Strip_Straight_1X13</fp>
+        <fp>Socket_Strip_Angled_1X13</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_SWD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTref" type="passive"/>
+        <pin num="2" name="SWDIO" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="SWDCLK" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="P6" type="NotConnected"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="nRESET" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="hack" part="CP_Small">
@@ -524,12 +527,6 @@
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
-    </libpart>
-    <libpart lib="hack" part="FIDUCIAL">
-      <fields>
-        <field name="Reference">FID</field>
-        <field name="Value">FIDUCIAL</field>
-      </fields>
     </libpart>
     <libpart lib="hack" part="HACK">
       <fields>
@@ -684,215 +681,235 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="PA02/A0">
-      <node ref="U3" pin="3"/>
-      <node ref="P2" pin="9"/>
+    <net code="1" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
     </net>
-    <net code="2" name="PA03/A1">
-      <node ref="P2" pin="10"/>
-      <node ref="U3" pin="4"/>
+    <net code="2" name="Net-(P1-Pad3)">
+      <node ref="U2" pin="3"/>
+      <node ref="P1" pin="3"/>
     </net>
-    <net code="3" name="PA04/A2">
-      <node ref="U3" pin="5"/>
-      <node ref="P2" pin="11"/>
+    <net code="3" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="U2" pin="2"/>
     </net>
-    <net code="4" name="PA05/A3">
-      <node ref="P2" pin="12"/>
-      <node ref="U3" pin="6"/>
-    </net>
-    <net code="5" name="PA06/A4">
-      <node ref="P2" pin="13"/>
-      <node ref="U3" pin="7"/>
-    </net>
-    <net code="6" name="PA07/A5">
-      <node ref="P3" pin="1"/>
-      <node ref="U3" pin="8"/>
-    </net>
-    <net code="7" name="VDD">
-      <node ref="C2" pin="1"/>
-      <node ref="L2" pin="1"/>
-      <node ref="L1" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="8" name="VLDO">
-      <node ref="P2" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="JP1" pin="2"/>
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="9" name="Net-(R4-Pad2)">
-      <node ref="S1" pin="3"/>
-      <node ref="R4" pin="2"/>
-    </net>
-    <net code="10" name="Net-(S1-Pad2)">
+    <net code="4" name="Net-(S1-Pad2)">
       <node ref="S1" pin="2"/>
     </net>
-    <net code="11" name="Net-(S1-Pad4)">
+    <net code="5" name="Net-(S1-Pad4)">
       <node ref="S1" pin="4"/>
     </net>
-    <net code="12" name="PA28/13">
+    <net code="6" name="VDDANA">
+      <node ref="P3" pin="13"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="7" name="PA28/13">
       <node ref="P2" pin="6"/>
       <node ref="U3" pin="27"/>
       <node ref="R2" pin="1"/>
     </net>
-    <net code="13" name="GND">
+    <net code="8" name="PA05/A3">
+      <node ref="P2" pin="12"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="9" name="PA04/A2">
+      <node ref="U3" pin="5"/>
+      <node ref="P2" pin="11"/>
+    </net>
+    <net code="10" name="PA03/A1">
+      <node ref="U3" pin="4"/>
+      <node ref="P2" pin="10"/>
+    </net>
+    <net code="11" name="PA02/A0">
+      <node ref="U3" pin="3"/>
+      <node ref="P2" pin="9"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="14" name="PA09/1">
+      <node ref="P3" pin="11"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="15" name="Net-(R4-Pad2)">
+      <node ref="S1" pin="3"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="16" name="PA15/5">
+      <node ref="U3" pin="16"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="17" name="PA14/4">
+      <node ref="U3" pin="15"/>
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="18" name="PA11/3">
+      <node ref="P3" pin="9"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="19" name="PA10/2">
+      <node ref="U3" pin="13"/>
+      <node ref="P3" pin="10"/>
+    </net>
+    <net code="20" name="PA08/0">
+      <node ref="P3" pin="12"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="21" name="PA16/6">
+      <node ref="P3" pin="6"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="22" name="PA23/11">
+      <node ref="P3" pin="1"/>
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="23" name="PA27/12">
+      <node ref="P2" pin="4"/>
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="24" name="PA06/A4">
+      <node ref="U3" pin="7"/>
+      <node ref="P2" pin="13"/>
+    </net>
+    <net code="25" name="PA07/A5">
+      <node ref="P2" pin="14"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="26" name="PA17/7">
+      <node ref="U3" pin="18"/>
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="27" name="PA18/8">
+      <node ref="U3" pin="19"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="28" name="PA19/9">
+      <node ref="P3" pin="3"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="29" name="PA22/10">
+      <node ref="U3" pin="21"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="30" name="VLDO">
+      <node ref="P2" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(P5-Pad6)">
+      <node ref="P5" pin="6"/>
+    </net>
+    <net code="32" name="!RESET">
+      <node ref="C11" pin="1"/>
+      <node ref="P2" pin="5"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U3" pin="26"/>
+      <node ref="P5" pin="10"/>
+    </net>
+    <net code="33" name="Net-(P5-Pad9)">
+      <node ref="P5" pin="9"/>
+    </net>
+    <net code="34" name="Net-(P5-Pad8)">
+      <node ref="P5" pin="8"/>
+    </net>
+    <net code="35" name="Net-(P5-Pad7)">
+      <node ref="P5" pin="7"/>
+    </net>
+    <net code="36" name="GND">
+      <node ref="C8" pin="2"/>
       <node ref="R1" pin="1"/>
       <node ref="P1" pin="5"/>
-      <node ref="U2" pin="6"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U1" pin="7"/>
+      <node ref="C1" pin="2"/>
+      <node ref="S1" pin="1"/>
       <node ref="C5" pin="1"/>
       <node ref="C3" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="S1" pin="1"/>
       <node ref="D1" pin="2"/>
-      <node ref="C1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U3" pin="33"/>
+      <node ref="P3" pin="14"/>
+      <node ref="P5" pin="3"/>
+      <node ref="P5" pin="5"/>
       <node ref="P2" pin="1"/>
       <node ref="C11" pin="2"/>
       <node ref="C10" pin="2"/>
       <node ref="C9" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U3" pin="10"/>
-      <node ref="U3" pin="33"/>
-      <node ref="C2" pin="2"/>
       <node ref="C7" pin="2"/>
       <node ref="U3" pin="28"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="3"/>
     </net>
-    <net code="14" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1"/>
-      <node ref="R2" pin="2"/>
+    <net code="37" name="PA30/SWCLK">
+      <node ref="P5" pin="4"/>
+      <node ref="P2" pin="7"/>
+      <node ref="U3" pin="31"/>
     </net>
-    <net code="15" name="USB-D+">
-      <node ref="U2" pin="4"/>
-      <node ref="U3" pin="24"/>
+    <net code="38" name="PA31/SWDIO">
+      <node ref="P2" pin="8"/>
+      <node ref="P5" pin="2"/>
+      <node ref="U3" pin="32"/>
     </net>
-    <net code="16" name="USB-D-">
-      <node ref="U3" pin="23"/>
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="17" name="VDDF">
-      <node ref="C10" pin="1"/>
-      <node ref="L2" pin="2"/>
+    <net code="39" name="VDDF">
       <node ref="C4" pin="1"/>
-      <node ref="R3" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C10" pin="1"/>
       <node ref="U3" pin="30"/>
+      <node ref="P5" pin="1"/>
       <node ref="P2" pin="3"/>
+      <node ref="R3" pin="2"/>
     </net>
-    <net code="18" name="/VDDCORE">
+    <net code="40" name="VBUS">
+      <node ref="P1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="41" name="/VDDCORE">
       <node ref="C9" pin="1"/>
       <node ref="U3" pin="29"/>
     </net>
-    <net code="19" name="PA17/7">
-      <node ref="P3" pin="9"/>
-      <node ref="U3" pin="18"/>
+    <net code="42" name="USB-D+">
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="24"/>
     </net>
-    <net code="20" name="PA30/SWCLK">
-      <node ref="U3" pin="31"/>
-      <node ref="P2" pin="7"/>
+    <net code="43" name="USB-D-">
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="23"/>
     </net>
-    <net code="21" name="PA31/SWDIO">
-      <node ref="P2" pin="8"/>
-      <node ref="U3" pin="32"/>
+    <net code="44" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R2" pin="2"/>
     </net>
-    <net code="22" name="PA15/5">
-      <node ref="U3" pin="16"/>
-      <node ref="P3" pin="7"/>
-    </net>
-    <net code="23" name="PA14/4">
-      <node ref="P3" pin="6"/>
-      <node ref="U3" pin="15"/>
-    </net>
-    <net code="24" name="PA11/3">
-      <node ref="P3" pin="5"/>
-      <node ref="U3" pin="14"/>
-    </net>
-    <net code="25" name="PA10/2">
-      <node ref="P3" pin="4"/>
-      <node ref="U3" pin="13"/>
-    </net>
-    <net code="26" name="PA09/1">
-      <node ref="P3" pin="3"/>
-      <node ref="U3" pin="12"/>
-    </net>
-    <net code="27" name="PA08/0">
-      <node ref="P3" pin="2"/>
-      <node ref="U3" pin="11"/>
-    </net>
-    <net code="28" name="PA16/6">
-      <node ref="P3" pin="8"/>
-      <node ref="U3" pin="17"/>
-    </net>
-    <net code="29" name="Net-(P1-Pad4)">
-      <node ref="P1" pin="4"/>
-    </net>
-    <net code="30" name="PA18/8">
-      <node ref="P3" pin="10"/>
-      <node ref="U3" pin="19"/>
-    </net>
-    <net code="31" name="PA19/9">
-      <node ref="P3" pin="11"/>
-      <node ref="U3" pin="20"/>
-    </net>
-    <net code="32" name="PA22/10">
-      <node ref="U3" pin="21"/>
-      <node ref="P3" pin="12"/>
-    </net>
-    <net code="33" name="PA23/11">
-      <node ref="P3" pin="13"/>
-      <node ref="U3" pin="22"/>
-    </net>
-    <net code="34" name="PA27/12">
-      <node ref="P2" pin="4"/>
-      <node ref="U3" pin="25"/>
-    </net>
-    <net code="35" name="!RESET">
-      <node ref="U3" pin="26"/>
-      <node ref="R4" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="P2" pin="5"/>
-    </net>
-    <net code="36" name="Net-(U1-Pad5)">
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="37" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="38" name="Net-(P1-Pad3)">
-      <node ref="P1" pin="3"/>
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="39" name="Net-(P1-Pad2)">
-      <node ref="U2" pin="2"/>
-      <node ref="P1" pin="2"/>
-    </net>
-    <net code="40" name="VBUS">
-      <node ref="U2" pin="1"/>
-      <node ref="P1" pin="1"/>
-      <node ref="JP1" pin="1"/>
-    </net>
-    <net code="41" name="XIN32">
-      <node ref="U3" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="X1" pin="1"/>
-    </net>
-    <net code="42" name="VDDANA">
-      <node ref="P4" pin="1"/>
-      <node ref="L1" pin="2"/>
-      <node ref="C8" pin="1"/>
-      <node ref="U3" pin="9"/>
-      <node ref="C3" pin="1"/>
-    </net>
-    <net code="43" name="XOUT32">
-      <node ref="X1" pin="2"/>
+    <net code="45" name="XOUT32">
       <node ref="C7" pin="1"/>
       <node ref="U3" pin="2"/>
+      <node ref="X1" pin="2"/>
     </net>
-    <net code="44" name="/shield">
-      <node ref="C5" pin="2"/>
+    <net code="46" name="XIN32">
+      <node ref="X1" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="47" name="VDD">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="48" name="/shield">
       <node ref="P1" pin="6"/>
+      <node ref="C5" pin="2"/>
       <node ref="R1" pin="2"/>
     </net>
   </nets>
