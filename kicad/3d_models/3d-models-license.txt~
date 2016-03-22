@@ -1,0 +1,35 @@
+3D models by kicad StepUp:
+https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator
+Cap_SMD_0603.step
+Cap_SMD_0603.wrl
+Cap_SMD_el_3x5-old.step
+Cap_SMD_el_3x5-old.wrl
+Cap_SMD_el_3x5.step
+Cap_SMD_el_3x5.wrl
+LDO_DFN6.step
+LDO_DFN6.wrl
+LED_SMD_0603.step
+LED_SMD_0603.wrl
+L_0603.step
+L_0603.wrl
+QFN-32.step
+QFN-32.wrl
+RES_SMD_0603.step
+RES_SMD_0603.wrl
+SPST_PTS_810.step
+SPST_PTS_810.wrl
+TSOP-6.step
+TSOP-6.wrl
+Xtal_SMD_ABS07.step
+Xtal_SMD_ABS07.wrl
+
+Author: 
+https://github.com/JoanTheSpark/KiCAD/tree/master/3D-shapes
+Conn_USB-micro-2.0_socket_right-angle.stp
+10118193-0001LF.step
+10118193-0001LF.wrl
+
+Author: ????
+Ind_ell_vfg.fcstd
+Ind_ell_vfg.step
+Ind_ell_vfg.wrl
